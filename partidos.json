@@ -1,0 +1,1382 @@
+{
+  "generado": "2026-10-12 20:30",
+  "desde": "2026-10-17",
+  "hasta": "2026-10-18",
+  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
+  "resultados_desde": "2026-10-10",
+  "resultados_hasta": "2026-10-11",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *DOMINGO 11/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *11:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 3_\n📍 Campo: Nuevo Baztán\n🔴 *_Nuevo Baztan A_* — *2*\n⚽ 59' FERNANDO DORADO VELO\n⚽ 77' LUCAS LUIS MONTERDE (en propia puerta)\n🟨 39' ADRIÁN BARRAGÁN RODRIGUEZ\n🟨 74' ÁNGEL RAMOS ORTIZ\n🟢 *_Ciudad de los Ángeles A_* — *4*\n⚽ 10' MARIO MENCHERO VILLANUEVA\n⚽ 12' DIEGO CÓRDOBA JIMÉNEZ\n⚽ 75' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 80' NICOLAS SANCHEZ DOMINGUEZ\n🟨 55' NICOLAS SANCHEZ DOMINGUEZ\n🟨 61' ALEJANDRO MARTÍNEZ ACOSTA\n🟨 79' YERAI RODRÍGUEZ PEREIRA\n🟨 80' ABDELHAKIM AIT EL HAJ SABIH",
+  "sin_partido": [],
+  "sin_calendario": [],
+  "errores": [],
+  "plantilla": [
+    {
+      "dorsal": 1,
+      "nombre": "Isaac Sayay Lino",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 2,
+      "nombre": "Mario Menchero Villanueva",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 4,
+      "nombre": "Maylan Rios Sanchez",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 5,
+      "nombre": "Alejandro Martínez Acosta",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 6,
+      "nombre": "Asier Rubio Alburquerque",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 7,
+      "nombre": "Guillermo Garcia Lopez",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 8,
+      "nombre": "Nicolas Sanchez Dominguez",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 9,
+      "nombre": "Diego Córdoba Jiménez",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 10,
+      "nombre": "Marcos Martín Jiménez",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 12,
+      "nombre": "Daniel Talmaci Vasilciuc",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 14,
+      "nombre": "Daniel Gutiérrez Pizarro",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 15,
+      "nombre": "Daniel Alban Cabrera",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 17,
+      "nombre": "Yerai Rodríguez Pereira",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 19,
+      "nombre": "Alonso Gonzalez Ledesma",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 21,
+      "nombre": "Lucas Luis Monterde",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 27,
+      "nombre": "Alvaro Marquez Montero",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 30,
+      "nombre": "Tomas Talaverra Vicherat",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": 80,
+      "nombre": "Joaquin Carmona Ferreras",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    },
+    {
+      "dorsal": null,
+      "nombre": "Ángel Flores Medel",
+      "fecha_nacimiento": null,
+      "foto": null,
+      "apodo": null
+    }
+  ],
+  "cuerpo_tecnico": [],
+  "noticias": [],
+  "semanas": [
+    {
+      "sabado": "2026-09-26",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 26/09/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *11:45h* - Preferente Cadete Grupo 5\n📌 _Jornada 1_\n📍 Campo: IDB David Diez de la Cruz\n⚽ Racing de Villaverde B - *_Ciudad de los Ángeles A_*",
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 26/09/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *11:45h* - Preferente Cadete Grupo 5\n📌 _Jornada 1_\n📍 Campo: IDB David Diez de la Cruz\n🟢 *_Racing de Villaverde B_* — *3*\n⚽ 35' MARCOS LOPEZ DEL RIO\n⚽ 76' IKER GARCIA PEÑUELAS\n⚽ 77' IKER GARCIA PEÑUELAS\n🟨 46' SANTIAGO BENITO BAQUERO\n🟨 63' ENZO LOPEZ SANTOS\n🟨 70' IZAN HERRERO PARDO\n🔴 *_Ciudad de los Ángeles A_* — *2*\n⚽ 50' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 61' JOAQUIN CARMONA FERRERAS\n🟨 52' NICOLAS SANCHEZ DOMINGUEZ\n🟨 55' JESÚS CORDOBA RAIGON\n🟨 80' ALVARO MARQUEZ MONTERO"
+    },
+    {
+      "sabado": "2026-10-03",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 03/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 2_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Udmelidaolimpia - Madrid City Vallecas A",
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 03/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 2_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟡 *_Ciudad de los Ángeles A_* — *3*\n⚽ 7' DANIEL TALMACI VASILCIUC\n⚽ 14' ALONSO GONZALEZ LEDESMA\n⚽ 67' MAYLAN RIOS SANCHEZ\n🟡 *_Udmelidaolimpia - Madrid City Vallecas A_* — *3*\n⚽ 39' SERGIO ILLESCAS ACOSTA (de penalti)\n⚽ 44' SERGIO FABIAN GONZALEZ AMARILLA\n⚽ 54' SERGIO ILLESCAS ACOSTA\n🟨 48' SERGIO FABIAN GONZALEZ AMARILLA\n🟨 77' ÁLVARO ORTEGA GARCIA"
+    },
+    {
+      "sabado": "2026-10-10",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 11/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *11:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 3_\n📍 Campo: Nuevo Baztán\n⚽ Nuevo Baztan A - *_Ciudad de los Ángeles A_*",
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *DOMINGO 11/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *11:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 3_\n📍 Campo: Nuevo Baztán\n🔴 *_Nuevo Baztan A_* — *2*\n⚽ 59' FERNANDO DORADO VELO\n⚽ 77' LUCAS LUIS MONTERDE (en propia puerta)\n🟨 39' ADRIÁN BARRAGÁN RODRIGUEZ\n🟨 74' ÁNGEL RAMOS ORTIZ\n🟢 *_Ciudad de los Ángeles A_* — *4*\n⚽ 10' MARIO MENCHERO VILLANUEVA\n⚽ 12' DIEGO CÓRDOBA JIMÉNEZ\n⚽ 75' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 80' NICOLAS SANCHEZ DOMINGUEZ\n🟨 55' NICOLAS SANCHEZ DOMINGUEZ\n🟨 61' ALEJANDRO MARTÍNEZ ACOSTA\n🟨 79' YERAI RODRÍGUEZ PEREIRA\n🟨 80' ABDELHAKIM AIT EL HAJ SABIH"
+    },
+    {
+      "sabado": "2026-10-17",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-10-24",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ E.D.M. San Blas B - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-10-31",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - E.D. Moratalaz C",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-11-07",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 7_\n📍 Campo: C.D.M. Marques de Samaranch\n⚽ Union Deportiva Arganzuela B - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-11-14",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Esc. Mun. Fut. Villarejo A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-11-21",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ Adepo Palomeras A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-11-28",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 10_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Arganda A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-12-12",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 11_\n📍 Campo: IDB. Camino de la Suerte - Antiguo Mar Abierto\n⚽ Sport Villa de Vallecas A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2026-12-19",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 12_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Fundacion Rayo Vallecano C",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-01-16",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 13_\n📍 Campo: Rivas. Polígono Santa Ana\n⚽ Rivas Futbol Club C - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-01-23",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 14_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Parque Sureste A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-01-30",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 15_\n📍 Campo: Coslada - Estadio el Olivo\n⚽ Coslada B - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-02-06",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 16_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Racing de Villaverde B",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-02-13",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 14/02/2027*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 17_\n📍 Campo: La Union - Vallecas Villa\n⚽ Udmelidaolimpia - Madrid City Vallecas A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-02-20",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 18_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Nuevo Baztan A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-02-27",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 19_\n📍 Campo: Arganda - la Poveda\n⚽ Union Deportiva la Poveda A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-03-06",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 20_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - E.D.M. San Blas B",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-03-13",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 21_\n📍 Campo: Dehesa Moratalaz\n⚽ E.D. Moratalaz C - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-03-20",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 22_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Union Deportiva Arganzuela B",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-04-03",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 23_\n📍 Campo: Villarejo de Salvanes - Justo Díaz\n⚽ Esc. Mun. Fut. Villarejo A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-04-10",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 24_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Adepo Palomeras A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-04-17",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 25_\n📍 Campo: Arganda - Ciudad Dptva. Principe Felipe\n⚽ Arganda A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-04-24",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 26_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Sport Villa de Vallecas A",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-05-01",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 27_\n📍 Campo: Ciudad Dptva. Fund. Rayo Vallecano 2\n⚽ Fundacion Rayo Vallecano C - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-05-08",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 28_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Rivas Futbol Club C",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-05-15",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 29_\n📍 Campo: Rivas - Casa Grande\n⚽ Parque Sureste A - *_Ciudad de los Ángeles A_*",
+      "resultados": ""
+    },
+    {
+      "sabado": "2027-05-22",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 30_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Coslada B",
+      "resultados": ""
+    }
+  ],
+  "detalle_resultados": [
+    {
+      "sabado": "2026-09-26",
+      "partidos": [
+        {
+          "fecha": "2026-09-26",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 1,
+          "local": "Racing de Villaverde B",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "resultado": [
+            3,
+            2
+          ],
+          "goles": [
+            {
+              "minuto": 35,
+              "jugador": "MARCOS LOPEZ DEL RIO",
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 76,
+              "jugador": "IKER GARCIA PEÑUELAS",
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 77,
+              "jugador": "IKER GARCIA PEÑUELAS",
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 50,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 61,
+              "jugador": "JOAQUIN CARMONA FERRERAS",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 46,
+              "jugador": "SANTIAGO BENITO BAQUERO",
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 63,
+              "jugador": "ENZO LOPEZ SANTOS",
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 70,
+              "jugador": "IZAN HERRERO PARDO",
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 52,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 55,
+              "jugador": "JESÚS CORDOBA RAIGON",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 80,
+              "jugador": "ALVARO MARQUEZ MONTERO",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-03",
+      "partidos": [
+        {
+          "fecha": "2026-10-03",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 2,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Udmelidaolimpia - Madrid City Vallecas A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+          "resultado": [
+            3,
+            3
+          ],
+          "goles": [
+            {
+              "minuto": 7,
+              "jugador": "DANIEL TALMACI VASILCIUC",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 14,
+              "jugador": "ALONSO GONZALEZ LEDESMA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 67,
+              "jugador": "MAYLAN RIOS SANCHEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 39,
+              "jugador": "SERGIO ILLESCAS ACOSTA",
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "penalti": true,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 44,
+              "jugador": "SERGIO FABIAN GONZALEZ AMARILLA",
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 54,
+              "jugador": "SERGIO ILLESCAS ACOSTA",
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 48,
+              "jugador": "SERGIO FABIAN GONZALEZ AMARILLA",
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 77,
+              "jugador": "ÁLVARO ORTEGA GARCIA",
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-10",
+      "partidos": [
+        {
+          "fecha": "2026-10-11",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 3,
+          "local": "Nuevo Baztan A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "resultado": [
+            2,
+            4
+          ],
+          "goles": [
+            {
+              "minuto": 59,
+              "jugador": "FERNANDO DORADO VELO",
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 10,
+              "jugador": "MARIO MENCHERO VILLANUEVA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 12,
+              "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 75,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 77,
+              "jugador": "LUCAS LUIS MONTERDE",
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
+              "penalti": false,
+              "propia": true,
+              "lado": "local"
+            },
+            {
+              "minuto": 80,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 39,
+              "jugador": "ADRIÁN BARRAGÁN RODRIGUEZ",
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 74,
+              "jugador": "ÁNGEL RAMOS ORTIZ",
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 55,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 61,
+              "jugador": "ALEJANDRO MARTÍNEZ ACOSTA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 79,
+              "jugador": "YERAI RODRÍGUEZ PEREIRA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 80,
+              "jugador": "ABDELHAKIM AIT EL HAJ SABIH",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-17",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-10-24",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-10-31",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-11-07",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-11-14",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-11-21",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-11-28",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-12-12",
+      "partidos": []
+    },
+    {
+      "sabado": "2026-12-19",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-01-16",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-01-23",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-01-30",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-02-06",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-02-13",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-02-20",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-02-27",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-03-06",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-03-13",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-03-20",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-04-03",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-04-10",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-04-17",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-04-24",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-05-01",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-05-08",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-05-15",
+      "partidos": []
+    },
+    {
+      "sabado": "2027-05-22",
+      "partidos": []
+    }
+  ],
+  "detalle_partidos": [
+    {
+      "sabado": "2026-09-26",
+      "partidos": [
+        {
+          "fecha": "2026-09-26",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 1,
+          "local": "Racing de Villaverde B",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-03",
+      "partidos": [
+        {
+          "fecha": "2026-10-03",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 2,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Udmelidaolimpia - Madrid City Vallecas A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-10",
+      "partidos": [
+        {
+          "fecha": "2026-10-11",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 3,
+          "local": "Nuevo Baztan A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-17",
+      "partidos": [
+        {
+          "fecha": "2026-10-17",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 4,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Union Deportiva la Poveda A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-24",
+      "partidos": [
+        {
+          "fecha": "2026-10-24",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 5,
+          "local": "E.D.M. San Blas B",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-10-31",
+      "partidos": [
+        {
+          "fecha": "2026-10-31",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 6,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "E.D. Moratalaz C",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-11-07",
+      "partidos": [
+        {
+          "fecha": "2026-11-07",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 7,
+          "local": "Union Deportiva Arganzuela B",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014268810_arganzuela.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-11-14",
+      "partidos": [
+        {
+          "fecha": "2026-11-14",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 8,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Esc. Mun. Fut. Villarejo A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000038321_GetAttachment.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-11-21",
+      "partidos": [
+        {
+          "fecha": "2026-11-21",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 9,
+          "local": "Adepo Palomeras A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258054_adepo.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-11-28",
+      "partidos": [
+        {
+          "fecha": "2026-11-28",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 10,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Arganda A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010849385_arganda66px.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-12-12",
+      "partidos": [
+        {
+          "fecha": "2026-12-12",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 11,
+          "local": "Sport Villa de Vallecas A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2026-12-19",
+      "partidos": [
+        {
+          "fecha": "2026-12-19",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 12,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Fundacion Rayo Vallecano C",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011206462_fundacion_esc.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-01-16",
+      "partidos": [
+        {
+          "fecha": "2027-01-16",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 13,
+          "local": "Rivas Futbol Club C",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000098133_escudo-rivas-fc.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-01-23",
+      "partidos": [
+        {
+          "fecha": "2027-01-23",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 14,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Parque Sureste A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-01-30",
+      "partidos": [
+        {
+          "fecha": "2027-01-30",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 15,
+          "local": "Coslada B",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-02-06",
+      "partidos": [
+        {
+          "fecha": "2027-02-06",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 16,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Racing de Villaverde B",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000054928_Racing_Villaverde.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-02-13",
+      "partidos": [
+        {
+          "fecha": "2027-02-14",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 17,
+          "local": "Udmelidaolimpia - Madrid City Vallecas A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0012219483_navbarApp.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-02-20",
+      "partidos": [
+        {
+          "fecha": "2027-02-20",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 18,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Nuevo Baztan A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000039452_Nuevo_Baztan.jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-02-27",
+      "partidos": [
+        {
+          "fecha": "2027-02-27",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 19,
+          "local": "Union Deportiva la Poveda A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010913564_logo_poveda.jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-03-06",
+      "partidos": [
+        {
+          "fecha": "2027-03-06",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 20,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "E.D.M. San Blas B",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-03-13",
+      "partidos": [
+        {
+          "fecha": "2027-03-13",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 21,
+          "local": "E.D. Moratalaz C",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-03-20",
+      "partidos": [
+        {
+          "fecha": "2027-03-20",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 22,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Union Deportiva Arganzuela B",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014268810_arganzuela.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-04-03",
+      "partidos": [
+        {
+          "fecha": "2027-04-03",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 23,
+          "local": "Esc. Mun. Fut. Villarejo A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000038321_GetAttachment.jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-04-10",
+      "partidos": [
+        {
+          "fecha": "2027-04-10",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 24,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Adepo Palomeras A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258054_adepo.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-04-17",
+      "partidos": [
+        {
+          "fecha": "2027-04-17",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 25,
+          "local": "Arganda A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010849385_arganda66px.jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-04-24",
+      "partidos": [
+        {
+          "fecha": "2027-04-24",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 26,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Sport Villa de Vallecas A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-05-01",
+      "partidos": [
+        {
+          "fecha": "2027-05-01",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 27,
+          "local": "Fundacion Rayo Vallecano C",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011206462_fundacion_esc.jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-05-08",
+      "partidos": [
+        {
+          "fecha": "2027-05-08",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 28,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Rivas Futbol Club C",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000098133_escudo-rivas-fc.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-05-15",
+      "partidos": [
+        {
+          "fecha": "2027-05-15",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 29,
+          "local": "Parque Sureste A",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png"
+        }
+      ]
+    },
+    {
+      "sabado": "2027-05-22",
+      "partidos": [
+        {
+          "fecha": "2027-05-22",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 30,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Coslada B",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg"
+        }
+      ]
+    }
+  ],
+  "clasificaciones": [
+    {
+      "titulo": "Preferente Cadete Grupo 5",
+      "jornada": 3,
+      "filas": [
+        {
+          "pos": 1,
+          "id": "4920195",
+          "nombre": "Arganda A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
+          "pj": 3,
+          "g": 3,
+          "e": 0,
+          "p": 0,
+          "gf": 9,
+          "gc": 5,
+          "dg": 4,
+          "pts": 9
+        },
+        {
+          "pos": 2,
+          "id": "2785",
+          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+          "pj": 3,
+          "g": 2,
+          "e": 1,
+          "p": 0,
+          "gf": 9,
+          "gc": 3,
+          "dg": 6,
+          "pts": 7
+        },
+        {
+          "pos": 3,
+          "id": "4928637",
+          "nombre": "Rivas Futbol Club C",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
+          "pj": 3,
+          "g": 2,
+          "e": 1,
+          "p": 0,
+          "gf": 10,
+          "gc": 5,
+          "dg": 5,
+          "pts": 7
+        },
+        {
+          "pos": 4,
+          "id": "2274952",
+          "nombre": "E.D. Moratalaz C",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
+          "pj": 3,
+          "g": 2,
+          "e": 1,
+          "p": 0,
+          "gf": 7,
+          "gc": 4,
+          "dg": 3,
+          "pts": 7
+        },
+        {
+          "pos": 5,
+          "id": "761461",
+          "nombre": "Fundacion Rayo Vallecano C",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
+          "pj": 3,
+          "g": 2,
+          "e": 0,
+          "p": 1,
+          "gf": 5,
+          "gc": 3,
+          "dg": 2,
+          "pts": 6
+        },
+        {
+          "pos": 6,
+          "id": "1964",
+          "nombre": "Nuevo Baztan A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
+          "pj": 3,
+          "g": 2,
+          "e": 0,
+          "p": 1,
+          "gf": 9,
+          "gc": 9,
+          "dg": 0,
+          "pts": 6
+        },
+        {
+          "pos": 7,
+          "id": "8961562",
+          "nombre": "Ciudad de los Ángeles A",
+          "nuestro": true,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "pj": 3,
+          "g": 1,
+          "e": 1,
+          "p": 1,
+          "gf": 9,
+          "gc": 8,
+          "dg": 1,
+          "pts": 4
+        },
+        {
+          "pos": 8,
+          "id": "526134",
+          "nombre": "Esc. Mun. Fut. Villarejo A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+          "pj": 3,
+          "g": 1,
+          "e": 1,
+          "p": 1,
+          "gf": 6,
+          "gc": 6,
+          "dg": 0,
+          "pts": 4
+        },
+        {
+          "pos": 9,
+          "id": "877423",
+          "nombre": "Sport Villa de Vallecas A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
+          "pj": 3,
+          "g": 1,
+          "e": 1,
+          "p": 1,
+          "gf": 6,
+          "gc": 7,
+          "dg": -1,
+          "pts": 4
+        },
+        {
+          "pos": 10,
+          "id": "690",
+          "nombre": "Coslada B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
+          "pj": 3,
+          "g": 1,
+          "e": 0,
+          "p": 2,
+          "gf": 8,
+          "gc": 7,
+          "dg": 1,
+          "pts": 3
+        },
+        {
+          "pos": 11,
+          "id": "1764",
+          "nombre": "E.D.M. San Blas B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
+          "pj": 3,
+          "g": 1,
+          "e": 0,
+          "p": 2,
+          "gf": 6,
+          "gc": 7,
+          "dg": -1,
+          "pts": 3
+        },
+        {
+          "pos": 12,
+          "id": "1689",
+          "nombre": "Adepo Palomeras A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258054_adepo.png",
+          "pj": 3,
+          "g": 1,
+          "e": 0,
+          "p": 2,
+          "gf": 3,
+          "gc": 4,
+          "dg": -1,
+          "pts": 3
+        },
+        {
+          "pos": 13,
+          "id": "10652335",
+          "nombre": "Racing de Villaverde B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
+          "pj": 3,
+          "g": 1,
+          "e": 0,
+          "p": 2,
+          "gf": 3,
+          "gc": 6,
+          "dg": -3,
+          "pts": 3
+        },
+        {
+          "pos": 14,
+          "id": "2806",
+          "nombre": "Parque Sureste A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+          "pj": 3,
+          "g": 0,
+          "e": 1,
+          "p": 2,
+          "gf": 5,
+          "gc": 9,
+          "dg": -4,
+          "pts": 1
+        },
+        {
+          "pos": 15,
+          "id": "301080",
+          "nombre": "Union Deportiva la Poveda A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
+          "pj": 3,
+          "g": 0,
+          "e": 1,
+          "p": 2,
+          "gf": 4,
+          "gc": 11,
+          "dg": -7,
+          "pts": 1
+        },
+        {
+          "pos": 16,
+          "id": "24235806",
+          "nombre": "Union Deportiva Arganzuela B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
+          "pj": 3,
+          "g": 0,
+          "e": 0,
+          "p": 3,
+          "gf": 4,
+          "gc": 9,
+          "dg": -5,
+          "pts": 0
+        }
+      ],
+      "equipo": "Ciudad de los Ángeles A"
+    }
+  ]
+}
