@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-12 20:30",
+  "generado": "2026-10-12 20:33",
   "desde": "2026-10-17",
   "hasta": "2026-10-18",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
@@ -316,88 +316,88 @@
           ],
           "goles": [
             {
-              "minuto": 35,
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
               "jugador": "MARCOS LOPEZ DEL RIO",
-              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "lado": "local",
+              "minuto": 35,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "jugador": "IKER GARCIA PEÑUELAS",
+              "lado": "local",
               "minuto": 76,
-              "jugador": "IKER GARCIA PEÑUELAS",
-              "equipo": "RACING VILLAVERDE C.F. 'B'",
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
+              "jugador": "IKER GARCIA PEÑUELAS",
+              "lado": "local",
               "minuto": 77,
-              "jugador": "IKER GARCIA PEÑUELAS",
-              "equipo": "RACING VILLAVERDE C.F. 'B'",
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 50,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "visitante",
+              "minuto": 50,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 61,
-              "jugador": "JOAQUIN CARMONA FERRERAS",
               "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "JOAQUIN CARMONA FERRERAS",
+              "lado": "visitante",
+              "minuto": 61,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             }
           ],
           "tarjetas": [
             {
-              "minuto": 46,
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
               "jugador": "SANTIAGO BENITO BAQUERO",
-              "equipo": "RACING VILLAVERDE C.F. 'B'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 46,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 63,
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
               "jugador": "ENZO LOPEZ SANTOS",
-              "equipo": "RACING VILLAVERDE C.F. 'B'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 63,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 70,
+              "equipo": "RACING VILLAVERDE C.F. 'B'",
               "jugador": "IZAN HERRERO PARDO",
-              "equipo": "RACING VILLAVERDE C.F. 'B'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 70,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 52,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 52,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 55,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "JESÚS CORDOBA RAIGON",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 55,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 80,
-              "jugador": "ALVARO MARQUEZ MONTERO",
               "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "ALVARO MARQUEZ MONTERO",
+              "lado": "visitante",
+              "minuto": 80,
+              "tipo": "amarilla"
             }
           ]
         }
@@ -420,68 +420,68 @@
           ],
           "goles": [
             {
-              "minuto": 7,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "DANIEL TALMACI VASILCIUC",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "local",
+              "minuto": 7,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 14,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "ALONSO GONZALEZ LEDESMA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "local",
+              "minuto": 14,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 67,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "MAYLAN RIOS SANCHEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "local",
+              "minuto": 67,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "jugador": "SERGIO ILLESCAS ACOSTA",
+              "lado": "visitante",
               "minuto": 39,
-              "jugador": "SERGIO ILLESCAS ACOSTA",
-              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
               "penalti": true,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 44,
+              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
               "jugador": "SERGIO FABIAN GONZALEZ AMARILLA",
-              "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "lado": "visitante",
+              "minuto": 44,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 54,
-              "jugador": "SERGIO ILLESCAS ACOSTA",
               "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
+              "jugador": "SERGIO ILLESCAS ACOSTA",
+              "lado": "visitante",
+              "minuto": 54,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             }
           ],
           "tarjetas": [
             {
-              "minuto": 48,
-              "jugador": "SERGIO FABIAN GONZALEZ AMARILLA",
               "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "SERGIO FABIAN GONZALEZ AMARILLA",
+              "lado": "visitante",
+              "minuto": 48,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 77,
-              "jugador": "ÁLVARO ORTEGA GARCIA",
               "equipo": "UDMELIDAOLIMPIA - MADRID CITY VALLECAS 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "ÁLVARO ORTEGA GARCIA",
+              "lado": "visitante",
+              "minuto": 77,
+              "tipo": "amarilla"
             }
           ]
         }
@@ -504,96 +504,96 @@
           ],
           "goles": [
             {
-              "minuto": 59,
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
               "jugador": "FERNANDO DORADO VELO",
-              "equipo": "A.D. NUEVO BAZTAN 'A'",
+              "lado": "local",
+              "minuto": 59,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 10,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "MARIO MENCHERO VILLANUEVA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "visitante",
+              "minuto": 10,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 12,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "visitante",
+              "minuto": 12,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "lado": "visitante",
               "minuto": 75,
-              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 77,
-              "jugador": "LUCAS LUIS MONTERDE",
               "equipo": "A.D. NUEVO BAZTAN 'A'",
+              "jugador": "LUCAS LUIS MONTERDE",
+              "lado": "local",
+              "minuto": 77,
               "penalti": false,
-              "propia": true,
-              "lado": "local"
+              "propia": true
             },
             {
-              "minuto": 80,
-              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
               "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "lado": "visitante",
+              "minuto": 80,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             }
           ],
           "tarjetas": [
             {
-              "minuto": 39,
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
               "jugador": "ADRIÁN BARRAGÁN RODRIGUEZ",
-              "equipo": "A.D. NUEVO BAZTAN 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 39,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 74,
+              "equipo": "A.D. NUEVO BAZTAN 'A'",
               "jugador": "ÁNGEL RAMOS ORTIZ",
-              "equipo": "A.D. NUEVO BAZTAN 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 74,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 55,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 55,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 61,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "ALEJANDRO MARTÍNEZ ACOSTA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 61,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 79,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "YERAI RODRÍGUEZ PEREIRA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 79,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 80,
-              "jugador": "ABDELHAKIM AIT EL HAJ SABIH",
               "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "ABDELHAKIM AIT EL HAJ SABIH",
+              "lado": "visitante",
+              "minuto": 80,
+              "tipo": "amarilla"
             }
           ]
         }
