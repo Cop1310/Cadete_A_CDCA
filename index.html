@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cadete A CDCA">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Cadete A · CD Ciudad de los Ángeles</title>
+<style>
+  :root {
+    --tinta: #141414;
+    --papel: #ffffff;
+    --fondo: #efefec;
+    --linea: #d6d6d1;
+    --verde: #0f7a43;
+    --verde-oscuro: #0b6236;
+    --suave: #5b5b57;
+    --roja: #b3261e;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--tinta);
+    font-family: "Helvetica Neue", Arial, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.45;
+    padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px));
+  }
+  .rayas {
+    height: 18px;
+    background: repeating-linear-gradient(90deg, #141414 0 18px, #ffffff 18px 36px);
+    border-bottom: 2px solid var(--tinta);
+    padding-top: env(safe-area-inset-top, 0px);
+    box-sizing: content-box;
+  }
+  main { max-width: 560px; margin: 0 auto; padding: 22px 16px 8px; }
+  .cabecera { text-align: center; margin: 0 0 22px; }
+  .escudo { display: block; height: 100px; width: auto; margin: 0 auto 12px; filter: drop-shadow(0 3px 4px rgba(0,0,0,0.28)); }
+  h1 {
+    font-size: 1.55rem;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin: 0 0 4px;
+    font-weight: 800;
+  }
+  .subtitulo { margin: 0 0 12px; color: var(--suave); font-size: 0.95rem; font-weight: 600; }
+  .cuando {
+    display: inline-block; margin: 0; padding: 6px 16px; border-radius: 4px;
+    background: var(--tinta); color: #fff; font-weight: 700; font-size: 0.98rem;
+  }
+
+  .mensaje {
+    background: var(--papel);
+    border: 2px solid var(--tinta);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .partido { padding: 14px 16px; font-size: 1.02rem; }
+  .partido + .partido { border-top: 1px solid var(--linea); }
+  .partido p { margin: 0; overflow-wrap: anywhere; }
+  .partido strong { font-weight: 800; }
+
+  .pestanas { display: flex; flex-wrap: wrap; margin: 0 0 14px; border: 2px solid var(--tinta); border-radius: 4px; overflow: hidden; }
+  .pestanas button {
+    flex: 1 1 33.33%; min-height: 44px; border: 0; background: var(--papel); color: var(--tinta);
+    font-weight: 700; font-size: clamp(0.7rem, 3.4vw, 0.92rem); padding: 0 3px;
+    border-top: 2px solid var(--tinta); margin-top: -2px;
+  }
+  .pestanas button:nth-child(-n+3) { border-top: 0; margin-top: 0; }
+  .pestanas button:not(:nth-child(3n+1)) { border-left: 2px solid var(--tinta); }
+  .pestanas button[aria-selected="true"] { background: var(--tinta); color: #fff; }
+  .partido.origen { background: #f6f6f3; color: var(--suave); font-size: 0.9rem; }
+  .partido.origen a { color: inherit; }
+  .partido.dia { background: var(--tinta); color: #fff; padding: 10px 16px; }
+  .banda { display: flex; align-items: center; gap: 8px; padding: 10px 14px; font-size: 1rem; font-weight: 800; }
+  .banda.dia-c { background: var(--tinta); color: #fff; }
+  .banda.pend { background: #faeeda; color: #633806; border-top: 1px solid var(--linea); }
+  .banda svg { flex: none; }
+  .p { padding: 12px 14px; border-top: 1px solid var(--linea); }
+  .banda + .p { border-top: 0; }
+  .p .f1 { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .p .hora { display: inline-flex; align-items: center; gap: 4px; font-size: 1.45rem; font-weight: 800; line-height: 1; color: #185fa5; }
+  .p .pill { display: inline-block; font-size: 0.78rem; font-weight: 700; padding: 3px 9px; border-radius: 4px; }
+  .cat-violeta { background: #eeedfe; color: #3c3489; }
+  .cat-aqua { background: #e1f5ee; color: #085041; }
+  .cat-naranja { background: #faece7; color: #712b13; }
+  .cat-magenta { background: #fbeaf0; color: #72243e; }
+  .cat-azul { background: #e6f1fb; color: #0c447c; }
+  .cat-gris { background: #f1efe8; color: #444441; }
+  .p .v { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; margin-top: 6px; font-size: 0.86rem; color: var(--suave); }
+  .p .v em { font-style: italic; }
+  .p .v svg { flex: none; }
+  .p .eq { margin-top: 10px; font-size: 1rem; }
+  .p .eq .fila { display: flex; align-items: baseline; flex-wrap: wrap; }
+  .p .vs { font-size: 0.82rem; color: var(--suave); margin: 3px 0; }
+  .p .us { background: #f7e9b0; border-radius: 4px; padding: 1px 6px; font-weight: 800; }
+  .p .pos { font-size: 0.72rem; font-weight: 800; color: var(--suave); margin-right: 4px; }
+  .p .sc { display: inline-block; margin: 3px 0; font-size: 1.1rem; font-weight: 800; padding: 2px 10px; border-radius: 4px; white-space: nowrap; }
+  .sc.gana { background: #eaf3de; color: #27500a; }
+  .sc.empata { background: #faeeda; color: #633806; }
+  .sc.pierde { background: #fcebeb; color: #791f1f; }
+  .sc.neutro { background: #f1efe8; color: #444441; }
+
+  /* Cabecera de resultado: escudo + nombre + marcador grande a la derecha */
+  .marcador { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+  .marcador .fila-mc { display: flex; align-items: center; gap: 10px; }
+  .marcador .escudo-eq {
+    width: 32px; height: 32px; border-radius: 50%; flex: none; overflow: hidden;
+    background: #f2f2ee; border: 1px solid var(--linea);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .marcador .escudo-eq img { width: 100%; height: 100%; object-fit: contain; }
+  .marcador .nombre-mc { flex: 1; min-width: 0; font-size: 1rem; overflow-wrap: anywhere; }
+  .marcador .fila-mc.nuestro .nombre-mc { font-weight: 800; }
+  .marcador .gol-num { font-size: 1.6rem; font-weight: 800; min-width: 32px; text-align: right; font-variant-numeric: tabular-nums; }
+
+  .semanas { display: flex; gap: 6px; margin: 0 0 12px; }
+  .semanas[hidden] { display: none; }
+  .semanas button { flex: none; width: 38px; min-height: 46px; padding: 0; font-size: 1rem; background: var(--papel); color: var(--tinta); }
+  .semanas select option { text-align: center; }
+  .semanas button:disabled { opacity: 0.35; cursor: default; }
+  .semanas select {
+    flex: 1; min-width: 0; min-height: 46px; font: inherit; font-weight: 700;
+    font-size: clamp(0.66rem, 3.6vw, 0.9rem); padding: 0 6px;
+    text-align: center; text-align-last: center; -moz-text-align-last: center;
+    color: var(--tinta); background: var(--papel); border: 2px solid var(--tinta); border-radius: 4px;
+  }
+  .chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 12px; }
+  .chips[hidden] { display: none; }
+  .chip {
+    flex: none; min-height: 42px; padding: 0 12px; font-size: 0.92rem; font-weight: 600;
+    background: var(--papel); color: var(--tinta); border: 2px solid var(--tinta);
+  }
+  .chip[aria-pressed="true"] { background: var(--tinta); color: #fff; }
+  .chip.pendiente { border-style: dashed; color: var(--suave); background: transparent; }
+  .chip.pendiente[aria-pressed="true"] { background: var(--suave); color: #fff; border-color: var(--suave); }
+  .sin-barra .barra { display: none; }
+  .sin-barra { padding-bottom: 28px; }
+  .nota { margin: 0; padding: 10px 16px; font-size: 0.9rem; color: var(--suave); border-bottom: 1px solid var(--linea); }
+  .tabla-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table.clas { border-collapse: collapse; width: 100%; table-layout: fixed; font-size: clamp(11px, 2.9vw, 14px); }
+  table.clas th, table.clas td { padding: 5px 1px; text-align: center; line-height: 1.2; border-bottom: 1px solid var(--linea); background: var(--papel); }
+  table.clas th { font-weight: 700; font-size: 0.95em; background: #f6f6f3; color: var(--suave); border-bottom: 1px solid var(--tinta); }
+  table.clas th.e, table.clas td.e { text-align: left; padding-left: 6px; overflow-wrap: anywhere; }
+  .escudo-clas {
+    display: inline-flex; align-items: center; justify-content: center; vertical-align: -0.35em;
+    width: 1.5em; height: 1.5em; margin-right: 0.3em; border-radius: 50%; flex: none;
+    background: #f2f2ee; border: 1px solid var(--linea); overflow: hidden;
+  }
+  .escudo-clas img { width: 100%; height: 100%; object-fit: contain; }
+  table.clas td.pts { font-weight: 800; }
+  table.clas tr.nuestro td { font-weight: 800; background: #f7e9b0; }
+  .estado { padding: 18px 16px; margin: 0; }
+  .aviso { margin: 16px 0 0; color: var(--suave); font-size: 0.92rem; }
+  .aviso p { margin: 0 0 4px; }
+  .aviso p:last-child { margin-bottom: 0; }
+  .pie { margin: 22px 0 0; color: var(--suave); font-size: 0.85rem; }
+
+  .barra {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: var(--papel);
+    border-top: 2px solid var(--tinta);
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+  }
+  .barra div { max-width: 560px; margin: 0 auto; display: flex; gap: 10px; }
+  button, a.boton {
+    flex: 1;
+    font: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    min-height: 52px;
+    padding: 0 12px;
+    border-radius: 4px;
+    border: 2px solid var(--tinta);
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #copiar { background: var(--papel); color: var(--tinta); }
+  #whatsapp { background: var(--verde); color: #fff; border-color: var(--verde-oscuro); }
+  button:focus-visible, a.boton:focus-visible { outline: 3px solid #2563eb; outline-offset: 2px; }
+  .desactivado { opacity: 0.4; pointer-events: none; }
+  .fila-cuando { display: flex; align-items: center; justify-content: center; gap: 8px; }
+  .toast {
+    margin: 8px 0 0; font-size: 0.85rem; color: var(--suave); text-align: center;
+    opacity: 0; transition: opacity 0.25s ease;
+  }
+  .toast.visible { opacity: 1; }
+  #actualizar {
+    flex: none; width: 36px; height: 36px; min-height: 0; padding: 0;
+    border-radius: 50%; background: var(--papel); color: var(--tinta);
+    font-size: 1.05rem; line-height: 1;
+  }
+  #actualizar.cargando { animation: girar 0.8s linear infinite; }
+  @keyframes girar { to { transform: rotate(360deg); } }
+
+  /* Goleadores y tarjetas bajo cada resultado */
+  .goles-caja { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--linea); font-size: 0.86rem; }
+  .goles-lado { margin: 3px 0; }
+  .goles-lado b { font-weight: 800; }
+  .gol-linea, .tarjeta-linea { display: block; }
+  .tarjeta-icono { display: inline-block; width: 9px; height: 12px; border-radius: 1px; margin-right: 4px; vertical-align: -1px; }
+  .tarjeta-icono.amarilla { background: #f4c430; }
+  .tarjeta-icono.roja { background: var(--roja); }
+  /* Goles/tarjetas del Ciudad de los Ángeles resaltados jugador a jugador, igual que en la
+     Clasificación (no todo el bloque del equipo: cada línea según quién anotó/fue amonestado) */
+  .gol-linea.nuestro, .tarjeta-linea.nuestro { background: #f7e9b0; border-radius: 4px; padding: 1px 6px; font-weight: 800; }
+  .gol-linea.propia { color: var(--roja); }
+  .tarjeta-linea { font-size: 0.88em; }
+
+  /* Entrenador: generador de convocatoria */
+  .entrenador-panel { display: flex; flex-direction: column; gap: 14px; }
+  .entrenador-etiqueta { display: flex; flex-direction: column; gap: 6px; font-size: 0.85rem; font-weight: 700; color: var(--suave); }
+  .entrenador-etiqueta select, .entrenador-etiqueta input[type="text"], .entrenador-etiqueta textarea {
+    font: inherit; font-size: 0.95rem; padding: 10px 12px; border: 2px solid var(--linea); border-radius: 4px; color: var(--tinta); width: 100%;
+  }
+  .entrenador-etiqueta textarea { min-height: 56px; resize: vertical; }
+  .fila-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .convocados-contador { font-weight: 800; font-size: 0.95rem; }
+  .convocado-fila { display: flex; align-items: center; gap: 10px; padding: 10px 14px; cursor: pointer; }
+  .convocado-fila + .convocado-fila { border-top: 1px solid var(--linea); }
+  .convocado-fila input[type="checkbox"] { width: 20px; height: 20px; flex: none; }
+  .convocado-dorsal {
+    flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--tinta); color: #fff;
+    display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.85rem;
+  }
+  .convocado-dorsal.sin { background: #cfcfc9; color: #555; font-size: 0.7rem; }
+  .convocado-nombre { font-weight: 700; }
+
+  /* Noticias: carrusel horizontal con "scroll snap" -una noticia ocupa todo el ancho y se
+     desliza con el dedo hacia la siguiente/anterior-, en vez de una lista vertical que obliga
+     a bajar mucho cuando hay varias noticias o cumpleaños el mismo día. */
+  .noticias-lista {
+    display: flex; flex-direction: row; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; padding-bottom: 2px; scrollbar-width: none;
+  }
+  .noticias-lista::-webkit-scrollbar { display: none; }
+  .noticias-pista { color: var(--suave); font-size: 0.82rem; margin: 0 0 8px; text-align: center; }
+  .noticia {
+    flex: 0 0 100%; scroll-snap-align: start; min-width: 0;
+    background: var(--papel); border: 2px solid var(--tinta); border-radius: 4px; overflow: hidden;
+  }
+  .noticia .noticia-foto { display: block; width: 100%; max-height: 260px; object-fit: contain; background: #f2f2ee; }
+  .noticia .noticia-cuerpo { padding: 14px 16px; }
+  .noticia .noticia-icono { font-size: 1.5rem; line-height: 1; margin-bottom: 4px; }
+  .noticia .noticia-texto { font-size: 1.05rem; font-weight: 700; }
+  .noticia.cumpleanos { border-color: #b3261e; }
+  .noticia-admin { margin-top: 6px; display: flex; justify-content: flex-end; padding: 0 14px 12px; }
+  .noticia-eliminar {
+    min-height: 0; font-size: 0.78rem; font-weight: 700; padding: 5px 10px;
+    border: 1px solid var(--roja); border-radius: 4px; background: var(--papel); color: var(--roja); cursor: pointer;
+  }
+  .nueva-noticia { background: var(--papel); border: 2px solid var(--linea); border-radius: 4px; padding: 12px; margin: 0 0 14px; }
+  .nueva-noticia textarea {
+    width: 100%; font: inherit; font-size: 0.95rem; padding: 10px 12px; border: 2px solid var(--linea);
+    border-radius: 4px; resize: vertical; min-height: 64px; margin-bottom: 8px;
+  }
+  .nueva-noticia .fila-nueva-noticia { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .nueva-noticia label { font-size: 0.85rem; color: var(--suave); display: flex; align-items: center; gap: 4px; }
+  .nueva-noticia input[type="date"] { font: inherit; font-size: 0.88rem; padding: 6px 8px; border: 1px solid var(--linea); border-radius: 4px; }
+  .nueva-noticia button { flex: none; min-height: 0; padding: 8px 16px; font-size: 0.9rem; margin-left: auto; }
+
+  /* Plantilla */
+  .plantilla-lista { background: var(--papel); border: 2px solid var(--tinta); border-radius: 4px; overflow: hidden; }
+  .jugador { display: flex; align-items: center; gap: 12px; padding: 11px 14px; }
+  .jugador + .jugador { border-top: 1px solid var(--linea); }
+  .jugador .dorsal {
+    flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--tinta); color: #fff;
+    display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.95rem;
+  }
+  .jugador .dorsal.sin { background: #cfcfc9; color: #555; font-size: 0.75rem; }
+  .jugador .info { flex: 1; min-width: 0; }
+  .jugador .nombre { font-weight: 700; overflow-wrap: anywhere; }
+  .jugador .nacimiento { color: var(--suave); font-size: 0.85rem; margin-top: 1px; }
+  .jugador .campos-admin { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+  .jugador .campos-admin input {
+    font: inherit; font-size: 0.9rem; padding: 6px 8px; border: 1px solid var(--linea); border-radius: 4px; min-width: 0;
+  }
+  .jugador .campos-admin input.nombre-in { width: 100%; }
+  .jugador .campos-admin .fila-campos { display: flex; gap: 8px; }
+  .jugador .campos-admin input.dorsal-in { width: 78px; }
+  .jugador .campos-admin input.fecha-in { flex: 1; }
+  .jugador .campos-admin select {
+    font: inherit; font-size: 0.9rem; padding: 6px 8px; border: 1px solid var(--linea); border-radius: 4px; width: 100%;
+  }
+  .jugador .avatar-foto { flex: none; width: 34px; height: 34px; border-radius: 50%; object-fit: cover; border: 1px solid var(--linea); }
+  .jugador .goles-jugador { margin-left: 8px; font-size: 0.85rem; font-weight: 700; color: var(--suave); white-space: nowrap; }
+  .jugador .foto-admin { display: flex; align-items: center; gap: 8px; margin-top: 6px; }
+  .jugador .foto-admin input[type="file"] { font-size: 0.82rem; max-width: 100%; }
+  .jugador .foto-quitar {
+    flex: none; min-height: 0; font-size: 0.78rem; padding: 4px 8px; border: 1px solid var(--linea);
+    border-radius: 4px; background: var(--papel); color: var(--suave); cursor: pointer;
+  }
+  .jugador .jugador-eliminar {
+    align-self: flex-start; min-height: 0; font-size: 0.78rem; font-weight: 700; padding: 5px 10px; margin-top: 2px;
+    border: 1px solid var(--roja); border-radius: 4px; background: var(--papel); color: var(--roja); cursor: pointer;
+  }
+
+  /* Fichas de jugador / cuerpo técnico (vista pública, sin sesión de administrador): foto
+     grande en formato vertical con el número (o el puesto) y el nombre superpuestos abajo,
+     en rejilla -varias columnas, más alta que ancha- en vez de una lista de filas horizontales. */
+  .plantilla-grid {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(118px, 1fr)); gap: 10px;
+  }
+  .ficha-jugador {
+    position: relative; aspect-ratio: 2 / 3; border-radius: 10px; overflow: hidden;
+    background: linear-gradient(165deg, #d7cff2 0%, #7566c9 55%, #221c4e 100%);
+    border: 1px solid var(--linea);
+  }
+  .ficha-jugador .avatar-foto {
+    position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 0; border: none;
+    object-fit: cover; object-position: top center;
+  }
+  .ficha-jugador .ficha-sin-foto {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-size: 2.6rem; font-weight: 800; color: rgba(255, 255, 255, 0.5);
+  }
+  .ficha-pie {
+    position: absolute; left: 0; right: 0; bottom: 0; padding: 8px 10px 9px; color: #fff;
+    background: linear-gradient(to top, rgba(8, 6, 26, 0.9) 0%, rgba(8, 6, 26, 0.55) 60%, transparent 100%);
+  }
+  .ficha-dorsal { font-size: 1.3rem; font-weight: 800; line-height: 1.1; }
+  /* El tamaño de letra del nombre se reduce por JS (ver autoAjustarFichas) cuando no cabe en
+     dos líneas, en vez de partir la palabra por cualquier sitio: overflow-wrap "break-word"
+     solo corta una palabra si de verdad no entra ella sola en el ancho de la ficha. */
+  .ficha-nombre {
+    font-size: 0.88rem; font-weight: 700; line-height: 1.15; overflow-wrap: break-word;
+    max-height: 2.4em; overflow: hidden;
+  }
+  .ficha-puesto { font-size: 0.72rem; font-weight: 600; color: rgba(255, 255, 255, 0.78); margin-top: 1px; }
+
+  .admin-barra { display: flex; justify-content: center; margin: 0 0 12px; }
+  .subtitulo-admin { font-size: 1rem; font-weight: 800; margin: 18px 0 8px; }
+  .cuerpo-tecnico-admin { margin-top: 10px; }
+  .nuevo-jugador { display: flex; gap: 8px; margin: 0 0 10px; }
+  .nuevo-jugador input { flex: 1; min-width: 0; font: inherit; font-size: 0.95rem; padding: 10px 12px; border: 2px solid var(--linea); border-radius: 4px; }
+  .nuevo-jugador button { flex: none; min-height: 0; padding: 0 16px; font-size: 0.92rem; }
+  .admin-link { background: none; border: none; color: var(--suave); font-size: 0.82rem; font-weight: 600; text-decoration: underline; padding: 6px; cursor: pointer; }
+  .admin-guardar { margin: 12px 0 0; }
+  .admin-nota { margin: 8px 0 0; font-size: 0.82rem; color: var(--suave); }
+
+  .modal-fondo {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center;
+    justify-content: center; padding: 20px; z-index: 20;
+  }
+  .modal-fondo[hidden] { display: none; }
+  .modal {
+    background: var(--papel); border-radius: 8px; padding: 20px; max-width: 360px; width: 100%;
+    border: 2px solid var(--tinta);
+  }
+  .modal h2 { margin: 0 0 6px; font-size: 1.1rem; }
+  .modal p { margin: 0 0 12px; font-size: 0.88rem; color: var(--suave); }
+  .modal input[type="password"] {
+    width: 100%; font: inherit; font-size: 1rem; padding: 10px 12px; border: 2px solid var(--linea);
+    border-radius: 4px; margin-bottom: 10px;
+  }
+  .modal .fila-botones { display: flex; gap: 8px; }
+  .modal .fila-botones button { flex: 1; min-height: 44px; }
+  .modal-error { color: var(--roja); font-size: 0.85rem; margin: -4px 0 10px; min-height: 1.1em; }
+</style>
+</head>
+<body>
+<div class="rayas" aria-hidden="true"></div>
+<main>
+  <header class="cabecera">
+    <img class="escudo" src="escudo.png" alt="Escudo del C.D. Ciudad de los Ángeles" width="70" height="100">
+    <h1>Cadete A</h1>
+    <p class="subtitulo">C.D. Ciudad de los Ángeles · Preferente Cadete Grupo 5</p>
+    <div class="fila-cuando">
+      <p class="cuando" id="cuando">Cargando…</p>
+      <button type="button" id="actualizar" aria-label="Actualizar partidos" title="Actualizar">⟳</button>
+    </div>
+    <p class="toast" id="toast" role="status" aria-live="polite"></p>
+  </header>
+
+  <div class="pestanas" role="tablist">
+    <button type="button" role="tab" id="tab-partidos" aria-selected="true">Partidos</button>
+    <button type="button" role="tab" id="tab-resultados" aria-selected="false">Resultados</button>
+    <button type="button" role="tab" id="tab-clasificacion" aria-selected="false">Clasificación</button>
+    <button type="button" role="tab" id="tab-plantilla" aria-selected="false">Plantilla</button>
+    <button type="button" role="tab" id="tab-noticias" aria-selected="false">Noticias</button>
+    <button type="button" role="tab" id="tab-entrenador" aria-selected="false">Cuerpo técnico</button>
+  </div>
+  <div class="semanas" id="semanas" hidden>
+    <button type="button" id="sem-ant" aria-label="Fin de semana anterior">◀</button>
+    <select id="sem-sel" aria-label="Elegir fin de semana"></select>
+    <button type="button" id="sem-sig" aria-label="Fin de semana siguiente">▶</button>
+  </div>
+  <div class="chips" id="chips" hidden></div>
+
+  <div class="mensaje" id="mensaje" aria-live="polite">
+    <p class="estado">Cargando partidos…</p>
+  </div>
+  <div class="aviso" id="aviso"></div>
+  <p class="pie" id="pie"></p>
+</main>
+
+<div class="barra">
+  <div>
+    <button id="copiar" class="desactivado" type="button">Copiar mensaje</button>
+    <a id="whatsapp" class="boton desactivado" href="#" target="_blank" rel="noopener">Enviar por WhatsApp</a>
+  </div>
+</div>
+
+<div class="modal-fondo" id="modal-admin" hidden>
+  <div class="modal">
+    <h2>Panel de administrador</h2>
+    <p>Introduce la contraseña para poder editar la plantilla, las noticias o preparar la convocatoria.</p>
+    <input type="password" id="admin-clave" placeholder="Contraseña" autocomplete="off">
+    <p class="modal-error" id="admin-error"></p>
+    <div class="fila-botones">
+      <button type="button" id="admin-cancelar">Cancelar</button>
+      <button type="button" id="admin-entrar">Entrar</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var datos = null;
+  var activa = "partidos";
+  var grupoSel = 0;
+  var sel = { partidos: null, resultados: null };
+  var adminActivo = false;
+  var overridesPlantilla = {};   // {nombre: {dorsal, fecha_nacimiento}} — lo metido a mano, en este navegador
+  var noticiasManuales = [];     // [{id, texto, foto, hasta}] — avisos metidos a mano, en este navegador
+  // Estado del generador de convocatoria (pestaña Entrenador): vive solo en memoria, no se
+  // guarda ni se sube a ningún sitio -se genera el mensaje al momento y se comparte, como con
+  // el resto de pestañas de "Copiar mensaje"/WhatsApp.
+  var convocadosSel = {};        // {id del jugador: true}
+  var partidoConvSel = 0;        // índice dentro de partidosConvocables()
+  var antelacionConv = 30;       // minutos de antelación para la hora de convocatoria
+  // Cada campo guarda un conjunto de valores marcados (no uno solo): el entrenador puede
+  // marcar las dos opciones de pantalón/medias/camiseta si quiere que el equipo se lleve
+  // ambas equipaciones por si acaso.
+  var equipacionConv = { camiseta: {}, pantalon: {}, medias: {} };
+  var campoManualConv = "";      // ubicación (enlace) del campo, opcional, a mano
+  var motivacionalConv = "";
+  var recordatorioConv = "";
+  var HASH_ADMIN = "8e051b489ca542b1b8db91382956fca4e6bcfe1850880d8f85d4c3a61c72f8d6"; // ver aviso más abajo
+  var CLAVE_LOCAL = "cadete_a_plantilla_manual";
+  var CLAVE_LOCAL_NOTICIAS = "cadete_a_noticias_manual";
+  // Cuerpo técnico (pestaña "Cuerpo técnico", antes "Entrenador"): entrenador, ayudantes,
+  // preparador físico, delegado... metidos siempre a mano, sin ninguna web de la que venir
+  // -por eso se edita como una lista propia en este navegador (igual que noticiasManuales),
+  // no como "overrides" sobre una lista de la web (como overridesPlantilla).
+  var cuerpoTecnicoLocal = [];   // [{id, nombre, puesto, fecha_nacimiento, foto}]
+  var CLAVE_LOCAL_CUERPO_TECNICO = "cadete_a_cuerpo_tecnico_manual";
+  var PUESTOS_CUERPO_TECNICO = ["Entrenador", "Ayudante de entrenador", "Preparador físico", "Delegado"];
+
+  var elMensaje = document.getElementById("mensaje");
+  var elCuando = document.getElementById("cuando");
+  var elAviso = document.getElementById("aviso");
+  var elPie = document.getElementById("pie");
+  var btnCopiar = document.getElementById("copiar");
+  var btnWa = document.getElementById("whatsapp");
+  var tabP = document.getElementById("tab-partidos");
+  var tabR = document.getElementById("tab-resultados");
+  var tabC = document.getElementById("tab-clasificacion");
+  var tabPl = document.getElementById("tab-plantilla");
+  var tabN = document.getElementById("tab-noticias");
+  var tabE = document.getElementById("tab-entrenador");
+  var elChips = document.getElementById("chips");
+  var elSemanas = document.getElementById("semanas");
+  var selSemana = document.getElementById("sem-sel");
+  var btnAnt = document.getElementById("sem-ant");
+  var btnSig = document.getElementById("sem-sig");
+  var btnActualizar = document.getElementById("actualizar");
+  var modalAdmin = document.getElementById("modal-admin");
+  var claveAdmin = document.getElementById("admin-clave");
+  var errorAdmin = document.getElementById("admin-error");
+  var btnAdminEntrar = document.getElementById("admin-entrar");
+  var btnAdminCancelar = document.getElementById("admin-cancelar");
+
+  function escapar(s) {
+    return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function formato(s) {
+    return escapar(s)
+      .replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>')
+      .replace(/\*_([^_\n*]+)_\*/g, "<strong><em>$1</em></strong>")
+      .replace(/\*([^*\n]+)\*/g, "<strong>$1</strong>")
+      .replace(/(^|[\s(])_([^_\n]+)_(?=$|[\s.,;:!?)])/g, "$1<em>$2</em>");
+  }
+
+  function semanas() {
+    return (datos && datos.semanas) || [];
+  }
+
+  function sumarDia(iso, n) {
+    var d = new Date(iso + "T12:00:00");
+    d.setDate(d.getDate() + n);
+    var mm = String(d.getMonth() + 1).padStart(2, "0");
+    var dd = String(d.getDate()).padStart(2, "0");
+    return d.getFullYear() + "-" + mm + "-" + dd;
+  }
+
+  function etiquetaSemana(iso) {
+    var dom = sumarDia(iso, 1);
+    var a = iso.split("-"), b = dom.split("-");
+    return "Sábado " + a[2] + "/" + a[1] + " y Domingo " + b[2] + "/" + b[1] + "/" + b[0];
+  }
+
+  function indiceSemana(iso) {
+    var s = semanas(), i;
+    for (i = 0; i < s.length; i++) if (s[i].sabado === iso) return i;
+    return s.length - 1;
+  }
+
+  function pintarSelectorSemanas() {
+    var s = semanas();
+    if (activa === "clasificacion" || activa === "plantilla" || activa === "noticias" || activa === "entrenador" || s.length < 2) { elSemanas.hidden = true; return; }
+    elSemanas.hidden = false;
+    var i = sel[activa];
+    selSemana.innerHTML = s.map(function (x, k) { return { x: x, k: k }; }).reverse().map(function (o) {
+      return '<option value="' + o.k + '"' + (o.k === i ? " selected" : "") + ">" + etiquetaSemana(o.x.sabado) + "</option>";
+    }).join("");
+    btnAnt.disabled = i <= 0;
+    btnSig.disabled = i >= s.length - 1;
+  }
+
+  function clasificaciones() {
+    return (datos && datos.clasificaciones) || [];
+  }
+
+  function textoClasificacion() {
+    var cl = clasificaciones();
+    if (!cl.length) return "";
+    var g = cl[Math.min(grupoSel, cl.length - 1)];
+    var lineas = ["Información sacada de la web El Balón de Madrid", "", "🏆 *Clasificación*", g.titulo];
+    if (g.jornada) lineas.push("📌 _Tras la jornada " + g.jornada + "_");
+    lineas.push("");
+    g.filas.forEach(function (f) {
+      var nombre = f.nuestro ? "*_" + f.nombre + "_*" : f.nombre;
+      lineas.push(f.pos + "º " + nombre + " - " + f.pts + " pts (" + f.pj + " PJ)");
+    });
+    return lineas.join("\n");
+  }
+
+  function textoActivo() {
+    if (!datos) return "";
+    if (activa === "clasificacion" || activa === "plantilla" || activa === "noticias" || activa === "entrenador") {
+      if (activa === "clasificacion") return textoClasificacion();
+      if (activa === "entrenador") return textoConvocatoria();
+      return "";
+    }
+    var s = semanas();
+    if (s.length) {
+      var w = s[Math.max(0, Math.min(sel[activa], s.length - 1))];
+      return ((activa === "partidos" ? w.partidos : w.resultados) || "").trim();
+    }
+    return ((activa === "partidos" ? datos.texto : datos.resultados) || "").trim();
+  }
+
+  // ---------- Vista previa con colores y tamaños (el texto que se envía no cambia) ----------
+  var SVG = 'width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+  var ICONO_RELOJ = '<svg ' + SVG + '><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>';
+  var ICONO_CAL = '<svg ' + SVG + '><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M16 3v4M8 3v4M4 11h16"/></svg>';
+  var ICONO_PIN = '<svg ' + SVG + '><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0-6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1-2.827 0l-4.244-4.243a8 8 0 1 1 11.314 0"/></svg>';
+  var CATEGORIAS = [[/aficionado/i, "violeta"], [/juvenil/i, "aqua"], [/cadete/i, "naranja"],
+                    [/infantil/i, "magenta"], [/alev[ií]n|benjam[ií]n/i, "azul"]];
+
+  function claseCategoria(t) {
+    for (var i = 0; i < CATEGORIAS.length; i++) if (CATEGORIAS[i][0].test(t)) return CATEGORIAS[i][1];
+    return "gris";
+  }
+
+  function equipoHtml(s) {
+    s = s.replace(/^[\p{Extended_Pictographic}️\s]+/u, "").trim();
+    var pos = "", m = /^\*\((\d+)º\)\*\s*(.*)$/.exec(s);
+    if (m) { pos = '<span class="pos">' + m[1] + "º</span> "; s = m[2]; }
+    var us = /^\*_(.+)_\*$/.exec(s);
+    return us ? pos + '<span class="us">' + escapar(us[1]) + "</span>" : pos + escapar(s);
+  }
+
+  function partirEquipos(linea) {
+    var m = /^(\S+)\s+(.*)$/.exec(linea);
+    if (!m) return null;
+    var icono = m[1], resto = m[2];
+    var sc = /^(.*?)\s(\d+)\s-\s(\d+)\s(.*)$/.exec(resto);
+    if (sc) return { icono: icono, local: sc[1], visitante: sc[4], marcador: [sc[2], sc[3]] };
+    var us = /(\*\(\d+º\)\*\s*)?\*_.+?_\*/.exec(resto);
+    if (!us) return null;
+    if (us.index > 0) {
+      return { icono: icono, local: resto.slice(0, us.index).replace(/\s-\s*$/, "").trim(), visitante: us[0], marcador: null };
+    }
+    return { icono: icono, local: us[0], visitante: resto.slice(us[0].length).replace(/^\s*-\s*/, "").trim(), marcador: null };
+  }
+
+  // Datos extra (escudos y, en Resultados, goleadores/tarjetas) del partido de esta semana
+  // que le corresponde al bloque nº `indice` (mismo orden que el texto: ver detalle_resultados
+  // / detalle_partidos en el backend).
+  function detalleTipo(indice, campo, selKey) {
+    var s = semanas();
+    if (!s.length) return null;
+    var w = s[Math.max(0, Math.min(sel[selKey], s.length - 1))];
+    var det = (datos[campo] || []).filter(function (d) { return d.sabado === w.sabado; })[0];
+    if (!det || !det.partidos || !det.partidos[indice]) return null;
+    return det.partidos[indice];
+  }
+  function detalleDe(indice) { return detalleTipo(indice, "detalle_resultados", "resultados"); }
+  function detallePartidoDe(indice) { return detalleTipo(indice, "detalle_partidos", "partidos"); }
+
+  function normNombre(s) {
+    return (s || "").toUpperCase().normalize("NFD").replace(/[̀-ͯ]/g, "").trim();
+  }
+
+  // Nombres (normalizados) de los jugadores de nuestra plantilla: es la forma FIABLE de saber
+  // si un gol o una tarjeta es nuestra, jugador a jugador, en vez de fiarse del "equipo" que
+  // trae el acta (que agrupa por bloques y puede venir mal repartido entre los dos equipos).
+  function jugadoresPropios() {
+    var set = {};
+    plantillaFusionada().forEach(function (j) { set[normNombre(j.nombre)] = true; });
+    return set;
+  }
+
+  function golesHtml(detalle) {
+    if (!detalle || (!detalle.goles.length && !detalle.tarjetas.length)) return "";
+    var propios = jugadoresPropios();
+    var conoceRoster = Object.keys(propios).length > 0;
+    // Sin plantilla todavía no hay forma fiable de saber de quién es cada gol o tarjeta: el
+    // "equipo" que da el acta puede venir mal repartido entre los dos equipos (se ha visto en
+    // partidos reales), así que se prefiere no resaltar nada a resaltar de más por error.
+    function esPropio(jugador) {
+      return conoceRoster && !!propios[normNombre(jugador)];
+    }
+    // Goles y tarjetas se muestran intercalados por minuto de partido (no un bloque con todos
+    // los goles y luego otro con todas las tarjetas), con quién anotó/fue amonestado resaltado
+    // según la propia plantilla -más fiable que fiarse del "equipo" que da el acta.
+    function golLinea(x) {
+      // el gol en propia puerta ya viene acreditado al equipo que se beneficia (ver backend),
+      // así que "nuestro" sigue reflejando quién suma el gol; el rojo + "(p.p.)" es solo para
+      // que se note a simple vista que el marcador no es "3 goles + 1 en propia = 4", que si
+      // no parece un error de conteo.
+      var clase = "gol-linea" + (esPropio(x.jugador) ? " nuestro" : "") + (x.propia ? " propia" : "");
+      var sufijo = x.penalti ? " (penalti)" : (x.propia ? " (p.p.)" : "");
+      return '<span class="' + clase + '">⚽ ' + x.minuto + "' " + escapar(x.jugador) +
+        sufijo + "</span>";
+    }
+    function tarjetaLinea(x) {
+      var equipoLimpio = x.equipo.replace(/^C\.D\.\s*/, "");
+      var clase = "tarjeta-linea" + (esPropio(x.jugador) ? " nuestro" : "");
+      return '<span class="' + clase + '"><span class="tarjeta-icono ' + x.tipo + '"></span>' +
+        x.minuto + "' " + escapar(x.jugador) + " (" + escapar(equipoLimpio) + ")</span>";
+    }
+    var eventos = detalle.goles.map(function (x) { return { minuto: x.minuto, html: golLinea(x) }; })
+      .concat(detalle.tarjetas.map(function (x) { return { minuto: x.minuto, html: tarjetaLinea(x) }; }))
+      .sort(function (a, b) { return a.minuto - b.minuto; });
+    if (!eventos.length) return "";
+    var lineas = eventos.map(function (e) { return e.html; }).join("");
+    return '<div class="goles-caja"><div class="goles-lado">' + lineas + "</div></div>";
+  }
+
+  // Una fila del marcador: escudo real del equipo (sacado de la propia acta por el backend, ya
+  // esté jugado el partido o "POR JUGAR"; si el acta todavía no lo trae, o falla al cargar, se
+  // deja el círculo vacío de fondo, sin imagen rota), su posición en la clasificación (si se
+  // conoce), el nombre (en negrita si es nuestro, igual que en equipoHtml) y, cuando ya hay
+  // resultado, el gol en grande a la derecha. En Partidos (`gol` null: partido sin jugar
+  // todavía) no se muestra ninguna cifra a la derecha.
+  function filaMarcadorHtml(s, escudoUrl, gol) {
+    s = s.replace(/^[\p{Extended_Pictographic}️\s]+/u, "").trim();
+    var pos = "", m = /^\*\((\d+)º\)\*\s*(.*)$/.exec(s);
+    if (m) { pos = '<span class="pos">' + m[1] + "º</span> "; s = m[2]; }
+    var us = /^\*_(.+)_\*$/.exec(s);
+    var nombre = pos + escapar(us ? us[1] : s);
+    var esc = '<span class="escudo-eq" aria-hidden="true">' +
+      (escudoUrl ? '<img src="' + escapar(escudoUrl) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">' : "") +
+      "</span>";
+    var golNum = gol != null ? '<div class="gol-num">' + escapar(String(gol)) + "</div>" : "";
+    return '<div class="fila-mc' + (us ? " nuestro" : "") + '">' + esc +
+      '<div class="nombre-mc">' + nombre + '</div>' + golNum + '</div>';
+  }
+
+  // Línea de equipo del nuevo formato de "resultados" (goleadores y tarjetas ya en líneas
+  // propias, ver bloque() en el backend): "{🟢|🟡|🔴} {equipo con formato} — *{goles}*". Ya no
+  // lleva balón neutro para el rival (ambos equipos llevan su propio emoji de resultado), así
+  // que "⚽" al principio de línea identifica sin ambigüedad a un goleador, no a un equipo.
+  // OJO: estos emojis son caracteres "astrales" (fuera del BMP, par subrogado en UTF-16); puestos
+  // dentro de una clase [...] sin el flag /u, el motor de JS los trocea en sus dos mitades y la
+  // clase deja de significar lo que parece -por eso aquí van como alternancia (a|b|c), no [abc].
+  var RE_LINEA_EQUIPO = /^(🟢|🟡|🔴)\s+(.+?)\s+—\s+\*(\d+)\*\s*$/;
+  var RE_LINEA_GOL = /^⚽\s+\d+'\s/;
+  var RE_LINEA_TARJETA = /^(?:🟨|🟥)\s+\d+'\s/;
+
+  // Analiza un bloque de texto de un partido (el mismo formato de "texto"/"resultados" que ya
+  // se usa para pintar Partidos/Resultados) y saca hora, título de la competición, jornada,
+  // campo y los dos equipos. Se usa tanto para pintar esas dos pestañas como para el generador
+  // de convocatoria de la pestaña Entrenador, así no hay dos sitios leyendo el mismo texto con
+  // patrones distintos que se puedan desincronizar. Los goleadores y tarjetas (si los hay) se
+  // ignoran aquí -ya llegan aparte, estructurados, en detalle_resultados/golesHtml-; esta
+  // función solo necesita identificar las líneas de cada equipo.
+  function analizarBloquePartido(bloque) {
+    var l = bloque.split("\n"), hora = null, titulo, jor = null, campo = null, eq = null;
+    var cab = /^⏰\s*\*(\d{2}:\d{2})h\*\s*-\s*(.+)$/.exec(l[0]);
+    if (cab) { hora = cab[1]; titulo = cab[2]; }
+    else {
+      var t = /^🏆\s*(.+)$/.exec(l[0]);
+      if (!t) return null;
+      titulo = t[1];
+    }
+    var equipos = []; // 2 líneas si ya hay resultado (formato nuevo); si no, 0 (formato antiguo de 1 línea)
+    for (var i = 1; i < l.length; i++) {
+      var j = /^📌\s*_Jornada (\d+)_$/.exec(l[i]);
+      var c = /^📍\s*(?:Campo|Pabellón):\s*(.+)$/.exec(l[i]);
+      var eqL = RE_LINEA_EQUIPO.exec(l[i]);
+      if (j) jor = j[1];
+      else if (c) campo = c[1];
+      else if (eqL) equipos.push({ icono: eqL[1], nombre: eqL[2], goles: eqL[3] });
+      else if (RE_LINEA_GOL.test(l[i]) || RE_LINEA_TARJETA.test(l[i])) { /* goleador/tarjeta: no hace falta aquí */ }
+      else if (!equipos.length) eq = partirEquipos(l[i]); // formato antiguo de una sola línea (sin resultado aún)
+    }
+    if (equipos.length === 2) {
+      eq = { icono: equipos[0].icono, local: equipos[0].nombre, visitante: equipos[1].nombre,
+             marcador: [equipos[0].goles, equipos[1].goles] };
+    }
+    if (!eq) return null;
+    return { hora: hora, titulo: titulo, jor: jor, campo: campo, eq: eq };
+  }
+
+  // Quita el emoji y la posición ("*(15º)* ") de una de las dos mitades de `eq` (eq.local o
+  // eq.visitante, tal como los da partirEquipos) y dice si es "nuestro" equipo (va envuelto en
+  // *_..._*, igual que ya distingue equipoHtml/filaMarcadorHtml) y cuál es su nombre limpio.
+  function analizarLadoEquipo(s) {
+    s = (s || "").replace(/^[\p{Extended_Pictographic}️\s]+/u, "").trim();
+    var m = /^\*\((\d+)º\)\*\s*(.*)$/.exec(s);
+    if (m) s = m[2];
+    var us = /^\*_(.+)_\*$/.exec(s);
+    return { nuestro: !!us, nombre: us ? us[1] : s };
+  }
+
+  function partidoHtml(bloque, indice) {
+    var info = analizarBloquePartido(bloque);
+    if (!info) return null;
+    var hora = info.hora, titulo = info.titulo, jor = info.jor, campo = info.campo, eq = info.eq;
+    var clase = { "🟢": "gana", "🟡": "empata", "🔴": "pierde" }[eq.icono] || "neutro";
+    var etiqueta = escapar(titulo.replace(/\s+Grupo\s+(\d+)/i, " · grupo $1"));
+    var detalle = (jor ? "<em>Jornada " + jor + "</em>" : "") + (jor && campo ? " · " : "") + (campo ? ICONO_PIN + escapar(campo) : "");
+    // En Resultados, con marcador ya conocido, se usa la cabecera con escudos y el gol en
+    // grande (como el acta oficial); en Partidos (todavía sin jugar) la misma cabecera con
+    // escudos pero sin cifra de gol, sin "vs". Solo se cae al "vs" antiguo si, por lo que sea,
+    // se está en Resultados pero el bloque no trae marcador (no debería pasar).
+    var enResultados = activa === "resultados" && !!eq.marcador;
+    var enPartidos = activa === "partidos";
+    var partidoDetalle = enResultados ? detalleDe(indice) : (enPartidos ? detallePartidoDe(indice) : null);
+    var goles = enResultados && partidoDetalle ? golesHtml(partidoDetalle) : "";
+    var cuerpoEquipos = (enResultados || enPartidos)
+      ? '<div class="marcador">' +
+          filaMarcadorHtml(eq.local, partidoDetalle && partidoDetalle.escudo_local, enResultados ? eq.marcador[0] : null) +
+          filaMarcadorHtml(eq.visitante, partidoDetalle && partidoDetalle.escudo_visitante, enResultados ? eq.marcador[1] : null) +
+        "</div>"
+      : '<div class="eq"><div class="fila">' + equipoHtml(eq.local) + "</div>" +
+          (eq.marcador
+            ? '<div class="sc ' + clase + '">' + eq.marcador[0] + " - " + eq.marcador[1] + "</div>"
+            : '<div class="vs">vs</div>') +
+          '<div class="fila">' + equipoHtml(eq.visitante) + "</div></div>";
+    return '<div class="p"><div class="f1">' +
+      (hora ? '<span class="hora">' + ICONO_RELOJ + hora + "</span>" : "") +
+      '<span class="pill cat-' + claseCategoria(titulo) + '">' + etiqueta + "</span></div>" +
+      (detalle ? '<div class="v">' + detalle + "</div>" : "") +
+      cuerpoEquipos + goles + "</div>";
+  }
+
+  function mensajeHtml(texto) {
+    var indicePartido = 0;
+    return texto.split(/\n\s*\n/).map(function (bloque) {
+      if (/^Información sacada de la web/.test(bloque)) {
+        return '<div class="partido origen"><p>' + formato(bloque) + "</p></div>";
+      }
+      if (bloque.indexOf("📅") !== -1) {
+        var t = /📅\s*\*(.+?)\*/.exec(bloque);
+        if (t) {
+          var pend = /PENDIENTE/i.test(t[1]);
+          var nombre = pend ? "Pendiente de confirmar día y hora" : t[1].charAt(0) + t[1].slice(1).toLowerCase();
+          return '<div class="banda ' + (pend ? "pend" : "dia-c") + '">' + ICONO_CAL + escapar(nombre) + "</div>";
+        }
+      }
+      var p = partidoHtml(bloque, indicePartido);
+      if (p) { indicePartido++; return p; }
+      return '<div class="partido"><p>' + formato(bloque).replace(/\n/g, "<br>") + "</p></div>";
+    }).join("");
+  }
+
+  function pintarClasificacion() {
+    var cl = clasificaciones();
+    elCuando.textContent = "Elige una categoría para ver su clasificación";
+    if (!cl.length) {
+      elChips.hidden = true;
+      elMensaje.innerHTML = '<p class="estado">Todavía no hay clasificación disponible. Aparecerá cuando la federación publique el calendario.</p>';
+      return;
+    }
+    if (grupoSel >= cl.length) grupoSel = 0;
+    elChips.hidden = false;
+    elChips.innerHTML = cl.map(function (g, i) {
+      var etiqueta = g.titulo;
+      if (g.pendiente) {
+        var letra = /\s([A-Z])$/.exec(g.equipo || "");
+        if (letra) etiqueta += " (" + letra[1] + ")";
+      }
+      var clase = "chip" + (g.pendiente ? " pendiente" : " cat-" + claseCategoria(g.titulo));
+      return '<button type="button" class="' + clase + '" data-i="' + i +
+        '" aria-pressed="' + (i === grupoSel) + '">' + escapar(etiqueta) + "</button>";
+    }).join("");
+
+    var g = cl[grupoSel];
+    if (g.pendiente) {
+      elMensaje.innerHTML = '<p class="estado"><strong>' + escapar(g.equipo || g.titulo) + "</strong><br>" +
+        "La federación todavía no ha publicado esta competición para la temporada 2026/27. " +
+        "Aparecerá aquí en cuanto la publique.</p>";
+      return;
+    }
+    var nota = g.titulo.replace(/\s+Grupo\s+(\d+)/i, " - Grupo $1");
+    var cab = ["#", "Equipo", "PJ", "G", "E", "P", "GF", "GC", "DG", "Pts"].map(function (c, i) {
+      return "<th" + (i === 1 ? ' class="e"' : "") + ">" + c + "</th>";
+    }).join("");
+    var anchos = ["2em", "", "1.9em", "1.6em", "1.6em", "1.6em", "2em", "2em", "2.4em", "2.3em"];
+    var cols = anchos.map(function (a) { return a ? '<col style="width:' + a + '">' : "<col>"; }).join("");
+    var filas = g.filas.map(function (f) {
+      var dg = f.dg > 0 ? "+" + f.dg : f.dg;
+      // el escudo se saca de la propia clasificación (misma fuente que ya se usa para el
+      // nombre); si el equipo no lo trae, o la imagen falla al cargar, se queda el hueco vacío.
+      var escudo = '<span class="escudo-clas" aria-hidden="true">' +
+        (f.escudo ? '<img src="' + escapar(f.escudo) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">' : "") +
+        "</span>";
+      return '<tr' + (f.nuestro ? ' class="nuestro"' : "") + "><td>" + f.pos + '</td><td class="e">' + escudo + escapar(f.nombre) + "</td><td>" + f.pj +
+        "</td><td>" + f.g + "</td><td>" + f.e + "</td><td>" + f.p + "</td><td>" + f.gf + "</td><td>" + f.gc + "</td><td>" + dg +
+        '</td><td class="pts">' + f.pts + "</td></tr>";
+    }).join("");
+    elMensaje.innerHTML = (nota ? '<p class="nota">' + escapar(nota) + "</p>" : "") +
+      '<div class="tabla-wrap"><table class="clas"><colgroup>' + cols + "</colgroup><thead><tr>" + cab +
+      "</tr></thead><tbody>" + filas + "</tbody></table></div>";
+  }
+
+  // ---------------------------------------------------------------------
+  // Noticias: cumpleaños (automáticos, calculados por el backend a partir de la fecha de
+  // nacimiento de la plantilla, SIN decir la edad -son menores) y avisos metidos a mano desde
+  // el panel de administrador (mismo panel/contraseña que en Plantilla).
+  //
+  // Las de cumpleaños vienen siempre del servidor (datos.noticias) y no se pueden borrar desde
+  // aquí -si un cumpleaños está mal, se corrige la fecha de nacimiento desde Plantilla. Las
+  // manuales, en modo lectura, también se muestran tal cual las da el servidor; en modo
+  // administrador se editan en una lista aparte (`noticiasManuales`, en este navegador) que,
+  // la primera vez que se entra al panel, se rellena con las que ya estuvieran publicadas (así
+  // se pueden quitar o corregir, no solo añadir nuevas) y que manda hasta que se guarda y se
+  // sube de nuevo el fichero -igual que con la plantilla manual.
+  // ---------------------------------------------------------------------
+  function noticias() {
+    return (datos && datos.noticias) || [];
+  }
+
+  var noticiasSemillaHecha = false;
+  function noticiasManualesParaEditar() {
+    if (!noticiasSemillaHecha) {
+      noticiasSemillaHecha = true;
+      if (!noticiasManuales.length) {
+        noticiasManuales = noticias().filter(function (n) { return n.tipo === "manual"; })
+          .map(function (n, i) { return { id: "srv" + i, texto: n.texto, foto: n.foto || null, hasta: null }; });
+      }
+    }
+    return noticiasManuales;
+  }
+
+  function tarjetaNoticiaHtml(n, conBotonEliminar) {
+    var esCumple = n.tipo === "cumpleanos";
+    var icono = esCumple ? "🎂" : "📢";
+    // "rol" dice cómo se nombra a la persona en el aviso: "jugador" para los niños, o el
+    // puesto tal cual (entrenador, preparador físico...) para el cuerpo técnico -ver
+    // cumpleanos_de_hoy/cumpleanos_cuerpo_tecnico en el backend.
+    var texto = esCumple
+      ? "¡Hoy es el cumpleaños de nuestro " + escapar(n.rol || "jugador") + " " + escapar(n.texto) + "!"
+      : escapar(n.texto).replace(/\n/g, "<br>");
+    var foto = n.foto ? '<img class="noticia-foto" src="' + n.foto + '" alt="">' : "";
+    var admin = conBotonEliminar
+      ? '<div class="noticia-admin"><button type="button" class="noticia-eliminar" data-id="' +
+        escapar(n.id) + '">Eliminar noticia</button></div>'
+      : "";
+    return '<div class="noticia' + (esCumple ? " cumpleanos" : "") + '">' + foto +
+      '<div class="noticia-cuerpo"><div class="noticia-icono">' + icono + '</div>' +
+      '<div class="noticia-texto">' + texto + "</div></div>" + admin + "</div>";
+  }
+
+  function formularioNuevaNoticia() {
+    return '<div class="nueva-noticia">' +
+      '<textarea id="nueva-noticia-texto" placeholder="Escribe el aviso (p. ej. se suspende el entreno del jueves)"></textarea>' +
+      '<div class="foto-admin"><input type="file" accept="image/*" id="nueva-noticia-foto"></div>' +
+      '<div class="fila-nueva-noticia">' +
+      '<label>Mostrar hasta (opcional) <input type="date" id="nueva-noticia-hasta"></label>' +
+      '<button type="button" id="nueva-noticia-anadir">Añadir noticia</button>' +
+      "</div></div>";
+  }
+
+  function pintarNoticias() {
+    elCuando.textContent = "Noticias";
+    btnCopiar.classList.add("desactivado");
+    btnWa.classList.add("desactivado");
+    btnWa.href = "#";
+
+    if (!adminActivo) {
+      var listaNoticias = noticias();
+      var tarjetas = listaNoticias.map(function (n) { return tarjetaNoticiaHtml(n, false); }).join("");
+      var pista = listaNoticias.length > 1 ? '<p class="noticias-pista">← Desliza para ver las demás noticias →</p>' : "";
+      elMensaje.innerHTML =
+        (tarjetas ? pista + '<div class="noticias-lista">' + tarjetas + "</div>" : '<p class="estado">No hay noticias por ahora.</p>') +
+        '<div class="admin-barra"><button type="button" class="admin-link" id="admin-abrir-noticias">Panel de administrador</button></div>';
+      document.getElementById("admin-abrir-noticias").addEventListener("click", abrirModalAdmin);
+      return;
+    }
+
+    var cumple = noticias().filter(function (n) { return n.tipo === "cumpleanos"; });
+    var manuales = noticiasManualesParaEditar();
+    var tarjetas = cumple.map(function (n) { return tarjetaNoticiaHtml(n, false); }).join("") +
+      manuales.map(function (n) { return tarjetaNoticiaHtml({ tipo: "manual", texto: n.texto, foto: n.foto, id: n.id }, true); }).join("");
+    var pistaAdmin = (cumple.length + manuales.length) > 1 ? '<p class="noticias-pista">← Desliza para ver las demás noticias →</p>' : "";
+    elMensaje.innerHTML = formularioNuevaNoticia() +
+      (tarjetas ? pistaAdmin + '<div class="noticias-lista">' + tarjetas + "</div>" : '<p class="estado">No hay noticias por ahora.</p>') +
+      '<button type="button" class="admin-guardar" id="noticias-guardar" style="width:100%;margin-top:12px">Guardar y descargar noticias_manual.json</button>' +
+      '<p class="admin-nota">Al guardar se descarga <code>noticias_manual.json</code>: súbelo a la carpeta del repositorio en GitHub (sustituyendo al que hubiera) para que estos avisos no se pierdan cuando la app se actualice sola.</p>' +
+      '<div class="admin-barra"><button type="button" class="admin-link" id="noticias-salir">Salir del panel de administrador</button></div>';
+
+    document.getElementById("nueva-noticia-anadir").addEventListener("click", function () {
+      var inpTexto = document.getElementById("nueva-noticia-texto");
+      var texto = (inpTexto.value || "").trim();
+      if (!texto) { inpTexto.focus(); return; }
+      var hasta = document.getElementById("nueva-noticia-hasta").value || null;
+      var inpFoto = document.getElementById("nueva-noticia-foto");
+      var f = inpFoto.files && inpFoto.files[0];
+      function agregar(fotoDataUrl) {
+        noticiasManuales.push({ id: "n" + Date.now(), texto: texto, foto: fotoDataUrl || null, hasta: hasta });
+        guardarNoticiasEnLocalStorage();
+        pintarNoticias();
+        mostrarToast("Noticia añadida: pulsa Guardar y descargar para que se publique de verdad");
+      }
+      if (f) procesarFoto(f, agregar); else agregar(null);
+    });
+
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".noticia-eliminar"), function (btn) {
+      btn.addEventListener("click", function () {
+        var id = btn.getAttribute("data-id");
+        if (!window.confirm("¿Eliminar esta noticia?\n\nNo se aplicará de verdad hasta que pulses \"Guardar y descargar noticias_manual.json\" y subas el archivo al repositorio.")) return;
+        noticiasManuales = noticiasManuales.filter(function (n) { return n.id !== id; });
+        guardarNoticiasEnLocalStorage();
+        pintarNoticias();
+      });
+    });
+
+    document.getElementById("noticias-guardar").addEventListener("click", guardarNoticiasManual);
+    document.getElementById("noticias-salir").addEventListener("click", function () {
+      adminActivo = false;
+      pintarNoticias();
+    });
+  }
+
+  function guardarNoticiasEnLocalStorage() {
+    try { localStorage.setItem(CLAVE_LOCAL_NOTICIAS, JSON.stringify(noticiasManuales)); } catch (e) {}
+  }
+
+  function cargarNoticiasDeLocalStorage() {
+    try {
+      var v = localStorage.getItem(CLAVE_LOCAL_NOTICIAS);
+      if (v) noticiasManuales = JSON.parse(v) || [];
+    } catch (e) { noticiasManuales = []; }
+  }
+
+  function guardarNoticiasManual() {
+    guardarNoticiasEnLocalStorage();
+    var lista = noticiasManuales.map(function (n) {
+      var obj = { texto: n.texto };
+      if (n.foto) obj.foto = n.foto;
+      if (n.hasta) obj.hasta = n.hasta;
+      return obj;
+    });
+    var blob = new Blob([JSON.stringify(lista, null, 1)], { type: "application/json" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "noticias_manual.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+    pintarNoticias();
+    mostrarToast("Guardado en este dispositivo y archivo descargado");
+  }
+
+  // ---------------------------------------------------------------------
+  // Entrenador: generador de convocatoria (pestaña con el mismo panel/contraseña que Plantilla
+  // y Noticias). No se guarda ni se sube a ningún sitio -el mensaje se genera al momento en el
+  // navegador del entrenador, con el mismo patrón de "Copiar mensaje"/WhatsApp que ya usan
+  // Partidos, Resultados y Clasificación.
+  // ---------------------------------------------------------------------
+
+  // Partidos próximos (pestaña "Partidos") de todas las semanas visibles, con lo que hace
+  // falta para la convocatoria: fecha exacta, hora, campo y rival -analizando el mismo texto
+  // que ya se usa para pintar esa pestaña (ver analizarBloquePartido/analizarLadoEquipo).
+  function partidosConvocables() {
+    var lista = [];
+    semanas().forEach(function (s) {
+      if (!s.partidos) return;
+      var fechaActual = s.sabado;
+      s.partidos.split(/\n\s*\n/).forEach(function (bloque) {
+        var d = /📅\s*\*(?:SÁBADO|DOMINGO)\s+(\d{2})\/(\d{2})\/(\d{4})\*/i.exec(bloque);
+        if (d) { fechaActual = d[3] + "-" + d[2] + "-" + d[1]; return; }
+        var info = analizarBloquePartido(bloque);
+        if (!info) return;
+        var local = analizarLadoEquipo(info.eq.local), visitante = analizarLadoEquipo(info.eq.visitante);
+        var rival = local.nuestro ? visitante.nombre : local.nombre;
+        lista.push({ fecha: fechaActual, jornada: info.jor, hora: info.hora, campo: info.campo, rival: rival });
+      });
+    });
+    return lista;
+  }
+
+  // Resta `minutos` a una hora "HH:MM" y devuelve otra "HH:MM" (para la hora de convocatoria,
+  // que es la hora del partido con la antelación que elija el entrenador).
+  function horaMenos(hora, minutos) {
+    if (!hora) return null;
+    var p = hora.split(":");
+    var d = new Date(2000, 0, 1, parseInt(p[0], 10), parseInt(p[1], 10));
+    d.setMinutes(d.getMinutes() - minutos);
+    return String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0");
+  }
+
+  function textoConvocatoria() {
+    var partidos = partidosConvocables();
+    if (!partidos.length) return "";
+    var p = partidos[Math.max(0, Math.min(partidoConvSel, partidos.length - 1))];
+    var convocados = plantillaFusionada().filter(function (j) { return convocadosSel[j.id]; });
+    if (!convocados.length) return "";
+
+    var df = p.fecha.split("-");
+    var lineas = ["JORNADA " + (p.jornada || "?") + " DE LIGA", "📆" + df[2] + "/" + df[1] + "/" + df[0]];
+    if (p.hora) {
+      lineas.push("⌚️ convocatoria " + (horaMenos(p.hora, antelacionConv) || p.hora));
+      lineas.push("⏱️" + p.hora + " horas");
+    }
+    if (p.campo || campoManualConv.trim()) {
+      lineas.push("");
+      if (p.campo) lineas.push("🏟️ " + p.campo);
+      if (campoManualConv.trim()) lineas.push(campoManualConv.trim());
+    }
+    lineas.push("");
+    lineas.push("🆚️ " + p.rival);
+    // Texto de una prenda a partir de los valores marcados (puede haber uno o los dos, p.
+    // ej. si el entrenador quiere que se lleven las dos equipaciones por si acaso).
+    function textoEquipacion(campo, emojis) {
+      var marcados = Object.keys(equipacionConv[campo]).filter(function (v) { return equipacionConv[campo][v]; });
+      if (!marcados.length) return null;
+      return marcados.map(function (v) { return emojis[v]; }).join(" y ");
+    }
+    var txtCamiseta = textoEquipacion("camiseta", { rayas: "🖤🤍", rosa: "🩷" });
+    var txtPantalon = textoEquipacion("pantalon", { negro: "⚫️", blanco: "⚪️" });
+    var txtMedias = textoEquipacion("medias", { negro: "⚫️", blanco: "⚪️" });
+    if (txtCamiseta || txtPantalon || txtMedias) {
+      lineas.push("");
+      if (txtCamiseta) lineas.push("Camiseta " + txtCamiseta);
+      if (txtPantalon) lineas.push("Pantalon " + txtPantalon);
+      if (txtMedias) lineas.push("Medias " + txtMedias);
+    }
+    lineas.push("");
+    lineas.push("CONVOCATORIA");
+    convocados.forEach(function (j) {
+      lineas.push((j.dorsal !== null && j.dorsal !== undefined ? j.dorsal : "-") + ". " + j.nombre);
+    });
+    if (motivacionalConv.trim() || recordatorioConv.trim()) {
+      lineas.push("");
+      if (motivacionalConv.trim()) lineas.push(motivacionalConv.trim());
+      if (recordatorioConv.trim()) lineas.push("(" + recordatorioConv.trim() + ")");
+    }
+    return lineas.join("\n");
+  }
+
+  function actualizarBarraEntrenador() {
+    var texto = textoConvocatoria();
+    if (texto) {
+      btnCopiar.classList.remove("desactivado");
+      btnWa.classList.remove("desactivado");
+      btnWa.href = "https://wa.me/?text=" + encodeURIComponent(texto);
+    } else {
+      btnCopiar.classList.add("desactivado");
+      btnWa.classList.add("desactivado");
+      btnWa.href = "#";
+    }
+  }
+
+  // ---------------------------------------------------------------------
+  // Cuerpo técnico: altas de entrenador, ayudantes, preparador físico, delegado... (puede
+  // haber varios de un mismo puesto, o ninguno). Sirve, sobre todo, para que el backend pueda
+  // anunciar también SUS cumpleaños en Noticias (con nombre, no con apodo: a diferencia de los
+  // jugadores, no son menores y no hay restricción de privacidad -ver cumpleanos_cuerpo_tecnico
+  // en el backend). Se guarda con el mismo patrón de "editar en este navegador, Guardar y
+  // descargar, subir a GitHub" que Plantilla y Noticias.
+  // ---------------------------------------------------------------------
+  function cuerpoTecnico() {
+    return (datos && datos.cuerpo_tecnico) || [];
+  }
+
+  var cuerpoTecnicoSemillaHecha = false;
+  function cuerpoTecnicoParaEditar() {
+    if (!cuerpoTecnicoSemillaHecha) {
+      cuerpoTecnicoSemillaHecha = true;
+      if (!cuerpoTecnicoLocal.length) {
+        cuerpoTecnicoLocal = cuerpoTecnico().map(function (p, i) {
+          return { id: "srv" + i, nombre: p.nombre, puesto: p.puesto || "entrenador",
+                   fecha_nacimiento: p.fecha_nacimiento || null, foto: p.foto || null };
+        });
+      }
+    }
+    return cuerpoTecnicoLocal;
+  }
+
+  function guardarCuerpoTecnicoEnLocalStorage() {
+    try { localStorage.setItem(CLAVE_LOCAL_CUERPO_TECNICO, JSON.stringify(cuerpoTecnicoLocal)); } catch (e) {}
+  }
+
+  function cargarCuerpoTecnicoDeLocalStorage() {
+    try {
+      var v = localStorage.getItem(CLAVE_LOCAL_CUERPO_TECNICO);
+      if (v) cuerpoTecnicoLocal = JSON.parse(v) || [];
+    } catch (e) { cuerpoTecnicoLocal = []; }
+  }
+
+  // Lee del formulario (nombre, puesto, fecha) lo que haya escrito en cada fila justo antes de
+  // guardar -igual que leerCamposPlantilla(), pero sin comparar contra ninguna web, porque
+  // aquí no la hay: todo es siempre manual.
+  function leerCamposCuerpoTecnico() {
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".persona-tecnico"), function (fila) {
+      var id = fila.getAttribute("data-id");
+      var p = cuerpoTecnicoLocal.filter(function (x) { return x.id === id; })[0];
+      if (!p) return;
+      p.nombre = (fila.querySelector(".tecnico-nombre-in").value || "").trim();
+      p.puesto = fila.querySelector(".tecnico-puesto-in").value;
+      p.fecha_nacimiento = (fila.querySelector(".tecnico-fecha-in").value || "").trim() || null;
+    });
+  }
+
+  // Etiqueta "bonita" (como en el <select> de alta) para un puesto guardado en minúsculas;
+  // si no se reconoce (dato antiguo o escrito a mano de otra forma) se muestra tal cual.
+  function etiquetaPuesto(valor) {
+    var encontrada = PUESTOS_CUERPO_TECNICO.filter(function (e) {
+      return e.toLowerCase() === (valor || "").toLowerCase();
+    })[0];
+    return encontrada || (valor || "");
+  }
+
+  // Lista del cuerpo técnico. Se ve SIEMPRE, con o sin sesión de administrador iniciada -igual
+  // que la Plantilla muestra a los jugadores sin hacer falta loguearse-, y solo cuando
+  // adminActivo es true se añaden los campos editables y los botones de alta/guardado.
+  function cuerpoTecnicoAdminHtml() {
+    var personas = cuerpoTecnicoParaEditar();
+
+    // Vista pública (sin sesión de administrador): misma rejilla de fichas "cromo" que la
+    // Plantilla -foto, nombre y, aquí sí, el puesto en vez del dorsal, porque no hay número
+    // de dorsal en el cuerpo técnico y sin el puesto no se distingue entrenador de ayudante-.
+    if (!adminActivo) {
+      var fichas = personas.map(function (p) {
+        var fotoHtml = p.foto
+          ? '<img class="avatar-foto" src="' + p.foto + '" alt="">'
+          : '<div class="ficha-sin-foto">?</div>';
+        return '<div class="ficha-jugador">' + fotoHtml +
+          '<div class="ficha-pie">' +
+          '<div class="ficha-nombre">' + escapar(p.nombre || "") + "</div>" +
+          '<div class="ficha-puesto">' + escapar(etiquetaPuesto(p.puesto)) + "</div>" +
+          "</div></div>";
+      }).join("");
+      return '<div class="cuerpo-tecnico-admin">' +
+        '<h3 class="subtitulo-admin">Cuerpo técnico</h3>' +
+        (fichas ? '<div class="plantilla-grid">' + fichas + "</div>"
+                : '<p class="estado">Todavía no hay nadie dado de alta.</p>') +
+        "</div>";
+    }
+
+    var filas = personas.map(function (p) {
+      var avatarHtml = p.foto ? '<img class="avatar-foto" src="' + p.foto + '" alt="">' : '<div class="dorsal sin">?</div>';
+      var opciones = PUESTOS_CUERPO_TECNICO.map(function (etiqueta) {
+        var valor = etiqueta.toLowerCase();
+        return '<option value="' + valor + '"' + (p.puesto === valor ? " selected" : "") + '>' + etiqueta + '</option>';
+      }).join("");
+      return '<div class="jugador persona-tecnico" data-id="' + escapar(p.id) + '">' + avatarHtml +
+        '<div class="info campos-admin">' +
+        '<input class="nombre-in tecnico-nombre-in" type="text" placeholder="Nombre y apellidos" value="' + escapar(p.nombre || "") + '">' +
+        '<select class="tecnico-puesto-in">' + opciones + '</select>' +
+        '<input class="fecha-in tecnico-fecha-in" type="text" placeholder="Fecha nacimiento (DD-MM-AAAA, opcional)" value="' + escapar(p.fecha_nacimiento || "") + '">' +
+        '<div class="foto-admin">' +
+        '<input class="foto-in tecnico-foto-in" type="file" accept="image/*" data-id="' + escapar(p.id) + '">' +
+        (p.foto ? '<button type="button" class="foto-quitar tecnico-foto-quitar" data-id="' + escapar(p.id) + '">Quitar foto</button>' : "") +
+        "</div>" +
+        '<button type="button" class="jugador-eliminar tecnico-eliminar" data-id="' + escapar(p.id) + '">Eliminar</button>' +
+        "</div></div>";
+    }).join("");
+    return '<div class="cuerpo-tecnico-admin">' +
+      '<h3 class="subtitulo-admin">Cuerpo técnico</h3>' +
+      (filas ? '<div class="plantilla-lista">' + filas + "</div>"
+             : '<p class="estado">Todavía no hay nadie dado de alta.</p>') +
+      '<div class="nuevo-jugador"><button type="button" id="tecnico-anadir" style="width:100%">Añadir persona</button></div>' +
+      '<button type="button" class="admin-guardar" id="tecnico-guardar" style="width:100%">Guardar y descargar cuerpo_tecnico_manual.json</button>' +
+      '<p class="admin-nota">Al guardar se descarga <code>cuerpo_tecnico_manual.json</code>: súbelo a la carpeta del repositorio en GitHub (sustituyendo al que hubiera) para que estos datos no se pierdan cuando la app se actualice sola.</p>' +
+      "</div>";
+  }
+
+  function guardarCuerpoTecnicoManual() {
+    leerCamposCuerpoTecnico();
+    guardarCuerpoTecnicoEnLocalStorage();
+    var lista = cuerpoTecnicoLocal.filter(function (p) { return (p.nombre || "").trim(); }).map(function (p) {
+      var obj = { nombre: p.nombre, puesto: p.puesto, fecha_nacimiento: p.fecha_nacimiento || null };
+      if (p.foto) obj.foto = p.foto;
+      return obj;
+    });
+    var blob = new Blob([JSON.stringify(lista, null, 1)], { type: "application/json" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "cuerpo_tecnico_manual.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+    pintarEntrenador();
+    mostrarToast("Guardado en este dispositivo y archivo descargado");
+  }
+
+  // Conecta los eventos de la sección de Cuerpo técnico, tanto si se pinta junto a la
+  // convocatoria como si se pinta sola (no hay ningún partido próximo todavía). Sin sesión de
+  // administrador la sección se pinta en modo solo-lectura (ver cuerpoTecnicoAdminHtml) y no
+  // tiene ninguno de estos botones ni campos, así que no hay nada que conectar.
+  function wireCuerpoTecnicoAdmin() {
+    if (!adminActivo) return;
+    document.getElementById("tecnico-anadir").addEventListener("click", function () {
+      cuerpoTecnicoLocal.push({ id: "p" + Date.now(), nombre: "", puesto: "entrenador",
+                                fecha_nacimiento: null, foto: null });
+      guardarCuerpoTecnicoEnLocalStorage();
+      pintarEntrenador();
+    });
+    document.getElementById("tecnico-guardar").addEventListener("click", guardarCuerpoTecnicoManual);
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".tecnico-foto-in"), function (inp) {
+      inp.addEventListener("change", function () {
+        var f = inp.files && inp.files[0];
+        if (!f) return;
+        var id = inp.getAttribute("data-id");
+        procesarFoto(f, function (dataUrl) {
+          leerCamposCuerpoTecnico();
+          var p = cuerpoTecnicoLocal.filter(function (x) { return x.id === id; })[0];
+          if (p) p.foto = dataUrl;
+          guardarCuerpoTecnicoEnLocalStorage();
+          pintarEntrenador();
+        });
+      });
+    });
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".tecnico-foto-quitar"), function (btn) {
+      btn.addEventListener("click", function () {
+        leerCamposCuerpoTecnico();
+        var id = btn.getAttribute("data-id");
+        var p = cuerpoTecnicoLocal.filter(function (x) { return x.id === id; })[0];
+        if (p) p.foto = null;
+        guardarCuerpoTecnicoEnLocalStorage();
+        pintarEntrenador();
+      });
+    });
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".tecnico-eliminar"), function (btn) {
+      btn.addEventListener("click", function () {
+        var id = btn.getAttribute("data-id");
+        if (!window.confirm("¿Eliminar a esta persona del cuerpo técnico?\n\nNo se aplicará de verdad hasta que pulses \"Guardar y descargar cuerpo_tecnico_manual.json\" y subas el archivo al repositorio.")) return;
+        cuerpoTecnicoLocal = cuerpoTecnicoLocal.filter(function (x) { return x.id !== id; });
+        guardarCuerpoTecnicoEnLocalStorage();
+        pintarEntrenador();
+      });
+    });
+  }
+
+  function pintarEntrenador() {
+    elCuando.textContent = "Cuerpo técnico";
+    if (!adminActivo) {
+      elMensaje.innerHTML = cuerpoTecnicoAdminHtml() +
+        '<div class="admin-barra"><button type="button" class="admin-link" id="admin-abrir-entrenador">Panel de administrador</button></div>';
+      wireCuerpoTecnicoAdmin();
+      autoAjustarFichas();
+      document.getElementById("admin-abrir-entrenador").addEventListener("click", abrirModalAdmin);
+      btnCopiar.classList.add("desactivado");
+      btnWa.classList.add("desactivado");
+      btnWa.href = "#";
+      return;
+    }
+
+    var partidos = partidosConvocables();
+    if (!partidos.length) {
+      elMensaje.innerHTML = '<p class="estado">No hay ningún partido próximo todavía para convocar.</p>' +
+        cuerpoTecnicoAdminHtml();
+      wireCuerpoTecnicoAdmin();
+      btnCopiar.classList.add("desactivado");
+      btnWa.classList.add("desactivado");
+      btnWa.href = "#";
+      return;
+    }
+    if (partidoConvSel >= partidos.length) partidoConvSel = 0;
+
+    var opcionesPartido = partidos.map(function (x, i) {
+      var d = x.fecha.split("-");
+      return '<option value="' + i + '"' + (i === partidoConvSel ? " selected" : "") + ">" +
+        escapar("Jornada " + (x.jornada || "?") + " · " + d[2] + "/" + d[1] + " vs " + x.rival) + "</option>";
+    }).join("");
+
+    function grupoChips(campo, opciones) {
+      return '<div class="fila-chips">' + opciones.map(function (o) {
+        return '<button type="button" class="chip equip-chip" data-campo="' + campo + '" data-valor="' + o.valor +
+          '" aria-pressed="' + (!!equipacionConv[campo][o.valor]) + '">' + o.etiqueta + "</button>";
+      }).join("") + "</div>";
+    }
+
+    var jugadores = plantillaFusionada();
+    var nConv = jugadores.filter(function (j) { return convocadosSel[j.id]; }).length;
+    var filasJugadores = jugadores.map(function (j) {
+      var marcado = !!convocadosSel[j.id];
+      return '<label class="convocado-fila">' +
+        '<input type="checkbox" class="convocado-check" data-id="' + escapar(j.id) + '"' + (marcado ? " checked" : "") + '>' +
+        '<span class="convocado-dorsal' + (j.dorsal !== null && j.dorsal !== undefined ? "" : " sin") + '">' +
+        (j.dorsal !== null && j.dorsal !== undefined ? j.dorsal : "?") + '</span>' +
+        '<span class="convocado-nombre">' + escapar(j.nombre) + "</span></label>";
+    }).join("");
+
+    elMensaje.innerHTML =
+      '<div class="entrenador-panel">' +
+      '<label class="entrenador-etiqueta">Partido<select id="conv-partido">' + opcionesPartido + '</select></label>' +
+      '<div class="entrenador-etiqueta">Convocatoria (antelación)' +
+        '<div class="fila-chips">' + [30, 45, 60].map(function (m) {
+          return '<button type="button" class="chip conv-antelacion" data-min="' + m + '" aria-pressed="' + (antelacionConv === m) + '">' + m + ' min</button>';
+        }).join("") + "</div></div>" +
+      '<label class="entrenador-etiqueta">Ubicación del campo (opcional, enlace de Google Maps)' +
+        '<input type="text" id="conv-campo-manual" placeholder="https://maps.app.goo.gl/..." value="' + escapar(campoManualConv) + '"></label>' +
+      '<div class="entrenador-etiqueta">Equipación' +
+        grupoChips("camiseta", [{ valor: "rayas", etiqueta: "🖤🤍 Rayas" }, { valor: "rosa", etiqueta: "🩷 Rosa" }]) +
+        grupoChips("pantalon", [{ valor: "negro", etiqueta: "⚫️ Negro" }, { valor: "blanco", etiqueta: "⚪️ Blanco" }]) +
+        grupoChips("medias", [{ valor: "negro", etiqueta: "⚫️ Negro" }, { valor: "blanco", etiqueta: "⚪️ Blanco" }]) +
+        "</div>" +
+      '<label class="entrenador-etiqueta">Mensaje motivador (opcional)<textarea id="conv-motivacional" placeholder="p. ej. Vamos a por el primer +3 🖤🤍🖤">' +
+        escapar(motivacionalConv) + '</textarea></label>' +
+      '<label class="entrenador-etiqueta">Recordatorio (opcional)<textarea id="conv-recordatorio" placeholder="p. ej. Obligatorio peto marcado y botella de agua">' +
+        escapar(recordatorioConv) + '</textarea></label>' +
+      '<div class="convocados-contador">' + nConv + " convocado" + (nConv === 1 ? "" : "s") + " seleccionado" + (nConv === 1 ? "" : "s") + '</div>' +
+      '<div class="plantilla-lista">' + filasJugadores + "</div>" +
+      "</div>" +
+      cuerpoTecnicoAdminHtml();
+
+    document.getElementById("conv-partido").addEventListener("change", function (e) {
+      partidoConvSel = parseInt(e.target.value, 10) || 0;
+      pintarEntrenador();
+    });
+    document.getElementById("conv-campo-manual").addEventListener("input", function (e) {
+      campoManualConv = e.target.value;
+      actualizarBarraEntrenador();
+    });
+    document.getElementById("conv-motivacional").addEventListener("input", function (e) {
+      motivacionalConv = e.target.value;
+      actualizarBarraEntrenador();
+    });
+    document.getElementById("conv-recordatorio").addEventListener("input", function (e) {
+      recordatorioConv = e.target.value;
+      actualizarBarraEntrenador();
+    });
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".conv-antelacion"), function (btn) {
+      btn.addEventListener("click", function () {
+        antelacionConv = parseInt(btn.getAttribute("data-min"), 10);
+        pintarEntrenador();
+      });
+    });
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".equip-chip"), function (btn) {
+      btn.addEventListener("click", function () {
+        var campo = btn.getAttribute("data-campo");
+        var valor = btn.getAttribute("data-valor");
+        // cada opción se marca/desmarca de forma independiente: se pueden tener las dos
+        // marcadas a la vez (p. ej. si el entrenador quiere que se lleven las dos
+        // equipaciones por si acaso) o ninguna (sin especificar en el mensaje)
+        equipacionConv[campo][valor] = !equipacionConv[campo][valor];
+        pintarEntrenador();
+      });
+    });
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".convocado-check"), function (chk) {
+      chk.addEventListener("change", function () {
+        var id = chk.getAttribute("data-id");
+        if (chk.checked) convocadosSel[id] = true; else delete convocadosSel[id];
+        actualizarBarraEntrenador();
+        // Solo se actualiza el contador, sin repintar toda la lista (se perdería el scroll).
+        var n = Object.keys(convocadosSel).length;
+        var contador = elMensaje.querySelector(".convocados-contador");
+        if (contador) contador.textContent = n + " convocado" + (n === 1 ? "" : "s") + " seleccionado" + (n === 1 ? "" : "s");
+      });
+    });
+
+    wireCuerpoTecnicoAdmin();
+    actualizarBarraEntrenador();
+  }
+
+  // ---------------------------------------------------------------------
+  // Plantilla (y su panel de administrador)
+  // ---------------------------------------------------------------------
+  // `id` es el identificador ESTABLE de cada jugador: para los que trae la web, su nombre tal
+  // cual lo publica (así se sabe siempre a quién corresponde un cambio manual, aunque luego se
+  // le corrija el nombre); para los añadidos a mano, el nombre que se escribió al darlos de
+  // alta. El nombre MOSTRADO (j.nombre) puede cambiar con el tiempo si se corrige desde el
+  // panel de administrador, pero `id` no cambia nunca: es la clave con la que se guardan sus
+  // cambios en overridesPlantilla, y por tanto en plantilla_manual.json.
+  function plantillaFusionada() {
+    var base = (datos && datos.plantilla) || [];
+    var lista = base.map(function (j) {
+      return { id: j.nombre, dorsal: j.dorsal, nombre: j.nombre, apodo: j.apodo || null,
+               fecha_nacimiento: j.fecha_nacimiento, foto: j.foto || null };
+    });
+    var porId = {};
+    lista.forEach(function (j) { porId[j.id] = j; });
+    Object.keys(overridesPlantilla).forEach(function (id) {
+      var o = overridesPlantilla[id];
+      var j = porId[id];
+      if (!j) {
+        j = { id: id, dorsal: null, nombre: id, apodo: null, fecha_nacimiento: null, foto: null };
+        lista.push(j); porId[id] = j;
+      }
+      if (o.nombre) j.nombre = o.nombre;
+      if (o.dorsal !== null && o.dorsal !== undefined) j.dorsal = o.dorsal;
+      if (o.apodo) j.apodo = o.apodo;
+      if (o.fecha_nacimiento) j.fecha_nacimiento = o.fecha_nacimiento;
+      if (o.foto) j.foto = o.foto;
+      if (o.eliminado) j.eliminado = true;
+    });
+    // Un jugador marcado como eliminado (salió del equipo) desaparece de la plantilla, aunque
+    // la web todavía lo esté publicando: lo manual tiene prioridad, igual que con el resto de
+    // los campos.
+    lista = lista.filter(function (j) { return !j.eliminado; });
+    lista.sort(function (a, b) {
+      var da = a.dorsal === null || a.dorsal === undefined, db = b.dorsal === null || b.dorsal === undefined;
+      if (da !== db) return da ? 1 : -1;
+      if (!da && a.dorsal !== b.dorsal) return a.dorsal - b.dorsal;
+      return a.nombre.localeCompare(b.nombre, "es");
+    });
+    return lista;
+  }
+
+  // Goles totales de cada jugador de NUESTRA plantilla, sumando el detalle de todos los
+  // resultados publicados (no viene de la web: se calcula aquí a partir de los goleadores que
+  // ya trae "detalle_resultados"). Al emparejar por nombre contra la propia plantilla, un gol
+  // mal repartido de equipo en el acta (ver golesHtml) no se cuela: si el nombre no es de un
+  // jugador nuestro, no cuenta.
+  function golesPorJugador() {
+    var contador = {};
+    (datos && datos.detalle_resultados || []).forEach(function (sab) {
+      (sab.partidos || []).forEach(function (p) {
+        (p.goles || []).forEach(function (g) {
+          var k = normNombre(g.jugador);
+          contador[k] = (contador[k] || 0) + 1;
+        });
+      });
+    });
+    return contador;
+  }
+
+  function pieAdmin() {
+    if (!adminActivo) {
+      return '<div class="admin-barra"><button type="button" class="admin-link" id="admin-abrir">Panel de administrador</button></div>';
+    }
+    return '<div class="nuevo-jugador">' +
+      '<input type="text" id="nuevo-nombre" placeholder="Nombre y apellidos del jugador nuevo">' +
+      '<button type="button" id="nuevo-anadir">Añadir</button></div>' +
+      '<button type="button" class="admin-guardar" id="admin-guardar" style="width:100%">Guardar y descargar plantilla_manual.json</button>' +
+      '<p class="admin-nota">Al guardar se descarga <code>plantilla_manual.json</code>: súbelo a la carpeta del repositorio en GitHub (sustituyendo al que hubiera) para que estos datos no se pierdan cuando la app se actualice sola.</p>' +
+      '<div class="admin-barra"><button type="button" class="admin-link" id="admin-salir">Salir del panel de administrador</button></div>';
+  }
+
+  // El botón de salir vive en el pie del panel de administrador (ver pieAdmin): pone
+  // adminActivo a false y repinta, igual que si se recargara la página entera. Sin este botón
+  // no había forma de abandonar el modo edición dentro de la misma sesión de la pestaña.
+  function activarBotonSalirAdmin() {
+    var btn = document.getElementById("admin-salir");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      adminActivo = false;
+      pintarPlantilla();
+    });
+  }
+
+  function activarBotonNuevoJugador() {
+    var btn = document.getElementById("nuevo-anadir");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var inp = document.getElementById("nuevo-nombre");
+      var nombre = (inp.value || "").trim();
+      if (!nombre) { inp.focus(); return; }
+      leerCamposPlantilla();
+      if (!overridesPlantilla[nombre]) overridesPlantilla[nombre] = { dorsal: null, apodo: null, fecha_nacimiento: null, foto: null };
+      guardarOverridesEnLocalStorage();
+      pintarPlantilla();
+      mostrarToast("Jugador añadido: pon su dorsal y fecha si quieres, y pulsa Guardar");
+    });
+  }
+
+  // Reduce el tamaño de letra de los nombres de las fichas (Plantilla y Cuerpo técnico) que no
+  // caben en dos líneas con el tamaño normal, en vez de dejar que el navegador parta la palabra
+  // por cualquier sitio (p. ej. "Rodrígue"/"z"). Se ejecuta después de pintar cada rejilla de
+  // fichas: cada ".ficha-nombre" tiene definido un alto máximo de 2 líneas (ver CSS), así que
+  // basta con ir bajando el tamaño hasta que el contenido quepa dentro de ese alto.
+  function autoAjustarFichas() {
+    var TAM_BASE = 0.88, TAM_MINIMO = 0.62, PASO = 0.03;
+    Array.prototype.forEach.call(elMensaje.querySelectorAll(".ficha-nombre"), function (el) {
+      var tam = TAM_BASE;
+      el.style.fontSize = tam + "rem";
+      var intentos = 0;
+      while (el.scrollHeight > el.clientHeight + 1 && tam > TAM_MINIMO && intentos < 30) {
+        tam -= PASO;
+        el.style.fontSize = tam + "rem";
+        intentos++;
+      }
+    });
+  }
+
+  function pintarPlantilla() {
+    elCuando.textContent = "Plantilla del equipo";
+    var lista = plantillaFusionada();
+    var goles = golesPorJugador();
+    btnCopiar.classList.add("desactivado");
+    btnWa.classList.add("desactivado");
+    btnWa.href = "#";
+    // Aunque la web todavía no dé ninguna plantilla, se sigue mostrando el acceso al panel de
+    // administrador: así se puede entrar a meterla a mano en vez de quedarse sin forma de
+    // llegar al panel solo porque el scraping no ha funcionado todavía.
+    if (!lista.length) {
+      elMensaje.innerHTML = '<p class="estado">Todavía no se ha podido leer la plantilla del equipo desde la web' +
+        (adminActivo ? '.' : '. Puedes añadirla a mano desde el panel de administrador.') + '</p>' + pieAdmin();
+      if (adminActivo) {
+        var btnG = document.getElementById("admin-guardar");
+        if (btnG) btnG.addEventListener("click", guardarPlantillaManual);
+        activarBotonNuevoJugador();
+        activarBotonSalirAdmin();
+      } else {
+        var btnA = document.getElementById("admin-abrir");
+        if (btnA) btnA.addEventListener("click", abrirModalAdmin);
+      }
+      return;
+    }
+    // Vista pública (sin sesión de administrador): rejilla de fichas tipo "cromo" -foto grande,
+    // dorsal y nombre superpuestos abajo, sin posición ni más datos-, en vez de la lista de
+    // filas con los campos de edición, que solo tiene sentido con el panel abierto.
+    if (!adminActivo) {
+      var fichas = lista.map(function (j) {
+        var fotoHtml = j.foto
+          ? '<img class="avatar-foto" src="' + j.foto + '" alt="">'
+          : '<div class="ficha-sin-foto">' + (j.dorsal !== null && j.dorsal !== undefined ? j.dorsal : "?") + "</div>";
+        return '<div class="ficha-jugador">' + fotoHtml +
+          '<div class="ficha-pie">' +
+          '<div class="ficha-dorsal">' + (j.dorsal !== null && j.dorsal !== undefined ? j.dorsal : "") + '</div>' +
+          '<div class="ficha-nombre">' + escapar(j.apodo || j.nombre) + "</div>" +
+          "</div></div>";
+      }).join("");
+      elMensaje.innerHTML = '<div class="plantilla-grid">' + fichas + "</div>" + pieAdmin();
+      var btnAbrir = document.getElementById("admin-abrir");
+      if (btnAbrir) btnAbrir.addEventListener("click", abrirModalAdmin);
+      autoAjustarFichas();
+      return;
+    }
+    var filas = lista.map(function (j, i) {
+      var avatarHtml = j.foto
+        ? '<img class="avatar-foto" src="' + j.foto + '" alt="">'
+        : (j.dorsal !== null && j.dorsal !== undefined
+            ? '<div class="dorsal">' + j.dorsal + "</div>"
+            : '<div class="dorsal sin">?</div>');
+      var nGoles = goles[normNombre(j.nombre)] || 0;
+      var golesHtmlJug = nGoles ? '<span class="goles-jugador">⚽ ' + nGoles + "</span>" : "";
+      var camposAdmin = adminActivo
+        ? '<div class="campos-admin">' +
+          '<input class="nombre-in" type="text" placeholder="Nombre y apellidos" ' +
+          'value="' + escapar(j.nombre) + '" data-id="' + escapar(j.id) + '">' +
+          '<input class="apodo-in" type="text" placeholder="Apodo (como se le conoce en el equipo, si es distinto)" ' +
+          'value="' + escapar(j.apodo || "") + '" data-id="' + escapar(j.id) + '">' +
+          '<div class="fila-campos">' +
+          '<input class="dorsal-in" type="number" min="1" max="99" inputmode="numeric" placeholder="Dorsal" ' +
+          'value="' + (j.dorsal !== null && j.dorsal !== undefined ? j.dorsal : "") + '" data-id="' + escapar(j.id) + '">' +
+          '<input class="fecha-in" type="text" placeholder="Fecha nacimiento (DD-MM-AAAA)" ' +
+          'value="' + escapar(j.fecha_nacimiento || "") + '" data-id="' + escapar(j.id) + '">' +
+          "</div></div>" +
+          '<div class="foto-admin">' +
+          '<input class="foto-in" type="file" accept="image/*" data-id="' + escapar(j.id) + '">' +
+          (j.foto ? '<button type="button" class="foto-quitar" data-id="' + escapar(j.id) + '">Quitar foto</button>' : "") +
+          "</div>" +
+          '<button type="button" class="jugador-eliminar" data-id="' + escapar(j.id) + '" ' +
+          'data-nombre-mostrado="' + escapar(j.nombre) + '">Eliminar jugador</button>'
+        : "";
+      var nombreMostrado = escapar(j.nombre) + (!adminActivo && j.apodo ? ' «' + escapar(j.apodo) + '»' : "");
+      var nacimiento = !adminActivo && j.fecha_nacimiento
+        ? '<div class="nacimiento">Nacido el ' + escapar(j.fecha_nacimiento) + "</div>" : "";
+      return '<div class="jugador">' + avatarHtml +
+        '<div class="info"><div class="nombre">' + nombreMostrado + golesHtmlJug + "</div>" + nacimiento + camposAdmin + "</div></div>";
+    }).join("");
+    elMensaje.innerHTML = '<div class="plantilla-lista">' + filas + "</div>" + pieAdmin();
+    if (adminActivo) {
+      document.getElementById("admin-guardar").addEventListener("click", guardarPlantillaManual);
+      Array.prototype.forEach.call(elMensaje.querySelectorAll(".foto-in"), function (inp) {
+        inp.addEventListener("change", function () {
+          var f = inp.files && inp.files[0];
+          if (!f) return;
+          var id = inp.getAttribute("data-id");
+          procesarFoto(f, function (dataUrl) {
+            // Antes de tocar nada hay que volcar a overridesPlantilla lo que haya escrito en
+            // TODAS las filas (no solo esta): si no, como pintarPlantilla() reconstruye la
+            // lista entera a partir de overridesPlantilla, cualquier dorsal/nombre/fecha que
+            // se hubiera escrito en otra fila sin pulsar "Guardar" todavía se perdía al subir
+            // una foto en cualquier otra fila (este era el motivo de que algunos dorsales no
+            // se guardaran).
+            leerCamposPlantilla();
+            if (!overridesPlantilla[id]) overridesPlantilla[id] = { dorsal: null, apodo: null, fecha_nacimiento: null, foto: null };
+            overridesPlantilla[id].foto = dataUrl;
+            guardarOverridesEnLocalStorage();
+            pintarPlantilla();
+          });
+        });
+      });
+      Array.prototype.forEach.call(elMensaje.querySelectorAll(".foto-quitar"), function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-id");
+          // Mismo motivo que en el cambio de foto: hay que capturar primero lo escrito en
+          // todas las filas, para no perderlo al repintar la lista.
+          leerCamposPlantilla();
+          var o = overridesPlantilla[id];
+          if (o) {
+            delete o.foto;
+            if (!o.dorsal && !o.apodo && !o.fecha_nacimiento && !o.foto && !o.nombre && !o.eliminado) delete overridesPlantilla[id];
+          }
+          guardarOverridesEnLocalStorage();
+          pintarPlantilla();
+        });
+      });
+      // Eliminar jugador: se marca con "eliminado" en vez de borrarse sin más, para que
+      // plantillaFusionada() lo quite de la lista (aunque la web lo siga publicando) y para que
+      // esa baja se guarde igual que cualquier otro cambio manual, al pulsar "Guardar".
+      Array.prototype.forEach.call(elMensaje.querySelectorAll(".jugador-eliminar"), function (btn) {
+        btn.addEventListener("click", function () {
+          var id = btn.getAttribute("data-id");
+          var nombreMostrado = btn.getAttribute("data-nombre-mostrado") || id;
+          if (!window.confirm("¿Eliminar a " + nombreMostrado + " de la plantilla?\n\nNo se aplicará de verdad hasta que pulses \"Guardar y descargar plantilla_manual.json\" y subas el archivo al repositorio.")) return;
+          leerCamposPlantilla();
+          if (!overridesPlantilla[id]) overridesPlantilla[id] = { dorsal: null, apodo: null, fecha_nacimiento: null, foto: null };
+          overridesPlantilla[id].eliminado = true;
+          guardarOverridesEnLocalStorage();
+          pintarPlantilla();
+          mostrarToast("Jugador marcado para eliminar: pulsa Guardar y descargar para que se aplique de verdad");
+        });
+      });
+      activarBotonNuevoJugador();
+      activarBotonSalirAdmin();
+    } else {
+      document.getElementById("admin-abrir").addEventListener("click", abrirModalAdmin);
+    }
+  }
+
+  function leerCamposPlantilla() {
+    // Solo el nombre se guarda como "manual" exclusivamente cuando es DISTINTO del original:
+    // así, si se corrige el nombre, el resto de los datos manuales de ese jugador no se
+    // pierden al renombrarlo (se identifica por `id`, el nombre ORIGINAL, de la web o con el
+    // que se dio de alta a mano, que nunca cambia).
+    //
+    // Dorsal y fecha de nacimiento, en cambio, se guardan SIEMPRE como manuales en cuanto el
+    // campo tiene algo escrito, sin comparar contra "lo que ya da la web" -iba así antes, pero
+    // era un error serio: `datos.plantilla` no es la web en bruto, es la SALIDA del script, que
+    // ya lleva fusionados los datos manuales de la vez anterior. En cuanto el script se
+    // ejecutaba una vez con un dorsal o una fecha metidos a mano, esa fusión pasaba a verse
+    // igual que si la diera la propia web, así que la próxima vez que se guardaba CUALQUIER
+    // cosa desde el panel (aunque fuera la foto de otro jugador), el sistema creía que ese
+    // dato "ya lo daba la web" y dejaba de incluirlo en plantilla_manual.json -que sustituye
+    // al fichero entero- borrándolo para siempre en la siguiente ejecución automática. Esto es
+    // justo lo que le pasó a César: perdió las fechas de nacimiento de toda la plantilla (y los
+    // dorsales de los jugadores añadidos a mano) en la segunda vez que guardó, después de que
+    // el script ya hubiera incorporado la primera subida. Guardarlos siempre como manuales
+    // evita por completo ese borrado silencioso; el único coste es que si la web llegara a
+    // publicar ella misma un dorsal que ya se metió a mano, el dato manual seguiría mandando
+    // hasta que se borre el campo a propósito -aceptable en un equipo donde los dorsales casi
+    // no cambian, frente al riesgo de perder fechas de nacimiento de niños ya introducidas.
+    var webPorId = {};
+    ((datos && datos.plantilla) || []).forEach(function (j) { webPorId[j.nombre] = j; });
+    var filas = elMensaje.querySelectorAll(".jugador");
+    filas.forEach(function (fila) {
+      var inNombre = fila.querySelector(".nombre-in");
+      var inApodo = fila.querySelector(".apodo-in");
+      var inDorsal = fila.querySelector(".dorsal-in");
+      var inFecha = fila.querySelector(".fecha-in");
+      if (!inDorsal) return;
+      var id = inDorsal.getAttribute("data-id");
+      var web = webPorId[id] || {};
+      var nombreOriginal = web.nombre || id;
+      var nombreNuevo = (inNombre.value || "").trim() || nombreOriginal;
+      var dorsal = inDorsal.value.trim() ? parseInt(inDorsal.value, 10) : null;
+      var apodo = (inApodo.value || "").trim() || null;
+      var fechaNac = inFecha.value.trim() || null;
+      var nombreEsManual = nombreNuevo !== nombreOriginal;
+      var dorsalEsManual = dorsal !== null;
+      // El apodo tampoco lo da nunca la web (ver aplicar_plantilla_manual en el backend), así
+      // que aquí es manual en cuanto se escribe algo, igual que dorsal y fecha de nacimiento.
+      var apodoEsManual = apodo !== null;
+      var fechaEsManual = fechaNac !== null;
+      // La foto y la baja ("eliminado") se guardan aparte, en cuanto se elige un archivo o se
+      // confirma la baja: aquí solo se respeta lo que ya hubiera. OJO: "lo que ya hubiera" no es
+      // solo overridesPlantilla[id].foto (el borrador de ESTE navegador) -también hay que mirar
+      // la foto ya fusionada en datos.plantilla (web.foto), que es la que de verdad se ve en la
+      // fila, porque pudo haberla guardado una sesión anterior ya incorporada por el script. Si
+      // solo se mirara el override de este navegador, cualquier sesión nueva (otro día, otro
+      // dispositivo, o simplemente después de que el script ya la hubiera aplicado una vez) la
+      // exportaría como null y la foto se perdería al guardar -el mismo fallo que tenían el
+      // dorsal y la fecha de nacimiento, pero con las fotos.
+      var previo = overridesPlantilla[id] || {};
+      var fotoActual = previo.foto || web.foto || null;
+      var eliminadoActual = !!previo.eliminado;
+      if (nombreEsManual || dorsalEsManual || apodoEsManual || fechaEsManual || fotoActual || eliminadoActual) {
+        overridesPlantilla[id] = {
+          nombre: nombreEsManual ? nombreNuevo : null,
+          dorsal: dorsalEsManual ? dorsal : null,
+          apodo: apodoEsManual ? apodo : null,
+          fecha_nacimiento: fechaEsManual ? fechaNac : null,
+          foto: fotoActual,
+          eliminado: eliminadoActual,
+        };
+      } else {
+        delete overridesPlantilla[id];
+      }
+    });
+  }
+
+  // Redimensiona la foto elegida a un tamaño pequeño (para no meter fotos enormes en el JSON
+  // que luego hay que subir a GitHub) y la deja como imagen en base64, lista para guardar.
+  function procesarFoto(file, cb) {
+    var lector = new FileReader();
+    lector.onload = function () {
+      var img = new Image();
+      img.onload = function () {
+        var max = 200, w = img.width, h = img.height;
+        if (w >= h) { if (w > max) { h = Math.round(h * max / w); w = max; } }
+        else { if (h > max) { w = Math.round(w * max / h); h = max; } }
+        var canvas = document.createElement("canvas");
+        canvas.width = w;
+        canvas.height = h;
+        canvas.getContext("2d").drawImage(img, 0, 0, w, h);
+        cb(canvas.toDataURL("image/jpeg", 0.78));
+      };
+      img.src = lector.result;
+    };
+    lector.readAsDataURL(file);
+  }
+
+  function guardarOverridesEnLocalStorage() {
+    try { localStorage.setItem(CLAVE_LOCAL, JSON.stringify(overridesPlantilla)); } catch (e) {}
+  }
+
+  function cargarOverridesDeLocalStorage() {
+    try {
+      var v = localStorage.getItem(CLAVE_LOCAL);
+      if (v) overridesPlantilla = JSON.parse(v) || {};
+    } catch (e) { overridesPlantilla = {}; }
+  }
+
+  function guardarPlantillaManual() {
+    leerCamposPlantilla();
+    guardarOverridesEnLocalStorage();
+    // `nombre_original` es el `id` estable (ver plantillaFusionada): el backend lo usa para
+    // saber a qué jugador de la web corresponde cada entrada, tanto si se ha corregido el
+    // nombre como si no. Con archivos plantilla_manual.json guardados antes de esta versión
+    // (sin nombre_original) el backend sigue funcionando: usa "nombre" como identificador,
+    // igual que hacía hasta ahora.
+    var lista = Object.keys(overridesPlantilla).map(function (id) {
+      var o = overridesPlantilla[id];
+      var obj = { nombre_original: id, nombre: o.nombre || id, dorsal: o.dorsal,
+                  apodo: o.apodo, fecha_nacimiento: o.fecha_nacimiento };
+      if (o.foto) obj.foto = o.foto;
+      if (o.eliminado) obj.eliminado = true;
+      return obj;
+    });
+    var blob = new Blob([JSON.stringify(lista, null, 1)], { type: "application/json" });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "plantilla_manual.json";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function () { URL.revokeObjectURL(url); }, 2000);
+    pintarPlantilla();
+    mostrarToast("Guardado en este dispositivo y archivo descargado");
+  }
+
+  // ---------------------------------------------------------------------
+  // Panel de administrador: contraseña comprobada por hash (ver aviso).
+  //
+  // AVISO IMPORTANTE: esto NO es seguridad real. Al ser una página estática sin
+  // servidor, cualquiera que abra las herramientas de desarrollador del navegador
+  // puede ver este código y el hash, y con algo de esfuerzo, evitar la comprobación
+  // o calcular por fuerza bruta una contraseña que dé el mismo hash. Sirve solo
+  // como un cierre "no lo toques sin querer", no como una contraseña de verdad.
+  // No reutilices esta contraseña en nada importante.
+  // ---------------------------------------------------------------------
+  function sha256Hex(texto) {
+    var datosBin = new TextEncoder().encode(texto);
+    return crypto.subtle.digest("SHA-256", datosBin).then(function (buf) {
+      return Array.prototype.map.call(new Uint8Array(buf), function (b) {
+        return b.toString(16).padStart(2, "0");
+      }).join("");
+    });
+  }
+
+  function abrirModalAdmin() {
+    claveAdmin.value = "";
+    errorAdmin.textContent = "";
+    modalAdmin.hidden = false;
+    claveAdmin.focus();
+  }
+
+  function cerrarModalAdmin() {
+    modalAdmin.hidden = true;
+  }
+
+  function comprobarClave() {
+    var valor = claveAdmin.value;
+    if (!valor) return;
+    if (!(window.crypto && window.crypto.subtle)) {
+      errorAdmin.textContent = "Este navegador no permite comprobar la contraseña de forma segura.";
+      return;
+    }
+    sha256Hex(valor).then(function (hash) {
+      if (hash === HASH_ADMIN) {
+        adminActivo = true;
+        cerrarModalAdmin();
+        // El panel de administrador se usa tanto desde Plantilla como desde Noticias: se
+        // repinta lo que esté activo en ese momento, sea cual sea desde donde se ha abierto.
+        if (activa === "noticias") pintarNoticias();
+        else if (activa === "entrenador") pintarEntrenador();
+        else pintarPlantilla();
+      } else {
+        errorAdmin.textContent = "Contraseña incorrecta.";
+      }
+    });
+  }
+
+  // ---------------------------------------------------------------------
+
+  function pintar() {
+    var texto = textoActivo();
+    tabP.setAttribute("aria-selected", activa === "partidos");
+    tabR.setAttribute("aria-selected", activa === "resultados");
+    tabC.setAttribute("aria-selected", activa === "clasificacion");
+    tabPl.setAttribute("aria-selected", activa === "plantilla");
+    tabN.setAttribute("aria-selected", activa === "noticias");
+    tabE.setAttribute("aria-selected", activa === "entrenador");
+    // La barra de Copiar/WhatsApp interesa en Partidos (para enviar el aviso del próximo
+    // partido), en Resultados (para enviar el resultado ya conocido) y en Entrenador (para
+    // enviar la convocatoria ya armada); en Clasificación, Plantilla y Noticias no hay nada
+    // que compartir.
+    document.body.classList.toggle("sin-barra",
+      activa !== "partidos" && activa !== "resultados" && activa !== "entrenador");
+    elChips.hidden = activa !== "clasificacion";
+    // El día concreto ya se ve en el selector de semana de abajo: aquí, debajo del título, va
+    // solo un rótulo fijo (antes salía la misma fecha dos veces).
+    if (activa === "partidos" || activa === "resultados") {
+      elCuando.textContent = "Partidos Cadete A";
+    }
+    pintarSelectorSemanas();
+
+    if (activa === "plantilla") {
+      pintarPlantilla();
+    } else if (activa === "noticias") {
+      pintarNoticias();
+    } else if (activa === "entrenador") {
+      pintarEntrenador();
+    } else if (activa === "clasificacion") {
+      pintarClasificacion();
+      if (texto) {
+        btnCopiar.classList.remove("desactivado");
+        btnWa.classList.remove("desactivado");
+        btnWa.href = "https://wa.me/?text=" + encodeURIComponent(texto);
+      } else {
+        btnCopiar.classList.add("desactivado");
+        btnWa.classList.add("desactivado");
+        btnWa.href = "#";
+      }
+    } else if (!texto) {
+      elMensaje.innerHTML = activa === "partidos"
+        ? '<p class="estado">No hay partidos guardados para este fin de semana. La página se actualiza cada día a primera hora.</p>'
+        : '<p class="estado">No hay resultados publicados de este fin de semana. Aparecen según los va publicando la federación.</p>';
+      btnCopiar.classList.add("desactivado");
+      btnWa.classList.add("desactivado");
+      btnWa.href = "#";
+    } else {
+      elMensaje.innerHTML = mensajeHtml(texto);
+      btnCopiar.classList.remove("desactivado");
+      btnWa.classList.remove("desactivado");
+      btnWa.href = "https://wa.me/?text=" + encodeURIComponent(texto);
+    }
+
+    var avisos = [];
+    if (activa === "partidos" && datos.sin_partido && datos.sin_partido.length) {
+      avisos.push("<p>Sin partido este fin de semana:<br>" +
+        datos.sin_partido.map(escapar).join("<br>") + "</p>");
+    }
+    if (activa === "partidos" && datos.sin_calendario && datos.sin_calendario.length) {
+      avisos.push("<p>Calendario todavía sin publicar por la federación:<br>" +
+        datos.sin_calendario.map(escapar).join("<br>") + "</p>");
+    }
+    if (datos.errores && datos.errores.length) {
+      avisos.push("<p>No se han podido consultar: " + escapar(datos.errores.join(", ")) + ". Puede faltar algún dato.</p>");
+    }
+    elAviso.innerHTML = avisos.join("");
+
+    if (datos.generado) {
+      elPie.textContent = "Actualizado el " + formatoGenerado(datos.generado) +
+        ". Datos de elbalondemadrid.es (RFFM), no oficiales" +
+        (activa === "partidos" ? ": antes de desplazarte, revisa el acta del partido." : ".");
+    }
+  }
+
+  function elegir(nombre) {
+    activa = nombre;
+    if (datos) pintar();
+  }
+
+  function copiar() {
+    var texto = textoActivo();
+    if (!texto) return;
+    var aviso = function () {
+      btnCopiar.textContent = "Mensaje copiado";
+      setTimeout(function () { btnCopiar.textContent = "Copiar mensaje"; }, 2000);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(texto).then(aviso, alternativa);
+    } else {
+      alternativa();
+    }
+    function alternativa() {
+      var t = document.createElement("textarea");
+      t.value = texto;
+      t.style.position = "fixed";
+      t.style.opacity = "0";
+      document.body.appendChild(t);
+      t.select();
+      try { document.execCommand("copy"); aviso(); } catch (e) {}
+      document.body.removeChild(t);
+    }
+  }
+
+  tabP.addEventListener("click", function () { elegir("partidos"); });
+  tabR.addEventListener("click", function () { elegir("resultados"); });
+  tabC.addEventListener("click", function () { elegir("clasificacion"); });
+  tabPl.addEventListener("click", function () { elegir("plantilla"); });
+  tabN.addEventListener("click", function () { elegir("noticias"); });
+  tabE.addEventListener("click", function () { elegir("entrenador"); });
+  selSemana.addEventListener("change", function () { sel[activa] = parseInt(selSemana.value, 10); pintar(); });
+  btnAnt.addEventListener("click", function () { if (sel[activa] > 0) { sel[activa] -= 1; pintar(); } });
+  btnSig.addEventListener("click", function () { if (sel[activa] < semanas().length - 1) { sel[activa] += 1; pintar(); } });
+  elChips.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest(".chip") : null;
+    if (!b) return;
+    grupoSel = parseInt(b.getAttribute("data-i"), 10) || 0;
+    pintar();
+  });
+  btnCopiar.addEventListener("click", copiar);
+  btnAdminEntrar.addEventListener("click", comprobarClave);
+  btnAdminCancelar.addEventListener("click", cerrarModalAdmin);
+  claveAdmin.addEventListener("keydown", function (e) { if (e.key === "Enter") comprobarClave(); });
+  modalAdmin.addEventListener("click", function (e) { if (e.target === modalAdmin) cerrarModalAdmin(); });
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
+
+  var elToast = document.getElementById("toast");
+  var toastTimer = null;
+
+  function formatoGenerado(generado) {
+    var p = generado.split(" ");
+    var d = p[0].split("-");
+    return d[2] + "/" + d[1] + "/" + d[0] + " a las " + p[1];
+  }
+
+  function mostrarToast(texto) {
+    elToast.textContent = texto;
+    elToast.classList.add("visible");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { elToast.classList.remove("visible"); }, 4000);
+  }
+
+  function cargarDatos(esPrimeraVez) {
+    btnActualizar.classList.add("cargando");
+    btnActualizar.disabled = true;
+    var generadoAntes = datos && datos.generado;
+    return fetch("partidos.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function (d) {
+        datos = d;
+        sel.partidos = indiceSemana(d.desde);
+        sel.resultados = indiceSemana(d.resultados_desde);
+        if (esPrimeraVez) {
+          var dia = new Date().getDay();
+          if ((dia === 0 || dia === 1 || dia === 2) && (d.resultados || "").trim()) activa = "resultados";
+        }
+        pintar();
+        if (!esPrimeraVez) {
+          mostrarToast(generadoAntes && generadoAntes === d.generado
+            ? "Ya tenías la última versión (actualizado el " + formatoGenerado(d.generado) + ")"
+            : "Actualizado ahora mismo");
+        }
+      })
+      .catch(function () {
+        if (!datos) {
+          elMensaje.innerHTML = '<p class="estado">No se han podido cargar los partidos. Comprueba que la acción "Actualizar partidos" de GitHub se ha ejecutado al menos una vez.</p>';
+        } else {
+          mostrarToast("No se ha podido comprobar: revisa tu conexión.");
+        }
+      })
+      .then(function () {
+        btnActualizar.classList.remove("cargando");
+        btnActualizar.disabled = false;
+      });
+  }
+
+  cargarOverridesDeLocalStorage();
+  cargarNoticiasDeLocalStorage();
+  cargarCuerpoTecnicoDeLocalStorage();
+  btnActualizar.addEventListener("click", function () { cargarDatos(false); });
+  cargarDatos(true);
+})();
+</script>
+</body>
+</html>
