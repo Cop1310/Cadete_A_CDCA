@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-17 23:04",
+  "generado": "2026-10-18 00:43",
   "desde": "2026-10-17",
   "hasta": "2026-10-18",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
@@ -169,7 +169,7 @@
     },
     {
       "sabado": "2026-10-24",
-      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ E.D.M. San Blas B - *_Ciudad de los Ángeles A_*",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 25/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *10:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ E.D.M. San Blas B - *_Ciudad de los Ángeles A_*",
       "resultados": ""
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "sabado": "2026-12-12",
-      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 11_\n📍 Campo: IDB. Camino de la Suerte - Antiguo Mar Abierto\n⚽ Sport Villa de Vallecas A - *_Ciudad de los Ángeles A_*",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 11_\n📍 Campo: Ciudad Dptva. Fund. Rayo Vallecano 2\n⚽ Sport Villa de Vallecas A - *_Ciudad de los Ángeles A_*",
       "resultados": ""
     },
     {
@@ -785,7 +785,7 @@
       "sabado": "2026-10-24",
       "partidos": [
         {
-          "fecha": "2026-10-24",
+          "fecha": "2026-10-25",
           "grupo": "Preferente Cadete Grupo 5",
           "jornada": 5,
           "local": "E.D.M. San Blas B",

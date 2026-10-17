@@ -256,7 +256,7 @@
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
     "actual": 4,
     "cursor": null,
-    "fecha": "2026-10-12",
+    "fecha": "2026-10-18",
     "total": 30
    }
   },
@@ -616,9 +616,9 @@
    "campo": "MUNICIPAL SAN BLAS 1 (HA)",
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
-   "fecha": "2026-10-24",
+   "fecha": "2026-10-25",
    "grupo": "Preferente Cadete Grupo 5",
-   "hora": null,
+   "hora": "10:00",
    "jornada": 5,
    "local": [
     "1764",
@@ -739,7 +739,7 @@
   },
   "5594944": {
    "acta": "https://www.elbalondemadrid.es/acta/5594944?temporada=22&competicion=26737742&grupo=26737747",
-   "campo": "IDB CAMINO DE LA SUERTE - ANTIGUO MAR ABIERTO (HA)",
+   "campo": "CIUDAD DPTVA. FUND. RAYO VALLECANO 2 (HA)",
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "fecha": "2026-12-12",
