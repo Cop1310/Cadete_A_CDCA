@@ -1,11 +1,11 @@
 {
-  "generado": "2026-10-17 18:22",
+  "generado": "2026-10-17 20:16",
   "desde": "2026-10-17",
   "hasta": "2026-10-18",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
   "resultados_desde": "2026-10-17",
   "resultados_hasta": "2026-10-18",
-  "resultados": "",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n🔴 *_Union Deportiva la Poveda A_* — *1*",
   "sin_partido": [],
   "sin_calendario": [],
   "errores": [],
@@ -165,7 +165,7 @@
     {
       "sabado": "2026-10-17",
       "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
-      "resultados": ""
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n🔴 *_Union Deportiva la Poveda A_* — *1*"
     },
     {
       "sabado": "2026-10-24",
@@ -601,7 +601,23 @@
     },
     {
       "sabado": "2026-10-17",
-      "partidos": []
+      "partidos": [
+        {
+          "fecha": "2026-10-17",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 4,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Union Deportiva la Poveda A",
+          "escudo_local": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
+          "resultado": [
+            2,
+            1
+          ],
+          "goles": [],
+          "tarjetas": []
+        }
+      ]
     },
     {
       "sabado": "2026-10-24",
@@ -1141,17 +1157,32 @@
           "nombre": "Arganda A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-          "pj": 3,
-          "g": 3,
+          "pj": 4,
+          "g": 4,
           "e": 0,
           "p": 0,
-          "gf": 9,
+          "gf": 14,
           "gc": 5,
-          "dg": 4,
-          "pts": 9
+          "dg": 9,
+          "pts": 12
         },
         {
           "pos": 2,
+          "id": "4928637",
+          "nombre": "Rivas Futbol Club C",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
+          "pj": 4,
+          "g": 3,
+          "e": 1,
+          "p": 0,
+          "gf": 14,
+          "gc": 5,
+          "dg": 9,
+          "pts": 10
+        },
+        {
+          "pos": 3,
           "id": "2274952",
           "nombre": "E.D. Moratalaz C",
           "nuestro": false,
@@ -1166,7 +1197,7 @@
           "pts": 8
         },
         {
-          "pos": 3,
+          "pos": 4,
           "id": "2785",
           "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
           "nuestro": false,
@@ -1181,37 +1212,52 @@
           "pts": 7
         },
         {
-          "pos": 4,
-          "id": "4928637",
-          "nombre": "Rivas Futbol Club C",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
-          "pj": 3,
+          "pos": 5,
+          "id": "8961562",
+          "nombre": "Ciudad de los Ángeles A",
+          "nuestro": true,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "pj": 4,
           "g": 2,
           "e": 1,
-          "p": 0,
-          "gf": 10,
-          "gc": 5,
-          "dg": 5,
+          "p": 1,
+          "gf": 11,
+          "gc": 9,
+          "dg": 2,
           "pts": 7
         },
         {
-          "pos": 5,
+          "pos": 6,
+          "id": "526134",
+          "nombre": "Esc. Mun. Fut. Villarejo A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+          "pj": 4,
+          "g": 2,
+          "e": 1,
+          "p": 1,
+          "gf": 8,
+          "gc": 7,
+          "dg": 1,
+          "pts": 7
+        },
+        {
+          "pos": 7,
           "id": "761461",
           "nombre": "Fundacion Rayo Vallecano C",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
-          "pj": 3,
+          "pj": 4,
           "g": 2,
           "e": 0,
-          "p": 1,
-          "gf": 5,
-          "gc": 3,
-          "dg": 2,
+          "p": 2,
+          "gf": 6,
+          "gc": 5,
+          "dg": 1,
           "pts": 6
         },
         {
-          "pos": 6,
+          "pos": 8,
           "id": "1964",
           "nombre": "Nuevo Baztan A",
           "nuestro": false,
@@ -1226,7 +1272,7 @@
           "pts": 6
         },
         {
-          "pos": 7,
+          "pos": 9,
           "id": "1764",
           "nombre": "E.D.M. San Blas B",
           "nuestro": false,
@@ -1239,36 +1285,6 @@
           "gc": 8,
           "dg": 0,
           "pts": 6
-        },
-        {
-          "pos": 8,
-          "id": "8961562",
-          "nombre": "Ciudad de los Ángeles A",
-          "nuestro": true,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
-          "pj": 3,
-          "g": 1,
-          "e": 1,
-          "p": 1,
-          "gf": 9,
-          "gc": 8,
-          "dg": 1,
-          "pts": 4
-        },
-        {
-          "pos": 9,
-          "id": "526134",
-          "nombre": "Esc. Mun. Fut. Villarejo A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
-          "pj": 3,
-          "g": 1,
-          "e": 1,
-          "p": 1,
-          "gf": 6,
-          "gc": 6,
-          "dg": 0,
-          "pts": 4
         },
         {
           "pos": 10,
@@ -1321,13 +1337,13 @@
           "nombre": "Racing de Villaverde B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
-          "pj": 3,
+          "pj": 4,
           "g": 1,
           "e": 0,
-          "p": 2,
+          "p": 3,
           "gf": 3,
-          "gc": 6,
-          "dg": -3,
+          "gc": 11,
+          "dg": -8,
           "pts": 3
         },
         {
@@ -1351,13 +1367,13 @@
           "nombre": "Union Deportiva la Poveda A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-          "pj": 3,
+          "pj": 4,
           "g": 0,
           "e": 1,
-          "p": 2,
-          "gf": 4,
-          "gc": 11,
-          "dg": -7,
+          "p": 3,
+          "gf": 5,
+          "gc": 13,
+          "dg": -8,
           "pts": 1
         },
         {
@@ -1366,13 +1382,13 @@
           "nombre": "Union Deportiva Arganzuela B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-          "pj": 3,
+          "pj": 4,
           "g": 0,
           "e": 0,
-          "p": 3,
+          "p": 4,
           "gf": 4,
-          "gc": 9,
-          "dg": -5,
+          "gc": 13,
+          "dg": -9,
           "pts": 0
         }
       ],
