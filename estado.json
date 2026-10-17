@@ -18,6 +18,21 @@
      "pts": 9
     },
     {
+     "dg": 3,
+     "e": 2,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
+     "g": 2,
+     "gc": 6,
+     "gf": 9,
+     "id": "2274952",
+     "nombre": "E.D. Moratalaz C",
+     "nuestro": false,
+     "p": 0,
+     "pj": 4,
+     "pos": 2,
+     "pts": 8
+    },
+    {
      "dg": 6,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
@@ -29,7 +44,7 @@
      "nuestro": false,
      "p": 0,
      "pj": 3,
-     "pos": 2,
+     "pos": 3,
      "pts": 7
     },
     {
@@ -41,21 +56,6 @@
      "gf": 10,
      "id": "4928637",
      "nombre": "Rivas Futbol Club C",
-     "nuestro": false,
-     "p": 0,
-     "pj": 3,
-     "pos": 3,
-     "pts": 7
-    },
-    {
-     "dg": 3,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
-     "g": 2,
-     "gc": 4,
-     "gf": 7,
-     "id": "2274952",
-     "nombre": "E.D. Moratalaz C",
      "nuestro": false,
      "p": 0,
      "pj": 3,
@@ -93,6 +93,21 @@
      "pts": 6
     },
     {
+     "dg": 0,
+     "e": 0,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
+     "g": 2,
+     "gc": 8,
+     "gf": 8,
+     "id": "1764",
+     "nombre": "E.D.M. San Blas B",
+     "nuestro": false,
+     "p": 2,
+     "pj": 4,
+     "pos": 7,
+     "pts": 6
+    },
+    {
      "dg": 1,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
@@ -104,7 +119,7 @@
      "nuestro": true,
      "p": 1,
      "pj": 3,
-     "pos": 7,
+     "pos": 8,
      "pts": 4
     },
     {
@@ -119,7 +134,7 @@
      "nuestro": false,
      "p": 1,
      "pj": 3,
-     "pos": 8,
+     "pos": 9,
      "pts": 4
     },
     {
@@ -134,36 +149,21 @@
      "nuestro": false,
      "p": 1,
      "pj": 3,
-     "pos": 9,
+     "pos": 10,
      "pts": 4
     },
     {
-     "dg": 1,
+     "dg": 0,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
      "g": 1,
-     "gc": 7,
-     "gf": 8,
+     "gc": 9,
+     "gf": 9,
      "id": "690",
      "nombre": "Coslada B",
      "nuestro": false,
-     "p": 2,
-     "pj": 3,
-     "pos": 10,
-     "pts": 3
-    },
-    {
-     "dg": -1,
-     "e": 0,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
-     "g": 1,
-     "gc": 7,
-     "gf": 6,
-     "id": "1764",
-     "nombre": "E.D.M. San Blas B",
-     "nuestro": false,
-     "p": 2,
-     "pj": 3,
+     "p": 3,
+     "pj": 4,
      "pos": 11,
      "pts": 3
     },
@@ -199,18 +199,18 @@
     },
     {
      "dg": -4,
-     "e": 1,
+     "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
      "g": 0,
-     "gc": 9,
-     "gf": 5,
+     "gc": 11,
+     "gf": 7,
      "id": "2806",
      "nombre": "Parque Sureste A",
      "nuestro": false,
      "p": 2,
-     "pj": 3,
+     "pj": 4,
      "pos": 14,
-     "pts": 1
+     "pts": 2
     },
     {
      "dg": -7,
