@@ -9,9 +9,9 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Infantil A CDCA">
+<meta name="apple-mobile-web-app-title" content="Cadete A CDCA">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<title>Infantil A · CD Ciudad de los Ángeles</title>
+<title>Cadete A · CD Ciudad de los Ángeles</title>
 <style>
   :root {
     --tinta: #141414;
@@ -379,8 +379,8 @@
 <main>
   <header class="cabecera">
     <img class="escudo" src="escudo.png" alt="Escudo del C.D. Ciudad de los Ángeles" width="70" height="100">
-    <h1>Infantil A</h1>
-    <p class="subtitulo">C.D. Ciudad de los Ángeles · Preferente Infantil Grupo 5</p>
+    <h1>Cadete A</h1>
+    <p class="subtitulo">C.D. Ciudad de los Ángeles · Preferente Cadete Grupo 5</p>
     <div class="fila-cuando">
       <p class="cuando" id="cuando">Cargando…</p>
       <button type="button" id="actualizar" aria-label="Actualizar partidos" title="Actualizar">⟳</button>
@@ -453,14 +453,14 @@
   var motivacionalConv = "";
   var recordatorioConv = "";
   var HASH_ADMIN = "8e051b489ca542b1b8db91382956fca4e6bcfe1850880d8f85d4c3a61c72f8d6"; // ver aviso más abajo
-  var CLAVE_LOCAL = "infantil_a_plantilla_manual";
-  var CLAVE_LOCAL_NOTICIAS = "infantil_a_noticias_manual";
+  var CLAVE_LOCAL = "cadete_a_plantilla_manual";
+  var CLAVE_LOCAL_NOTICIAS = "cadete_a_noticias_manual";
   // Cuerpo técnico (pestaña "Cuerpo técnico", antes "Entrenador"): entrenador, ayudantes,
   // preparador físico, delegado... metidos siempre a mano, sin ninguna web de la que venir
   // -por eso se edita como una lista propia en este navegador (igual que noticiasManuales),
   // no como "overrides" sobre una lista de la web (como overridesPlantilla).
   var cuerpoTecnicoLocal = [];   // [{id, nombre, puesto, fecha_nacimiento, foto}]
-  var CLAVE_LOCAL_CUERPO_TECNICO = "infantil_a_cuerpo_tecnico_manual";
+  var CLAVE_LOCAL_CUERPO_TECNICO = "cadete_a_cuerpo_tecnico_manual";
   var PUESTOS_CUERPO_TECNICO = ["Entrenador", "Ayudante de entrenador", "Preparador físico", "Delegado"];
 
   var elMensaje = document.getElementById("mensaje");
@@ -1870,7 +1870,7 @@
     // El día concreto ya se ve en el selector de semana de abajo: aquí, debajo del título, va
     // solo un rótulo fijo (antes salía la misma fecha dos veces).
     if (activa === "partidos" || activa === "resultados") {
-      elCuando.textContent = "Partidos Infantil A";
+      elCuando.textContent = "Partidos Cadete A";
     }
     pintarSelectorSemanas();
 
