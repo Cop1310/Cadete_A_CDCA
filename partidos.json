@@ -1,11 +1,11 @@
 {
-  "generado": "2026-10-18 11:31",
+  "generado": "2026-10-18 15:00",
   "desde": "2026-10-17",
   "hasta": "2026-10-18",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
   "resultados_desde": "2026-10-17",
   "resultados_hasta": "2026-10-18",
-  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n🔴 *_Union Deportiva la Poveda A_* — *1*",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n⚽ 2' GUILLERMO GARCIA LOPEZ\n⚽ 21' NICOLAS SANCHEZ DOMINGUEZ\n🟨 72' ALVARO MARQUEZ MONTERO\n🟨 80' ALEJANDRO MARTÍNEZ ACOSTA\n🟨 80' YERAI RODRÍGUEZ PEREIRA\n🔴 *_Union Deportiva la Poveda A_* — *1*\n⚽ 31' JAVIER GONZALEZ GINES\n🟨 52' IVAN ALVAREZ LANCHA\n🟨 72' JAVIER GONZALEZ GINES\n🟨 80' ALEX SEREMET",
   "sin_partido": [],
   "sin_calendario": [],
   "errores": [],
@@ -165,7 +165,7 @@
     {
       "sabado": "2026-10-17",
       "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(15º)* Union Deportiva la Poveda A",
-      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n🔴 *_Union Deportiva la Poveda A_* — *1*"
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n⚽ 2' GUILLERMO GARCIA LOPEZ\n⚽ 21' NICOLAS SANCHEZ DOMINGUEZ\n🟨 72' ALVARO MARQUEZ MONTERO\n🟨 80' ALEJANDRO MARTÍNEZ ACOSTA\n🟨 80' YERAI RODRÍGUEZ PEREIRA\n🔴 *_Union Deportiva la Poveda A_* — *1*\n⚽ 31' JAVIER GONZALEZ GINES\n🟨 52' IVAN ALVAREZ LANCHA\n🟨 72' JAVIER GONZALEZ GINES\n🟨 80' ALEX SEREMET"
     },
     {
       "sabado": "2026-10-24",
@@ -614,8 +614,76 @@
             2,
             1
           ],
-          "goles": [],
-          "tarjetas": []
+          "goles": [
+            {
+              "minuto": 2,
+              "jugador": "GUILLERMO GARCIA LOPEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 21,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 31,
+              "jugador": "JAVIER GONZALEZ GINES",
+              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 72,
+              "jugador": "ALVARO MARQUEZ MONTERO",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 80,
+              "jugador": "ALEJANDRO MARTÍNEZ ACOSTA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 80,
+              "jugador": "YERAI RODRÍGUEZ PEREIRA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 52,
+              "jugador": "IVAN ALVAREZ LANCHA",
+              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 72,
+              "jugador": "JAVIER GONZALEZ GINES",
+              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 80,
+              "jugador": "ALEX SEREMET",
+              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
         }
       ]
     },
@@ -1183,6 +1251,21 @@
         },
         {
           "pos": 3,
+          "id": "2785",
+          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+          "pj": 4,
+          "g": 3,
+          "e": 1,
+          "p": 0,
+          "gf": 12,
+          "gc": 4,
+          "dg": 8,
+          "pts": 10
+        },
+        {
+          "pos": 4,
           "id": "2274952",
           "nombre": "E.D. Moratalaz C",
           "nuestro": false,
@@ -1195,21 +1278,6 @@
           "gc": 6,
           "dg": 3,
           "pts": 8
-        },
-        {
-          "pos": 4,
-          "id": "2785",
-          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-          "pj": 3,
-          "g": 2,
-          "e": 1,
-          "p": 0,
-          "gf": 9,
-          "gc": 3,
-          "dg": 6,
-          "pts": 7
         },
         {
           "pos": 5,
@@ -1258,21 +1326,6 @@
         },
         {
           "pos": 8,
-          "id": "1964",
-          "nombre": "Nuevo Baztan A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
-          "pj": 3,
-          "g": 2,
-          "e": 0,
-          "p": 1,
-          "gf": 9,
-          "gc": 9,
-          "dg": 0,
-          "pts": 6
-        },
-        {
-          "pos": 9,
           "id": "1764",
           "nombre": "E.D.M. San Blas B",
           "nuestro": false,
@@ -1284,6 +1337,21 @@
           "gf": 8,
           "gc": 8,
           "dg": 0,
+          "pts": 6
+        },
+        {
+          "pos": 9,
+          "id": "1964",
+          "nombre": "Nuevo Baztan A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
+          "pj": 4,
+          "g": 2,
+          "e": 0,
+          "p": 2,
+          "gf": 10,
+          "gc": 12,
+          "dg": -2,
           "pts": 6
         },
         {
