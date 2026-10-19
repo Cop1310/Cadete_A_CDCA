@@ -1,8 +1,8 @@
 {
-  "generado": "2026-10-19 01:40",
+  "generado": "2026-10-19 12:42",
   "desde": "2026-10-24",
   "hasta": "2026-10-25",
-  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 25/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *10:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ E.D.M. San Blas B - *_Ciudad de los Ángeles A_*",
+  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 25/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *10:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ *(9º)* E.D.M. San Blas B - *(6º)* *_Ciudad de los Ángeles A_*",
   "resultados_desde": "2026-10-17",
   "resultados_hasta": "2026-10-18",
   "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 17/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *17:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 4_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *2*\n⚽ 2' GUILLERMO GARCIA LOPEZ\n⚽ 21' NICOLAS SANCHEZ DOMINGUEZ\n🟨 72' ALVARO MARQUEZ MONTERO\n🟨 80' ALEJANDRO MARTÍNEZ ACOSTA\n🟨 80' YERAI RODRÍGUEZ PEREIRA\n🔴 *_Union Deportiva la Poveda A_* — *1*\n⚽ 31' JAVIER GONZALEZ GINES\n🟨 52' IVAN ALVAREZ LANCHA\n🟨 72' JAVIER GONZALEZ GINES\n🟨 80' ALEX SEREMET",
@@ -169,7 +169,7 @@
     },
     {
       "sabado": "2026-10-24",
-      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 25/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *10:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ E.D.M. San Blas B - *_Ciudad de los Ángeles A_*",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 25/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *10:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ *(9º)* E.D.M. San Blas B - *(6º)* *_Ciudad de los Ángeles A_*",
       "resultados": ""
     },
     {
@@ -616,72 +616,72 @@
           ],
           "goles": [
             {
-              "minuto": 2,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "GUILLERMO GARCIA LOPEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "local",
+              "minuto": 2,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 21,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "local",
+              "minuto": 21,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 31,
-              "jugador": "JAVIER GONZALEZ GINES",
               "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "jugador": "JAVIER GONZALEZ GINES",
+              "lado": "visitante",
+              "minuto": 31,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             }
           ],
           "tarjetas": [
             {
-              "minuto": 72,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "ALVARO MARQUEZ MONTERO",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
-            },
-            {
-              "minuto": 80,
-              "jugador": "ALEJANDRO MARTÍNEZ ACOSTA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
-            },
-            {
-              "minuto": 80,
-              "jugador": "YERAI RODRÍGUEZ PEREIRA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
-            },
-            {
-              "minuto": 52,
-              "jugador": "IVAN ALVAREZ LANCHA",
-              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
-            },
-            {
+              "lado": "local",
               "minuto": 72,
-              "jugador": "JAVIER GONZALEZ GINES",
-              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "tipo": "amarilla"
             },
             {
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "ALEJANDRO MARTÍNEZ ACOSTA",
+              "lado": "local",
               "minuto": 80,
-              "jugador": "ALEX SEREMET",
+              "tipo": "amarilla"
+            },
+            {
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "YERAI RODRÍGUEZ PEREIRA",
+              "lado": "local",
+              "minuto": 80,
+              "tipo": "amarilla"
+            },
+            {
               "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "IVAN ALVAREZ LANCHA",
+              "lado": "visitante",
+              "minuto": 52,
+              "tipo": "amarilla"
+            },
+            {
+              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "jugador": "JAVIER GONZALEZ GINES",
+              "lado": "visitante",
+              "minuto": 72,
+              "tipo": "amarilla"
+            },
+            {
+              "equipo": "UNION DEPORTIVA LA POVEDA 'A'",
+              "jugador": "ALEX SEREMET",
+              "lado": "visitante",
+              "minuto": 80,
+              "tipo": "amarilla"
             }
           ]
         }

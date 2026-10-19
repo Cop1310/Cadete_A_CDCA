@@ -254,9 +254,9 @@
   "hechas": {},
   "proximas": {
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
-    "actual": 4,
+    "actual": 5,
     "cursor": null,
-    "fecha": "2026-10-18",
+    "fecha": "2026-10-19",
     "total": 30
    }
   },
@@ -694,7 +694,10 @@
     "1764",
     "E.D.M. SAN BLAS 'B'"
    ],
-   "pos": null,
+   "pos": [
+    9,
+    6
+   ],
    "resultado": null,
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
