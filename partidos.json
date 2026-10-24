@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-24 15:34",
+  "generado": "2026-10-24 18:34",
   "desde": "2026-10-24",
   "hasta": "2026-10-25",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *DOMINGO 25/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *10:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 5_\n📍 Campo: Municipal San Blas 1\n⚽ *(9º)* E.D.M. San Blas B - *(6º)* *_Ciudad de los Ángeles A_*",
@@ -1217,10 +1217,25 @@
   "clasificaciones": [
     {
       "titulo": "Preferente Cadete Grupo 5",
-      "jornada": 4,
+      "jornada": 5,
       "filas": [
         {
           "pos": 1,
+          "id": "2785",
+          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+          "pj": 5,
+          "g": 4,
+          "e": 1,
+          "p": 0,
+          "gf": 16,
+          "gc": 4,
+          "dg": 12,
+          "pts": 13
+        },
+        {
+          "pos": 2,
           "id": "4920195",
           "nombre": "Arganda A",
           "nuestro": false,
@@ -1235,7 +1250,7 @@
           "pts": 12
         },
         {
-          "pos": 2,
+          "pos": 3,
           "id": "4928637",
           "nombre": "Rivas Futbol Club C",
           "nuestro": false,
@@ -1247,21 +1262,6 @@
           "gf": 14,
           "gc": 5,
           "dg": 9,
-          "pts": 10
-        },
-        {
-          "pos": 3,
-          "id": "2785",
-          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-          "pj": 4,
-          "g": 3,
-          "e": 1,
-          "p": 0,
-          "gf": 12,
-          "gc": 4,
-          "dg": 8,
           "pts": 10
         },
         {
@@ -1386,6 +1386,21 @@
         },
         {
           "pos": 12,
+          "id": "2806",
+          "nombre": "Parque Sureste A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+          "pj": 5,
+          "g": 0,
+          "e": 3,
+          "p": 2,
+          "gf": 8,
+          "gc": 12,
+          "dg": -4,
+          "pts": 3
+        },
+        {
+          "pos": 13,
           "id": "1689",
           "nombre": "Adepo Palomeras A",
           "nuestro": false,
@@ -1400,7 +1415,7 @@
           "pts": 3
         },
         {
-          "pos": 13,
+          "pos": 14,
           "id": "10652335",
           "nombre": "Racing de Villaverde B",
           "nuestro": false,
@@ -1415,49 +1430,34 @@
           "pts": 3
         },
         {
-          "pos": 14,
-          "id": "2806",
-          "nombre": "Parque Sureste A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
-          "pj": 4,
-          "g": 0,
-          "e": 2,
-          "p": 2,
-          "gf": 7,
-          "gc": 11,
-          "dg": -4,
-          "pts": 2
-        },
-        {
           "pos": 15,
-          "id": "301080",
-          "nombre": "Union Deportiva la Poveda A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-          "pj": 4,
-          "g": 0,
-          "e": 1,
-          "p": 3,
-          "gf": 5,
-          "gc": 13,
-          "dg": -8,
-          "pts": 1
-        },
-        {
-          "pos": 16,
           "id": "24235806",
           "nombre": "Union Deportiva Arganzuela B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-          "pj": 4,
+          "pj": 5,
           "g": 0,
-          "e": 0,
+          "e": 1,
           "p": 4,
-          "gf": 4,
-          "gc": 13,
+          "gf": 5,
+          "gc": 14,
           "dg": -9,
-          "pts": 0
+          "pts": 1
+        },
+        {
+          "pos": 16,
+          "id": "301080",
+          "nombre": "Union Deportiva la Poveda A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
+          "pj": 5,
+          "g": 0,
+          "e": 1,
+          "p": 4,
+          "gf": 5,
+          "gc": 17,
+          "dg": -12,
+          "pts": 1
         }
       ],
       "equipo": "Ciudad de los Ángeles A"

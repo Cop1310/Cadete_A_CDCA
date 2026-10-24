@@ -3,6 +3,21 @@
   "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
    "filas": [
     {
+     "dg": 12,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+     "g": 4,
+     "gc": 4,
+     "gf": 16,
+     "id": "2785",
+     "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
+     "nuestro": false,
+     "p": 0,
+     "pj": 5,
+     "pos": 1,
+     "pts": 13
+    },
+    {
      "dg": 9,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
@@ -14,7 +29,7 @@
      "nuestro": false,
      "p": 0,
      "pj": 4,
-     "pos": 1,
+     "pos": 2,
      "pts": 12
     },
     {
@@ -26,21 +41,6 @@
      "gf": 14,
      "id": "4928637",
      "nombre": "Rivas Futbol Club C",
-     "nuestro": false,
-     "p": 0,
-     "pj": 4,
-     "pos": 2,
-     "pts": 10
-    },
-    {
-     "dg": 8,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-     "g": 3,
-     "gc": 4,
-     "gf": 12,
-     "id": "2785",
-     "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
      "nuestro": false,
      "p": 0,
      "pj": 4,
@@ -168,6 +168,21 @@
      "pts": 3
     },
     {
+     "dg": -4,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+     "g": 0,
+     "gc": 12,
+     "gf": 8,
+     "id": "2806",
+     "nombre": "Parque Sureste A",
+     "nuestro": false,
+     "p": 2,
+     "pj": 5,
+     "pos": 12,
+     "pts": 3
+    },
+    {
      "dg": -7,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258054_adepo.png",
@@ -179,7 +194,7 @@
      "nuestro": false,
      "p": 3,
      "pj": 4,
-     "pos": 12,
+     "pos": 13,
      "pts": 3
     },
     {
@@ -194,56 +209,41 @@
      "nuestro": false,
      "p": 3,
      "pj": 4,
-     "pos": 13,
+     "pos": 14,
      "pts": 3
     },
     {
-     "dg": -4,
-     "e": 2,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
-     "g": 0,
-     "gc": 11,
-     "gf": 7,
-     "id": "2806",
-     "nombre": "Parque Sureste A",
-     "nuestro": false,
-     "p": 2,
-     "pj": 4,
-     "pos": 14,
-     "pts": 2
-    },
-    {
-     "dg": -8,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-     "g": 0,
-     "gc": 13,
-     "gf": 5,
-     "id": "301080",
-     "nombre": "Union Deportiva la Poveda A",
-     "nuestro": false,
-     "p": 3,
-     "pj": 4,
-     "pos": 15,
-     "pts": 1
-    },
-    {
      "dg": -9,
-     "e": 0,
+     "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
      "g": 0,
-     "gc": 13,
-     "gf": 4,
+     "gc": 14,
+     "gf": 5,
      "id": "24235806",
      "nombre": "Union Deportiva Arganzuela B",
      "nuestro": false,
      "p": 4,
-     "pj": 4,
+     "pj": 5,
+     "pos": 15,
+     "pts": 1
+    },
+    {
+     "dg": -12,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
+     "g": 0,
+     "gc": 17,
+     "gf": 5,
+     "id": "301080",
+     "nombre": "Union Deportiva la Poveda A",
+     "nuestro": false,
+     "p": 4,
+     "pj": 5,
      "pos": 16,
-     "pts": 0
+     "pts": 1
     }
    ],
-   "jornada": 4,
+   "jornada": 5,
    "titulo": "Preferente Cadete Grupo 5"
   }
  },
