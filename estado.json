@@ -3,21 +3,6 @@
   "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
    "filas": [
     {
-     "dg": 11,
-     "e": 0,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-     "g": 5,
-     "gc": 7,
-     "gf": 18,
-     "id": "4920195",
-     "nombre": "Arganda A",
-     "nuestro": false,
-     "p": 0,
-     "pj": 5,
-     "pos": 1,
-     "pts": 15
-    },
-    {
      "dg": 13,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
@@ -29,7 +14,7 @@
      "nuestro": false,
      "p": 0,
      "pj": 5,
-     "pos": 2,
+     "pos": 1,
      "pts": 13
     },
     {
@@ -44,8 +29,38 @@
      "nuestro": false,
      "p": 0,
      "pj": 5,
-     "pos": 3,
+     "pos": 2,
      "pts": 13
+    },
+    {
+     "dg": 9,
+     "e": 0,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
+     "g": 4,
+     "gc": 5,
+     "gf": 14,
+     "id": "4920195",
+     "nombre": "Arganda A",
+     "nuestro": false,
+     "p": 0,
+     "pj": 4,
+     "pos": 3,
+     "pts": 12
+    },
+    {
+     "dg": 8,
+     "e": 2,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
+     "g": 3,
+     "gc": 6,
+     "gf": 14,
+     "id": "2274952",
+     "nombre": "E.D. Moratalaz C",
+     "nuestro": false,
+     "p": 0,
+     "pj": 5,
+     "pos": 4,
+     "pts": 11
     },
     {
      "dg": 2,
@@ -59,36 +74,21 @@
      "nuestro": false,
      "p": 2,
      "pj": 5,
-     "pos": 4,
+     "pos": 5,
      "pts": 9
     },
     {
-     "dg": 3,
-     "e": 2,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
-     "g": 2,
-     "gc": 6,
-     "gf": 9,
-     "id": "2274952",
-     "nombre": "E.D. Moratalaz C",
-     "nuestro": false,
-     "p": 0,
-     "pj": 4,
-     "pos": 5,
-     "pts": 8
-    },
-    {
-     "dg": 3,
+     "dg": 5,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
      "g": 2,
-     "gc": 13,
-     "gf": 16,
+     "gc": 9,
+     "gf": 14,
      "id": "877423",
      "nombre": "Sport Villa de Vallecas A",
      "nuestro": false,
-     "p": 2,
-     "pj": 5,
+     "p": 1,
+     "pj": 4,
      "pos": 6,
      "pts": 7
     },
@@ -183,21 +183,6 @@
      "pts": 6
     },
     {
-     "dg": 0,
-     "e": 0,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
-     "g": 1,
-     "gc": 9,
-     "gf": 9,
-     "id": "690",
-     "nombre": "Coslada B",
-     "nuestro": false,
-     "p": 3,
-     "pj": 4,
-     "pos": 13,
-     "pts": 3
-    },
-    {
      "dg": -4,
      "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
@@ -208,6 +193,21 @@
      "nombre": "Parque Sureste A",
      "nuestro": false,
      "p": 2,
+     "pj": 5,
+     "pos": 13,
+     "pts": 3
+    },
+    {
+     "dg": -5,
+     "e": 0,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
+     "g": 1,
+     "gc": 14,
+     "gf": 9,
+     "id": "690",
+     "nombre": "Coslada B",
+     "nuestro": false,
+     "p": 4,
      "pj": 5,
      "pos": 14,
      "pts": 3
