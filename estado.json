@@ -48,6 +48,21 @@
      "pts": 13
     },
     {
+     "dg": 2,
+     "e": 0,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
+     "g": 3,
+     "gc": 9,
+     "gf": 11,
+     "id": "1764",
+     "nombre": "E.D.M. San Blas B",
+     "nuestro": false,
+     "p": 2,
+     "pj": 5,
+     "pos": 4,
+     "pts": 9
+    },
+    {
      "dg": 3,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
@@ -59,7 +74,7 @@
      "nuestro": false,
      "p": 0,
      "pj": 4,
-     "pos": 4,
+     "pos": 5,
      "pts": 8
     },
     {
@@ -74,22 +89,22 @@
      "nuestro": false,
      "p": 2,
      "pj": 5,
-     "pos": 5,
+     "pos": 6,
      "pts": 7
     },
     {
-     "dg": 2,
+     "dg": 0,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
      "g": 2,
-     "gc": 9,
-     "gf": 11,
+     "gc": 12,
+     "gf": 12,
      "id": "8961562",
      "nombre": "Ciudad de los Ángeles A",
      "nuestro": true,
-     "p": 1,
-     "pj": 4,
-     "pos": 6,
+     "p": 2,
+     "pj": 5,
+     "pos": 7,
      "pts": 7
     },
     {
@@ -104,7 +119,7 @@
      "nuestro": false,
      "p": 2,
      "pj": 5,
-     "pos": 7,
+     "pos": 8,
      "pts": 7
     },
     {
@@ -119,21 +134,6 @@
      "nuestro": false,
      "p": 3,
      "pj": 5,
-     "pos": 8,
-     "pts": 6
-    },
-    {
-     "dg": 0,
-     "e": 0,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
-     "g": 2,
-     "gc": 8,
-     "gf": 8,
-     "id": "1764",
-     "nombre": "E.D.M. San Blas B",
-     "nuestro": false,
-     "p": 2,
-     "pj": 4,
      "pos": 9,
      "pts": 6
     },
@@ -687,6 +687,40 @@
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "fecha": "2026-10-25",
+   "goles": [
+    {
+     "equipo": "E.D.M. SAN BLAS 'B'",
+     "jugador": "MARCOS VICENTE RODRIGUEZ",
+     "lado": "local",
+     "minuto": 9,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "E.D.M. SAN BLAS 'B'",
+     "jugador": "BRUNO REGIDOR GARCIA",
+     "lado": "local",
+     "minuto": 34,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "E.D.M. SAN BLAS 'B'",
+     "jugador": "BRUNO REGIDOR GARCIA",
+     "lado": "local",
+     "minuto": 79,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "GUILLERMO GARCIA LOPEZ",
+     "lado": "visitante",
+     "minuto": 36,
+     "penalti": false,
+     "propia": false
+    }
+   ],
    "grupo": "Preferente Cadete Grupo 5",
    "hora": "10:00",
    "jornada": 5,
@@ -698,7 +732,47 @@
     9,
     6
    ],
-   "resultado": null,
+   "resultado": [
+    3,
+    1
+   ],
+   "tarjetas": [
+    {
+     "equipo": "E.D.M. SAN BLAS 'B'",
+     "jugador": "ROMAN ALONSO PUERTAS",
+     "lado": "local",
+     "minuto": 17,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "E.D.M. SAN BLAS 'B'",
+     "jugador": "ALEJANDRO ABAD GARCIA",
+     "lado": "local",
+     "minuto": 35,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "E.D.M. SAN BLAS 'B'",
+     "jugador": "MARCOS BARRANTES GRANDIA",
+     "lado": "local",
+     "minuto": 56,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "MARIO MENCHERO VILLANUEVA",
+     "lado": "visitante",
+     "minuto": 21,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "DANIEL GUTIÉRREZ PIZARRO",
+     "lado": "visitante",
+     "minuto": 30,
+     "tipo": "amarilla"
+    }
+   ],
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
     "8961562",
