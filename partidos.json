@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-31 16:06",
+  "generado": "2026-10-31 17:02",
   "desde": "2026-10-31",
   "hasta": "2026-11-01",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(4º)* E.D. Moratalaz C",
@@ -1341,14 +1341,14 @@
           "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-          "pj": 5,
-          "g": 4,
+          "pj": 6,
+          "g": 5,
           "e": 1,
           "p": 0,
-          "gf": 16,
-          "gc": 4,
-          "dg": 12,
-          "pts": 13
+          "gf": 19,
+          "gc": 5,
+          "dg": 14,
+          "pts": 16
         },
         {
           "pos": 3,
@@ -1416,13 +1416,13 @@
           "nombre": "E.D.M. San Blas B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
-          "pj": 5,
+          "pj": 6,
           "g": 3,
           "e": 0,
-          "p": 2,
-          "gf": 11,
-          "gc": 9,
-          "dg": 2,
+          "p": 3,
+          "gf": 12,
+          "gc": 12,
+          "dg": 0,
           "pts": 9
         },
         {
@@ -1521,14 +1521,14 @@
           "nombre": "Coslada B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
-          "pj": 5,
+          "pj": 6,
           "g": 1,
-          "e": 0,
+          "e": 1,
           "p": 4,
-          "gf": 9,
-          "gc": 14,
+          "gf": 10,
+          "gc": 15,
           "dg": -5,
-          "pts": 3
+          "pts": 4
         },
         {
           "pos": 15,
@@ -1536,14 +1536,14 @@
           "nombre": "Union Deportiva Arganzuela B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-          "pj": 5,
+          "pj": 6,
           "g": 0,
-          "e": 1,
+          "e": 2,
           "p": 4,
-          "gf": 5,
-          "gc": 14,
+          "gf": 6,
+          "gc": 15,
           "dg": -9,
-          "pts": 1
+          "pts": 2
         },
         {
           "pos": 16,
