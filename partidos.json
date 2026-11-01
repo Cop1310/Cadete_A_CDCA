@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-01 02:27",
+  "generado": "2026-11-01 12:47",
   "desde": "2026-10-31",
   "hasta": "2026-11-01",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(4º)* E.D. Moratalaz C",
   "resultados_desde": "2026-10-31",
   "resultados_hasta": "2026-11-01",
-  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *3*\n🔴 *_E.D. Moratalaz C_* — *2*",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *3*\n⚽ 43' DIEGO CÓRDOBA JIMÉNEZ\n⚽ 65' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 75' NICOLAS SANCHEZ DOMINGUEZ\n🟨 39' YERAI RODRÍGUEZ PEREIRA\n🟨 53' ASIER RUBIO ALBURQUERQUE\n🟨 71' DIEGO CÓRDOBA JIMÉNEZ\n🔴 *_E.D. Moratalaz C_* — *2*\n⚽ 74' JORGE HERRANZ GARCIA\n⚽ 79' MANUEL BERNAL LLORENTE\n🟨 40' ALEJANDRO MUÑOZ BARBERO\n🟨 80' CRISTIAN DIAZ ORTEGA",
   "sin_partido": [],
   "sin_calendario": [],
   "errores": [],
@@ -175,7 +175,7 @@
     {
       "sabado": "2026-10-31",
       "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(4º)* E.D. Moratalaz C",
-      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *3*\n🔴 *_E.D. Moratalaz C_* — *2*"
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🟢 *_Ciudad de los Ángeles A_* — *3*\n⚽ 43' DIEGO CÓRDOBA JIMÉNEZ\n⚽ 65' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 75' NICOLAS SANCHEZ DOMINGUEZ\n🟨 39' YERAI RODRÍGUEZ PEREIRA\n🟨 53' ASIER RUBIO ALBURQUERQUE\n🟨 71' DIEGO CÓRDOBA JIMÉNEZ\n🔴 *_E.D. Moratalaz C_* — *2*\n⚽ 74' JORGE HERRANZ GARCIA\n⚽ 79' MANUEL BERNAL LLORENTE\n🟨 40' ALEJANDRO MUÑOZ BARBERO\n🟨 80' CRISTIAN DIAZ ORTEGA"
     },
     {
       "sabado": "2026-11-07",
@@ -791,8 +791,85 @@
             3,
             2
           ],
-          "goles": [],
-          "tarjetas": []
+          "goles": [
+            {
+              "minuto": 43,
+              "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 65,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 75,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 74,
+              "jugador": "JORGE HERRANZ GARCIA",
+              "equipo": "E.D. MORATALAZ 'C'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 79,
+              "jugador": "MANUEL BERNAL LLORENTE",
+              "equipo": "E.D. MORATALAZ 'C'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 39,
+              "jugador": "YERAI RODRÍGUEZ PEREIRA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 53,
+              "jugador": "ASIER RUBIO ALBURQUERQUE",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 71,
+              "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 40,
+              "jugador": "ALEJANDRO MUÑOZ BARBERO",
+              "equipo": "E.D. MORATALAZ 'C'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 80,
+              "jugador": "CRISTIAN DIAZ ORTEGA",
+              "equipo": "E.D. MORATALAZ 'C'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
         }
       ]
     },

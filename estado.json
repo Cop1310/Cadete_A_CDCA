@@ -785,6 +785,48 @@
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
    "fecha": "2026-10-31",
+   "goles": [
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+     "lado": "local",
+     "minuto": 43,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+     "lado": "local",
+     "minuto": 65,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+     "lado": "local",
+     "minuto": 75,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "E.D. MORATALAZ 'C'",
+     "jugador": "JORGE HERRANZ GARCIA",
+     "lado": "visitante",
+     "minuto": 74,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "E.D. MORATALAZ 'C'",
+     "jugador": "MANUEL BERNAL LLORENTE",
+     "lado": "visitante",
+     "minuto": 79,
+     "penalti": false,
+     "propia": false
+    }
+   ],
    "grupo": "Preferente Cadete Grupo 5",
    "hora": "09:00",
    "jornada": 6,
@@ -799,6 +841,43 @@
    "resultado": [
     3,
     2
+   ],
+   "tarjetas": [
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "YERAI RODRÍGUEZ PEREIRA",
+     "lado": "local",
+     "minuto": 39,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "ASIER RUBIO ALBURQUERQUE",
+     "lado": "local",
+     "minuto": 53,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+     "lado": "local",
+     "minuto": 71,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "E.D. MORATALAZ 'C'",
+     "jugador": "ALEJANDRO MUÑOZ BARBERO",
+     "lado": "visitante",
+     "minuto": 40,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "E.D. MORATALAZ 'C'",
+     "jugador": "CRISTIAN DIAZ ORTEGA",
+     "lado": "visitante",
+     "minuto": 80,
+     "tipo": "amarilla"
+    }
    ],
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
