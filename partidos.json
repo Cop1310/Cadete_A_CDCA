@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-01 12:47",
+  "generado": "2026-11-01 16:48",
   "desde": "2026-10-31",
   "hasta": "2026-11-01",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 31/10/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:00h* - Preferente Cadete Grupo 5\n📌 _Jornada 6_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(4º)* E.D. Moratalaz C",
@@ -1459,6 +1459,21 @@
         },
         {
           "pos": 5,
+          "id": "877423",
+          "nombre": "Sport Villa de Vallecas A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
+          "pj": 5,
+          "g": 3,
+          "e": 1,
+          "p": 1,
+          "gf": 19,
+          "gc": 9,
+          "dg": 10,
+          "pts": 10
+        },
+        {
+          "pos": 6,
           "id": "8961562",
           "nombre": "Ciudad de los Ángeles A",
           "nuestro": true,
@@ -1473,7 +1488,7 @@
           "pts": 10
         },
         {
-          "pos": 6,
+          "pos": 7,
           "id": "761461",
           "nombre": "Fundacion Rayo Vallecano C",
           "nuestro": false,
@@ -1488,7 +1503,7 @@
           "pts": 9
         },
         {
-          "pos": 7,
+          "pos": 8,
           "id": "1764",
           "nombre": "E.D.M. San Blas B",
           "nuestro": false,
@@ -1503,7 +1518,7 @@
           "pts": 9
         },
         {
-          "pos": 8,
+          "pos": 9,
           "id": "1964",
           "nombre": "Nuevo Baztan A",
           "nuestro": false,
@@ -1516,21 +1531,6 @@
           "gc": 16,
           "dg": -1,
           "pts": 9
-        },
-        {
-          "pos": 9,
-          "id": "877423",
-          "nombre": "Sport Villa de Vallecas A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
-          "pj": 4,
-          "g": 2,
-          "e": 1,
-          "p": 1,
-          "gf": 14,
-          "gc": 9,
-          "dg": 5,
-          "pts": 7
         },
         {
           "pos": 10,
@@ -1564,21 +1564,6 @@
         },
         {
           "pos": 12,
-          "id": "10652335",
-          "nombre": "Racing de Villaverde B",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
-          "pj": 5,
-          "g": 2,
-          "e": 0,
-          "p": 3,
-          "gf": 6,
-          "gc": 11,
-          "dg": -5,
-          "pts": 6
-        },
-        {
-          "pos": 13,
           "id": "1689",
           "nombre": "Adepo Palomeras A",
           "nuestro": false,
@@ -1590,6 +1575,21 @@
           "gf": 9,
           "gc": 17,
           "dg": -8,
+          "pts": 6
+        },
+        {
+          "pos": 13,
+          "id": "10652335",
+          "nombre": "Racing de Villaverde B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
+          "pj": 6,
+          "g": 2,
+          "e": 0,
+          "p": 4,
+          "gf": 6,
+          "gc": 16,
+          "dg": -10,
           "pts": 6
         },
         {
