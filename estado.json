@@ -254,9 +254,9 @@
   "hechas": {},
   "proximas": {
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
-    "actual": 6,
+    "actual": 7,
     "cursor": null,
-    "fecha": "2026-11-01",
+    "fecha": "2026-11-02",
     "total": 30
    }
   },
@@ -892,13 +892,16 @@
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "fecha": "2026-11-07",
    "grupo": "Preferente Cadete Grupo 5",
-   "hora": null,
+   "hora": "12:15",
    "jornada": 7,
    "local": [
     "24235806",
     "CDB UNION DEPORTIVA ARGANZUELA 'B'"
    ],
-   "pos": null,
+   "pos": [
+    15,
+    6
+   ],
    "resultado": null,
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
