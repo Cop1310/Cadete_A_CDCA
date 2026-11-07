@@ -4,7 +4,7 @@
    "filas": [
     {
      "dg": 15,
-     "e": 1,
+     "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
      "g": 5,
      "gc": 5,
@@ -13,28 +13,28 @@
      "nombre": "Rivas Futbol Club C",
      "nuestro": false,
      "p": 0,
-     "pj": 6,
+     "pj": 7,
      "pos": 1,
-     "pts": 16
+     "pts": 17
     },
     {
      "dg": 14,
-     "e": 1,
+     "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
      "g": 5,
-     "gc": 5,
-     "gf": 19,
+     "gc": 6,
+     "gf": 20,
      "id": "2785",
      "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
      "nuestro": false,
      "p": 0,
-     "pj": 6,
+     "pj": 7,
      "pos": 2,
-     "pts": 16
+     "pts": 17
     },
     {
      "dg": 7,
-     "e": 0,
+     "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
      "g": 4,
      "gc": 8,
@@ -43,24 +43,24 @@
      "nombre": "Arganda A",
      "nuestro": false,
      "p": 1,
-     "pj": 5,
+     "pj": 6,
      "pos": 3,
-     "pts": 12
+     "pts": 13
     },
     {
      "dg": 7,
-     "e": 2,
+     "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
      "g": 3,
-     "gc": 9,
-     "gf": 16,
+     "gc": 10,
+     "gf": 17,
      "id": "2274952",
      "nombre": "E.D. Moratalaz C",
      "nuestro": false,
      "p": 1,
-     "pj": 6,
+     "pj": 7,
      "pos": 4,
-     "pts": 11
+     "pts": 12
     },
     {
      "dg": 1,
@@ -93,6 +93,21 @@
      "pts": 10
     },
     {
+     "dg": -4,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+     "g": 3,
+     "gc": 15,
+     "gf": 11,
+     "id": "526134",
+     "nombre": "Esc. Mun. Fut. Villarejo A",
+     "nuestro": false,
+     "p": 3,
+     "pj": 7,
+     "pos": 7,
+     "pts": 10
+    },
+    {
      "dg": 2,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
@@ -104,7 +119,22 @@
      "nuestro": false,
      "p": 3,
      "pj": 6,
-     "pos": 7,
+     "pos": 8,
+     "pts": 9
+    },
+    {
+     "dg": 0,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+     "g": 2,
+     "gc": 14,
+     "gf": 14,
+     "id": "2806",
+     "nombre": "Parque Sureste A",
+     "nuestro": false,
+     "p": 2,
+     "pj": 7,
+     "pos": 9,
      "pts": 9
     },
     {
@@ -119,7 +149,7 @@
      "nuestro": false,
      "p": 3,
      "pj": 6,
-     "pos": 8,
+     "pos": 10,
      "pts": 9
     },
     {
@@ -134,51 +164,21 @@
      "nuestro": false,
      "p": 3,
      "pj": 6,
-     "pos": 9,
+     "pos": 11,
      "pts": 9
     },
     {
-     "dg": -5,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
-     "g": 2,
-     "gc": 14,
-     "gf": 9,
-     "id": "526134",
-     "nombre": "Esc. Mun. Fut. Villarejo A",
-     "nuestro": false,
-     "p": 3,
-     "pj": 6,
-     "pos": 10,
-     "pts": 7
-    },
-    {
-     "dg": -2,
-     "e": 3,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
-     "g": 1,
-     "gc": 13,
-     "gf": 11,
-     "id": "2806",
-     "nombre": "Parque Sureste A",
-     "nuestro": false,
-     "p": 2,
-     "pj": 6,
-     "pos": 11,
-     "pts": 6
-    },
-    {
-     "dg": -8,
+     "dg": -10,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258054_adepo.png",
      "g": 2,
-     "gc": 17,
-     "gf": 9,
+     "gc": 20,
+     "gf": 10,
      "id": "1689",
      "nombre": "Adepo Palomeras A",
      "nuestro": false,
-     "p": 4,
-     "pj": 6,
+     "p": 5,
+     "pj": 7,
      "pos": 12,
      "pts": 6
     },
@@ -198,17 +198,17 @@
      "pts": 6
     },
     {
-     "dg": -5,
+     "dg": -6,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
      "g": 1,
-     "gc": 15,
-     "gf": 10,
+     "gc": 17,
+     "gf": 11,
      "id": "690",
      "nombre": "Coslada B",
      "nuestro": false,
-     "p": 4,
-     "pj": 6,
+     "p": 5,
+     "pj": 7,
      "pos": 14,
      "pts": 4
     },
