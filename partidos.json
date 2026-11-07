@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-07 16:28",
+  "generado": "2026-11-07 18:00",
   "desde": "2026-11-07",
   "hasta": "2026-11-08",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 07/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *12:15h* - Preferente Cadete Grupo 5\n📌 _Jornada 7_\n📍 Campo: C.D.M. Marques de Samaranch\n⚽ *(15º)* Union Deportiva Arganzuela B - *(6º)* *_Ciudad de los Ángeles A_*",
   "resultados_desde": "2026-11-07",
   "resultados_hasta": "2026-11-08",
-  "resultados": "",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 07/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *12:15h* - Preferente Cadete Grupo 5\n📌 _Jornada 7_\n📍 Campo: C.D.M. Marques de Samaranch\n🟡 *_Union Deportiva Arganzuela B_* — *2*\n⚽ 17' RODRIGO ESTER LLORCA\n⚽ 52' JUAN SEBASTIAN DE AVILA GUTIERREZ\n🟨 50' AITOR GIL FERNANDEZ\n🟨 76' ALVARO SOBREVIELA HERNANDEZ\n🟡 *_Ciudad de los Ángeles A_* — *2*\n⚽ 26' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 64' DIEGO CÓRDOBA JIMÉNEZ\n🟨 30' NICOLAS SANCHEZ DOMINGUEZ\n🟨 56' YERAI RODRÍGUEZ PEREIRA\n🟨 76' JESÚS CORDOBA RAIGON\n🟨 76' HUGO CORDOBA DE DIEGO",
   "sin_partido": [],
   "sin_calendario": [],
   "errores": [],
@@ -180,7 +180,7 @@
     {
       "sabado": "2026-11-07",
       "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 07/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *12:15h* - Preferente Cadete Grupo 5\n📌 _Jornada 7_\n📍 Campo: C.D.M. Marques de Samaranch\n⚽ *(15º)* Union Deportiva Arganzuela B - *(6º)* *_Ciudad de los Ángeles A_*",
-      "resultados": ""
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 07/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *12:15h* - Preferente Cadete Grupo 5\n📌 _Jornada 7_\n📍 Campo: C.D.M. Marques de Samaranch\n🟡 *_Union Deportiva Arganzuela B_* — *2*\n⚽ 17' RODRIGO ESTER LLORCA\n⚽ 52' JUAN SEBASTIAN DE AVILA GUTIERREZ\n🟨 50' AITOR GIL FERNANDEZ\n🟨 76' ALVARO SOBREVIELA HERNANDEZ\n🟡 *_Ciudad de los Ángeles A_* — *2*\n⚽ 26' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 64' DIEGO CÓRDOBA JIMÉNEZ\n🟨 30' NICOLAS SANCHEZ DOMINGUEZ\n🟨 56' YERAI RODRÍGUEZ PEREIRA\n🟨 76' JESÚS CORDOBA RAIGON\n🟨 76' HUGO CORDOBA DE DIEGO"
     },
     {
       "sabado": "2026-11-14",
@@ -875,7 +875,99 @@
     },
     {
       "sabado": "2026-11-07",
-      "partidos": []
+      "partidos": [
+        {
+          "fecha": "2026-11-07",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 7,
+          "local": "Union Deportiva Arganzuela B",
+          "visitante": "Ciudad de los Ángeles A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014268810_arganzuela.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "resultado": [
+            2,
+            2
+          ],
+          "goles": [
+            {
+              "minuto": 17,
+              "jugador": "RODRIGO ESTER LLORCA",
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 52,
+              "jugador": "JUAN SEBASTIAN DE AVILA GUTIERREZ",
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
+              "penalti": false,
+              "propia": false,
+              "lado": "local"
+            },
+            {
+              "minuto": 26,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 64,
+              "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 50,
+              "jugador": "AITOR GIL FERNANDEZ",
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 76,
+              "jugador": "ALVARO SOBREVIELA HERNANDEZ",
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 30,
+              "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 56,
+              "jugador": "YERAI RODRÍGUEZ PEREIRA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 76,
+              "jugador": "JESÚS CORDOBA RAIGON",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 76,
+              "jugador": "HUGO CORDOBA DE DIEGO",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
+        }
+      ]
     },
     {
       "sabado": "2026-11-14",
@@ -1395,7 +1487,7 @@
   "clasificaciones": [
     {
       "titulo": "Preferente Cadete Grupo 5",
-      "jornada": 6,
+      "jornada": 7,
       "filas": [
         {
           "pos": 1,
@@ -1459,6 +1551,21 @@
         },
         {
           "pos": 5,
+          "id": "8961562",
+          "nombre": "Ciudad de los Ángeles A",
+          "nuestro": true,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "pj": 7,
+          "g": 3,
+          "e": 2,
+          "p": 2,
+          "gf": 17,
+          "gc": 16,
+          "dg": 1,
+          "pts": 11
+        },
+        {
+          "pos": 6,
           "id": "877423",
           "nombre": "Sport Villa de Vallecas A",
           "nuestro": false,
@@ -1470,21 +1577,6 @@
           "gf": 19,
           "gc": 9,
           "dg": 10,
-          "pts": 10
-        },
-        {
-          "pos": 6,
-          "id": "8961562",
-          "nombre": "Ciudad de los Ángeles A",
-          "nuestro": true,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
-          "pj": 6,
-          "g": 3,
-          "e": 1,
-          "p": 2,
-          "gf": 15,
-          "gc": 14,
-          "dg": 1,
           "pts": 10
         },
         {
@@ -1583,13 +1675,13 @@
           "nombre": "Racing de Villaverde B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
-          "pj": 6,
+          "pj": 7,
           "g": 2,
           "e": 0,
-          "p": 4,
-          "gf": 6,
-          "gc": 16,
-          "dg": -10,
+          "p": 5,
+          "gf": 8,
+          "gc": 19,
+          "dg": -11,
           "pts": 6
         },
         {
@@ -1609,33 +1701,33 @@
         },
         {
           "pos": 15,
-          "id": "24235806",
-          "nombre": "Union Deportiva Arganzuela B",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-          "pj": 6,
-          "g": 0,
-          "e": 2,
-          "p": 4,
-          "gf": 6,
-          "gc": 15,
-          "dg": -9,
-          "pts": 2
-        },
-        {
-          "pos": 16,
           "id": "301080",
           "nombre": "Union Deportiva la Poveda A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-          "pj": 6,
-          "g": 0,
+          "pj": 7,
+          "g": 1,
           "e": 1,
           "p": 5,
-          "gf": 6,
-          "gc": 22,
-          "dg": -16,
-          "pts": 1
+          "gf": 9,
+          "gc": 24,
+          "dg": -15,
+          "pts": 4
+        },
+        {
+          "pos": 16,
+          "id": "24235806",
+          "nombre": "Union Deportiva Arganzuela B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
+          "pj": 7,
+          "g": 0,
+          "e": 3,
+          "p": 4,
+          "gf": 8,
+          "gc": 17,
+          "dg": -9,
+          "pts": 3
         }
       ],
       "equipo": "Ciudad de los Ángeles A"
