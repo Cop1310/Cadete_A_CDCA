@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-09 00:30",
+  "generado": "2026-11-09 14:49",
   "desde": "2026-11-14",
   "hasta": "2026-11-15",
-  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Esc. Mun. Fut. Villarejo A",
+  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
   "resultados_desde": "2026-11-07",
   "resultados_hasta": "2026-11-08",
   "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 07/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *12:15h* - Preferente Cadete Grupo 5\n📌 _Jornada 7_\n📍 Campo: C.D.M. Marques de Samaranch\n🟡 *_Union Deportiva Arganzuela B_* — *2*\n⚽ 17' RODRIGO ESTER LLORCA\n⚽ 52' JUAN SEBASTIAN DE AVILA GUTIERREZ\n🟨 50' AITOR GIL FERNANDEZ\n🟨 76' ALVARO SOBREVIELA HERNANDEZ\n🟡 *_Ciudad de los Ángeles A_* — *2*\n⚽ 26' NICOLAS SANCHEZ DOMINGUEZ\n⚽ 64' DIEGO CÓRDOBA JIMÉNEZ\n🟨 30' NICOLAS SANCHEZ DOMINGUEZ\n🟨 56' YERAI RODRÍGUEZ PEREIRA\n🟨 76' JESÚS CORDOBA RAIGON\n🟨 76' HUGO CORDOBA DE DIEGO",
@@ -184,7 +184,7 @@
     },
     {
       "sabado": "2026-11-14",
-      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *_Ciudad de los Ángeles A_* - Esc. Mun. Fut. Villarejo A",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
       "resultados": ""
     },
     {
@@ -890,80 +890,80 @@
           ],
           "goles": [
             {
-              "minuto": 17,
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
               "jugador": "RODRIGO ESTER LLORCA",
-              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
+              "lado": "local",
+              "minuto": 17,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 52,
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
               "jugador": "JUAN SEBASTIAN DE AVILA GUTIERREZ",
-              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
+              "lado": "local",
+              "minuto": 52,
               "penalti": false,
-              "propia": false,
-              "lado": "local"
+              "propia": false
             },
             {
-              "minuto": 26,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "lado": "visitante",
+              "minuto": 26,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 64,
-              "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
               "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "DIEGO CÓRDOBA JIMÉNEZ",
+              "lado": "visitante",
+              "minuto": 64,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             }
           ],
           "tarjetas": [
             {
-              "minuto": 50,
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
               "jugador": "AITOR GIL FERNANDEZ",
-              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 50,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 76,
+              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
               "jugador": "ALVARO SOBREVIELA HERNANDEZ",
-              "equipo": "CDB UNION DEPORTIVA ARGANZUELA 'B'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 76,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 30,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 30,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 56,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "YERAI RODRÍGUEZ PEREIRA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 56,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 76,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "JESÚS CORDOBA RAIGON",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 76,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 76,
-              "jugador": "HUGO CORDOBA DE DIEGO",
               "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "HUGO CORDOBA DE DIEGO",
+              "lado": "visitante",
+              "minuto": 76,
+              "tipo": "amarilla"
             }
           ]
         }
