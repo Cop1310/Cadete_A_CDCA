@@ -33,19 +33,19 @@
      "pts": 17
     },
     {
-     "dg": 7,
+     "dg": 9,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-     "g": 4,
-     "gc": 8,
-     "gf": 15,
+     "g": 5,
+     "gc": 10,
+     "gf": 19,
      "id": "4920195",
      "nombre": "Arganda A",
      "nuestro": false,
      "p": 1,
-     "pj": 6,
+     "pj": 7,
      "pos": 3,
-     "pts": 13
+     "pts": 16
     },
     {
      "dg": 7,
@@ -78,17 +78,17 @@
      "pts": 12
     },
     {
-     "dg": 10,
+     "dg": 8,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
      "g": 3,
-     "gc": 11,
-     "gf": 21,
+     "gc": 15,
+     "gf": 23,
      "id": "877423",
      "nombre": "Sport Villa de Vallecas A",
      "nuestro": false,
-     "p": 1,
-     "pj": 6,
+     "p": 2,
+     "pj": 7,
      "pos": 6,
      "pts": 11
     },
