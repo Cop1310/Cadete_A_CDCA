@@ -18,17 +18,17 @@
      "pts": 17
     },
     {
-     "dg": 14,
+     "dg": 13,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
      "g": 5,
-     "gc": 6,
-     "gf": 20,
+     "gc": 9,
+     "gf": 22,
      "id": "2785",
      "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
      "nuestro": false,
-     "p": 0,
-     "pj": 7,
+     "p": 1,
+     "pj": 8,
      "pos": 2,
      "pts": 17
     },
@@ -48,6 +48,21 @@
      "pts": 16
     },
     {
+     "dg": 8,
+     "e": 0,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
+     "g": 5,
+     "gc": 13,
+     "gf": 21,
+     "id": "1764",
+     "nombre": "E.D.M. San Blas B",
+     "nuestro": false,
+     "p": 3,
+     "pj": 8,
+     "pos": 4,
+     "pts": 15
+    },
+    {
      "dg": 5,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
@@ -59,7 +74,22 @@
      "nuestro": false,
      "p": 3,
      "pj": 8,
-     "pos": 4,
+     "pos": 5,
+     "pts": 13
+    },
+    {
+     "dg": 0,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+     "g": 4,
+     "gc": 15,
+     "gf": 15,
+     "id": "526134",
+     "nombre": "Esc. Mun. Fut. Villarejo A",
+     "nuestro": false,
+     "p": 3,
+     "pj": 8,
+     "pos": 6,
      "pts": 13
     },
     {
@@ -74,22 +104,7 @@
      "nuestro": false,
      "p": 1,
      "pj": 7,
-     "pos": 5,
-     "pts": 12
-    },
-    {
-     "dg": 3,
-     "e": 0,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
-     "g": 4,
-     "gc": 12,
-     "gf": 15,
-     "id": "1764",
-     "nombre": "E.D.M. San Blas B",
-     "nuestro": false,
-     "p": 3,
-     "pj": 7,
-     "pos": 6,
+     "pos": 7,
      "pts": 12
     },
     {
@@ -104,38 +119,23 @@
      "nuestro": false,
      "p": 2,
      "pj": 7,
-     "pos": 7,
-     "pts": 11
-    },
-    {
-     "dg": 1,
-     "e": 2,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
-     "g": 3,
-     "gc": 16,
-     "gf": 17,
-     "id": "8961562",
-     "nombre": "Ciudad de los Ángeles A",
-     "nuestro": true,
-     "p": 2,
-     "pj": 7,
      "pos": 8,
      "pts": 11
     },
     {
-     "dg": -4,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+     "dg": -3,
+     "e": 2,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
      "g": 3,
-     "gc": 15,
-     "gf": 11,
-     "id": "526134",
-     "nombre": "Esc. Mun. Fut. Villarejo A",
-     "nuestro": false,
+     "gc": 20,
+     "gf": 17,
+     "id": "8961562",
+     "nombre": "Ciudad de los Ángeles A",
+     "nuestro": true,
      "p": 3,
-     "pj": 7,
+     "pj": 8,
      "pos": 9,
-     "pts": 10
+     "pts": 11
     },
     {
      "dg": 0,
@@ -168,6 +168,21 @@
      "pts": 9
     },
     {
+     "dg": -8,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
+     "g": 1,
+     "gc": 19,
+     "gf": 11,
+     "id": "24235806",
+     "nombre": "Union Deportiva Arganzuela B",
+     "nuestro": false,
+     "p": 4,
+     "pj": 8,
+     "pos": 12,
+     "pts": 6
+    },
+    {
      "dg": -10,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258054_adepo.png",
@@ -179,7 +194,7 @@
      "nuestro": false,
      "p": 5,
      "pj": 7,
-     "pos": 12,
+     "pos": 13,
      "pts": 6
     },
     {
@@ -194,7 +209,7 @@
      "nuestro": false,
      "p": 6,
      "pj": 8,
-     "pos": 13,
+     "pos": 14,
      "pts": 6
     },
     {
@@ -209,38 +224,23 @@
      "nuestro": false,
      "p": 5,
      "pj": 7,
-     "pos": 14,
-     "pts": 4
-    },
-    {
-     "dg": -15,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-     "g": 1,
-     "gc": 24,
-     "gf": 9,
-     "id": "301080",
-     "nombre": "Union Deportiva la Poveda A",
-     "nuestro": false,
-     "p": 5,
-     "pj": 7,
      "pos": 15,
      "pts": 4
     },
     {
-     "dg": -9,
-     "e": 3,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-     "g": 0,
-     "gc": 17,
-     "gf": 8,
-     "id": "24235806",
-     "nombre": "Union Deportiva Arganzuela B",
+     "dg": -20,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
+     "g": 1,
+     "gc": 30,
+     "gf": 10,
+     "id": "301080",
+     "nombre": "Union Deportiva la Poveda A",
      "nuestro": false,
-     "p": 4,
-     "pj": 7,
+     "p": 6,
+     "pj": 8,
      "pos": 16,
-     "pts": 3
+     "pts": 4
     }
    ],
    "jornada": 8,

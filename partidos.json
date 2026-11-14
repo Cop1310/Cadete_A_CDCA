@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-14 16:36",
+  "generado": "2026-11-14 18:59",
   "desde": "2026-11-14",
   "hasta": "2026-11-15",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
@@ -1510,13 +1510,13 @@
           "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-          "pj": 7,
+          "pj": 8,
           "g": 5,
           "e": 2,
-          "p": 0,
-          "gf": 20,
-          "gc": 6,
-          "dg": 14,
+          "p": 1,
+          "gf": 22,
+          "gc": 9,
+          "dg": 13,
           "pts": 17
         },
         {
@@ -1536,6 +1536,21 @@
         },
         {
           "pos": 4,
+          "id": "1764",
+          "nombre": "E.D.M. San Blas B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
+          "pj": 8,
+          "g": 5,
+          "e": 0,
+          "p": 3,
+          "gf": 21,
+          "gc": 13,
+          "dg": 8,
+          "pts": 15
+        },
+        {
+          "pos": 5,
           "id": "761461",
           "nombre": "Fundacion Rayo Vallecano C",
           "nuestro": false,
@@ -1550,7 +1565,22 @@
           "pts": 13
         },
         {
-          "pos": 5,
+          "pos": 6,
+          "id": "526134",
+          "nombre": "Esc. Mun. Fut. Villarejo A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+          "pj": 8,
+          "g": 4,
+          "e": 1,
+          "p": 3,
+          "gf": 15,
+          "gc": 15,
+          "dg": 0,
+          "pts": 13
+        },
+        {
+          "pos": 7,
           "id": "2274952",
           "nombre": "E.D. Moratalaz C",
           "nuestro": false,
@@ -1565,22 +1595,7 @@
           "pts": 12
         },
         {
-          "pos": 6,
-          "id": "1764",
-          "nombre": "E.D.M. San Blas B",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
-          "pj": 7,
-          "g": 4,
-          "e": 0,
-          "p": 3,
-          "gf": 15,
-          "gc": 12,
-          "dg": 3,
-          "pts": 12
-        },
-        {
-          "pos": 7,
+          "pos": 8,
           "id": "877423",
           "nombre": "Sport Villa de Vallecas A",
           "nuestro": false,
@@ -1595,34 +1610,19 @@
           "pts": 11
         },
         {
-          "pos": 8,
+          "pos": 9,
           "id": "8961562",
           "nombre": "Ciudad de los Ángeles A",
           "nuestro": true,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
-          "pj": 7,
+          "pj": 8,
           "g": 3,
           "e": 2,
-          "p": 2,
-          "gf": 17,
-          "gc": 16,
-          "dg": 1,
-          "pts": 11
-        },
-        {
-          "pos": 9,
-          "id": "526134",
-          "nombre": "Esc. Mun. Fut. Villarejo A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
-          "pj": 7,
-          "g": 3,
-          "e": 1,
           "p": 3,
-          "gf": 11,
-          "gc": 15,
-          "dg": -4,
-          "pts": 10
+          "gf": 17,
+          "gc": 20,
+          "dg": -3,
+          "pts": 11
         },
         {
           "pos": 10,
@@ -1656,6 +1656,21 @@
         },
         {
           "pos": 12,
+          "id": "24235806",
+          "nombre": "Union Deportiva Arganzuela B",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
+          "pj": 8,
+          "g": 1,
+          "e": 3,
+          "p": 4,
+          "gf": 11,
+          "gc": 19,
+          "dg": -8,
+          "pts": 6
+        },
+        {
+          "pos": 13,
           "id": "1689",
           "nombre": "Adepo Palomeras A",
           "nuestro": false,
@@ -1670,7 +1685,7 @@
           "pts": 6
         },
         {
-          "pos": 13,
+          "pos": 14,
           "id": "10652335",
           "nombre": "Racing de Villaverde B",
           "nuestro": false,
@@ -1685,7 +1700,7 @@
           "pts": 6
         },
         {
-          "pos": 14,
+          "pos": 15,
           "id": "690",
           "nombre": "Coslada B",
           "nuestro": false,
@@ -1700,34 +1715,19 @@
           "pts": 4
         },
         {
-          "pos": 15,
+          "pos": 16,
           "id": "301080",
           "nombre": "Union Deportiva la Poveda A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-          "pj": 7,
+          "pj": 8,
           "g": 1,
           "e": 1,
-          "p": 5,
-          "gf": 9,
-          "gc": 24,
-          "dg": -15,
+          "p": 6,
+          "gf": 10,
+          "gc": 30,
+          "dg": -20,
           "pts": 4
-        },
-        {
-          "pos": 16,
-          "id": "24235806",
-          "nombre": "Union Deportiva Arganzuela B",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-          "pj": 7,
-          "g": 0,
-          "e": 3,
-          "p": 4,
-          "gf": 8,
-          "gc": 17,
-          "dg": -9,
-          "pts": 3
         }
       ],
       "equipo": "Ciudad de los Ángeles A"
