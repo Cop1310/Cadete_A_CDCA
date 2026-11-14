@@ -256,7 +256,7 @@
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
     "actual": 8,
     "cursor": null,
-    "fecha": "2026-11-09",
+    "fecha": "2026-11-15",
     "total": 30
    }
   },
@@ -1007,7 +1007,10 @@
     7,
     9
    ],
-   "resultado": null,
+   "resultado": [
+    0,
+    4
+   ],
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
     "526134",
@@ -1021,7 +1024,7 @@
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "fecha": "2026-11-21",
    "grupo": "Preferente Cadete Grupo 5",
-   "hora": null,
+   "hora": "09:30",
    "jornada": 9,
    "local": [
     "1689",

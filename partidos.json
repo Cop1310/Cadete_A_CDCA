@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-14 23:18",
+  "generado": "2026-11-15 00:52",
   "desde": "2026-11-14",
   "hasta": "2026-11-15",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
   "resultados_desde": "2026-11-14",
   "resultados_hasta": "2026-11-15",
-  "resultados": "",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*",
   "sin_partido": [],
   "sin_calendario": [],
   "errores": [],
@@ -185,11 +185,11 @@
     {
       "sabado": "2026-11-14",
       "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
-      "resultados": ""
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*"
     },
     {
       "sabado": "2026-11-21",
-      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *PENDIENTE DE CONFIRMAR DÍA Y HORA*\n━━━━━━━━━━━━━━━━\n\n🏆 Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ Adepo Palomeras A - *_Ciudad de los Ángeles A_*",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ Adepo Palomeras A - *_Ciudad de los Ángeles A_*",
       "resultados": ""
     },
     {
@@ -971,7 +971,23 @@
     },
     {
       "sabado": "2026-11-14",
-      "partidos": []
+      "partidos": [
+        {
+          "fecha": "2026-11-14",
+          "grupo": "Preferente Cadete Grupo 5",
+          "jornada": 8,
+          "local": "Ciudad de los Ángeles A",
+          "visitante": "Esc. Mun. Fut. Villarejo A",
+          "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+          "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000038321_GetAttachment.jpg",
+          "resultado": [
+            0,
+            4
+          ],
+          "goles": [],
+          "tarjetas": []
+        }
+      ]
     },
     {
       "sabado": "2026-11-21",
