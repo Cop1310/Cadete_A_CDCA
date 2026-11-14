@@ -48,6 +48,21 @@
      "pts": 16
     },
     {
+     "dg": 5,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
+     "g": 4,
+     "gc": 13,
+     "gf": 18,
+     "id": "761461",
+     "nombre": "Fundacion Rayo Vallecano C",
+     "nuestro": false,
+     "p": 3,
+     "pj": 8,
+     "pos": 4,
+     "pts": 13
+    },
+    {
      "dg": 7,
      "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
@@ -59,7 +74,7 @@
      "nuestro": false,
      "p": 1,
      "pj": 7,
-     "pos": 4,
+     "pos": 5,
      "pts": 12
     },
     {
@@ -74,7 +89,7 @@
      "nuestro": false,
      "p": 3,
      "pj": 7,
-     "pos": 5,
+     "pos": 6,
      "pts": 12
     },
     {
@@ -89,7 +104,7 @@
      "nuestro": false,
      "p": 2,
      "pj": 7,
-     "pos": 6,
+     "pos": 7,
      "pts": 11
     },
     {
@@ -104,23 +119,8 @@
      "nuestro": true,
      "p": 2,
      "pj": 7,
-     "pos": 7,
-     "pts": 11
-    },
-    {
-     "dg": 2,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
-     "g": 3,
-     "gc": 12,
-     "gf": 14,
-     "id": "761461",
-     "nombre": "Fundacion Rayo Vallecano C",
-     "nuestro": false,
-     "p": 3,
-     "pj": 7,
      "pos": 8,
-     "pts": 10
+     "pts": 11
     },
     {
      "dg": -4,
@@ -183,17 +183,17 @@
      "pts": 6
     },
     {
-     "dg": -11,
+     "dg": -14,
      "e": 0,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
      "g": 2,
-     "gc": 19,
-     "gf": 8,
+     "gc": 23,
+     "gf": 9,
      "id": "10652335",
      "nombre": "Racing de Villaverde B",
      "nuestro": false,
-     "p": 5,
-     "pj": 7,
+     "p": 6,
+     "pj": 8,
      "pos": 13,
      "pts": 6
     },
@@ -243,7 +243,7 @@
      "pts": 3
     }
    ],
-   "jornada": 7,
+   "jornada": 8,
    "titulo": "Preferente Cadete Grupo 5"
   }
  },
