@@ -33,21 +33,6 @@
      "pts": 17
     },
     {
-     "dg": 9,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-     "g": 5,
-     "gc": 10,
-     "gf": 19,
-     "id": "4920195",
-     "nombre": "Arganda A",
-     "nuestro": false,
-     "p": 1,
-     "pj": 7,
-     "pos": 3,
-     "pts": 16
-    },
-    {
      "dg": 12,
      "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
@@ -59,7 +44,7 @@
      "nuestro": false,
      "p": 1,
      "pj": 8,
-     "pos": 4,
+     "pos": 3,
      "pts": 15
     },
     {
@@ -74,8 +59,23 @@
      "nuestro": false,
      "p": 3,
      "pj": 8,
-     "pos": 5,
+     "pos": 4,
      "pts": 15
+    },
+    {
+     "dg": 6,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
+     "g": 4,
+     "gc": 10,
+     "gf": 16,
+     "id": "4920195",
+     "nombre": "Arganda A",
+     "nuestro": false,
+     "p": 2,
+     "pj": 7,
+     "pos": 5,
+     "pts": 13
     },
     {
      "dg": 5,
@@ -108,6 +108,21 @@
      "pts": 13
     },
     {
+     "dg": 1,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+     "g": 3,
+     "gc": 15,
+     "gf": 16,
+     "id": "2806",
+     "nombre": "Parque Sureste A",
+     "nuestro": false,
+     "p": 2,
+     "pj": 8,
+     "pos": 8,
+     "pts": 12
+    },
+    {
      "dg": 7,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
@@ -119,7 +134,7 @@
      "nuestro": false,
      "p": 3,
      "pj": 8,
-     "pos": 8,
+     "pos": 9,
      "pts": 11
     },
     {
@@ -134,23 +149,8 @@
      "nuestro": true,
      "p": 3,
      "pj": 8,
-     "pos": 9,
-     "pts": 11
-    },
-    {
-     "dg": 0,
-     "e": 3,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
-     "g": 2,
-     "gc": 14,
-     "gf": 14,
-     "id": "2806",
-     "nombre": "Parque Sureste A",
-     "nuestro": false,
-     "p": 2,
-     "pj": 7,
      "pos": 10,
-     "pts": 9
+     "pts": 11
     },
     {
      "dg": -7,
