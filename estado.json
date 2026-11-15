@@ -996,6 +996,40 @@
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0000038321_GetAttachment.jpg",
    "fecha": "2026-11-14",
+   "goles": [
+    {
+     "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+     "jugador": "FRANCISCO SACRISTAN BENITO",
+     "lado": "visitante",
+     "minuto": 13,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+     "jugador": "LEO MORATO DEL HIERRO",
+     "lado": "visitante",
+     "minuto": 50,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+     "jugador": "ANDRES GARCIA PATRON GORDILLO",
+     "lado": "visitante",
+     "minuto": 66,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+     "jugador": "ANDRES GARCIA PATRON GORDILLO",
+     "lado": "visitante",
+     "minuto": 72,
+     "penalti": false,
+     "propia": false
+    }
+   ],
    "grupo": "Preferente Cadete Grupo 5",
    "hora": "13:30",
    "jornada": 8,
@@ -1010,6 +1044,71 @@
    "resultado": [
     0,
     4
+   ],
+   "tarjetas": [
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "MARIO MENCHERO VILLANUEVA",
+     "lado": "local",
+     "minuto": 13,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "HUGO CORDOBA DE DIEGO",
+     "lado": "local",
+     "minuto": 25,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "GUILLERMO GARCIA LOPEZ",
+     "lado": "local",
+     "minuto": 41,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "ISAAC SAYAY LINO",
+     "lado": "local",
+     "minuto": 50,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "HUGO CORDOBA DE DIEGO",
+     "lado": "local",
+     "minuto": 65,
+     "tipo": "roja"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "GUILLERMO GARCIA LOPEZ",
+     "lado": "local",
+     "minuto": 78,
+     "tipo": "roja"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "MARCOS MARTÍN JIMÉNEZ",
+     "lado": "local",
+     "minuto": 999,
+     "tipo": "roja"
+    },
+    {
+     "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+     "jugador": "MARIO GONZALEZ CAUTO",
+     "lado": "visitante",
+     "minuto": 36,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+     "jugador": "AITOR VOS BREA",
+     "lado": "visitante",
+     "minuto": 63,
+     "tipo": "amarilla"
+    }
    ],
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [

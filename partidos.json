@@ -1,11 +1,11 @@
 {
-  "generado": "2026-11-15 13:40",
+  "generado": "2026-11-15 17:06",
   "desde": "2026-11-14",
   "hasta": "2026-11-15",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
   "resultados_desde": "2026-11-14",
   "resultados_hasta": "2026-11-15",
-  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*",
+  "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟨 13' MARIO MENCHERO VILLANUEVA\n🟨 25' HUGO CORDOBA DE DIEGO\n🟨 41' GUILLERMO GARCIA LOPEZ\n🟨 50' ISAAC SAYAY LINO\n🟥 65' HUGO CORDOBA DE DIEGO\n🟥 78' GUILLERMO GARCIA LOPEZ\n🟥 999' MARCOS MARTÍN JIMÉNEZ\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*\n⚽ 13' FRANCISCO SACRISTAN BENITO\n⚽ 50' LEO MORATO DEL HIERRO\n⚽ 66' ANDRES GARCIA PATRON GORDILLO\n⚽ 72' ANDRES GARCIA PATRON GORDILLO\n🟨 36' MARIO GONZALEZ CAUTO\n🟨 63' AITOR VOS BREA",
   "sin_partido": [],
   "sin_calendario": [],
   "errores": [],
@@ -185,7 +185,7 @@
     {
       "sabado": "2026-11-14",
       "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n⚽ *(7º)* *_Ciudad de los Ángeles A_* - *(9º)* Esc. Mun. Fut. Villarejo A",
-      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*"
+      "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟨 13' MARIO MENCHERO VILLANUEVA\n🟨 25' HUGO CORDOBA DE DIEGO\n🟨 41' GUILLERMO GARCIA LOPEZ\n🟨 50' ISAAC SAYAY LINO\n🟥 65' HUGO CORDOBA DE DIEGO\n🟥 78' GUILLERMO GARCIA LOPEZ\n🟥 999' MARCOS MARTÍN JIMÉNEZ\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*\n⚽ 13' FRANCISCO SACRISTAN BENITO\n⚽ 50' LEO MORATO DEL HIERRO\n⚽ 66' ANDRES GARCIA PATRON GORDILLO\n⚽ 72' ANDRES GARCIA PATRON GORDILLO\n🟨 36' MARIO GONZALEZ CAUTO\n🟨 63' AITOR VOS BREA"
     },
     {
       "sabado": "2026-11-21",
@@ -984,8 +984,105 @@
             0,
             4
           ],
-          "goles": [],
-          "tarjetas": []
+          "goles": [
+            {
+              "minuto": 13,
+              "jugador": "FRANCISCO SACRISTAN BENITO",
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 50,
+              "jugador": "LEO MORATO DEL HIERRO",
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 66,
+              "jugador": "ANDRES GARCIA PATRON GORDILLO",
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            },
+            {
+              "minuto": 72,
+              "jugador": "ANDRES GARCIA PATRON GORDILLO",
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "penalti": false,
+              "propia": false,
+              "lado": "visitante"
+            }
+          ],
+          "tarjetas": [
+            {
+              "minuto": 13,
+              "jugador": "MARIO MENCHERO VILLANUEVA",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 25,
+              "jugador": "HUGO CORDOBA DE DIEGO",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 41,
+              "jugador": "GUILLERMO GARCIA LOPEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 50,
+              "jugador": "ISAAC SAYAY LINO",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "amarilla",
+              "lado": "local"
+            },
+            {
+              "minuto": 65,
+              "jugador": "HUGO CORDOBA DE DIEGO",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "roja",
+              "lado": "local"
+            },
+            {
+              "minuto": 78,
+              "jugador": "GUILLERMO GARCIA LOPEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "roja",
+              "lado": "local"
+            },
+            {
+              "minuto": 999,
+              "jugador": "MARCOS MARTÍN JIMÉNEZ",
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "tipo": "roja",
+              "lado": "local"
+            },
+            {
+              "minuto": 36,
+              "jugador": "MARIO GONZALEZ CAUTO",
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            },
+            {
+              "minuto": 63,
+              "jugador": "AITOR VOS BREA",
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "tipo": "amarilla",
+              "lado": "visitante"
+            }
+          ]
         }
       ]
     },
