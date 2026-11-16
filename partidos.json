@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-16 00:25",
+  "generado": "2026-11-16 01:53",
   "desde": "2026-11-21",
   "hasta": "2026-11-22",
-  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ Adepo Palomeras A - *_Ciudad de los Ángeles A_*",
+  "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ *(11º)* Adepo Palomeras A - *(10º)* *_Ciudad de los Ángeles A_*",
   "resultados_desde": "2026-11-14",
   "resultados_hasta": "2026-11-15",
   "resultados": "━━━━━━━━━━━━━━━━\n📅 *SÁBADO 14/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *13:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 8_\n📍 Campo: PVO. Oroquieta - Felix Rubio\n🔴 *_Ciudad de los Ángeles A_* — *0*\n🟨 13' MARIO MENCHERO VILLANUEVA\n🟨 25' HUGO CORDOBA DE DIEGO\n🟨 41' GUILLERMO GARCIA LOPEZ\n🟨 50' ISAAC SAYAY LINO\n🟥 65' HUGO CORDOBA DE DIEGO\n🟥 78' GUILLERMO GARCIA LOPEZ\n🟥 999' MARCOS MARTÍN JIMÉNEZ\n🟢 *_Esc. Mun. Fut. Villarejo A_* — *4*\n⚽ 13' FRANCISCO SACRISTAN BENITO\n⚽ 50' LEO MORATO DEL HIERRO\n⚽ 66' ANDRES GARCIA PATRON GORDILLO\n⚽ 72' ANDRES GARCIA PATRON GORDILLO\n🟨 36' MARIO GONZALEZ CAUTO\n🟨 63' AITOR VOS BREA",
@@ -189,7 +189,7 @@
     },
     {
       "sabado": "2026-11-21",
-      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ Adepo Palomeras A - *_Ciudad de los Ángeles A_*",
+      "partidos": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ *(11º)* Adepo Palomeras A - *(10º)* *_Ciudad de los Ángeles A_*",
       "resultados": ""
     },
     {
@@ -986,101 +986,101 @@
           ],
           "goles": [
             {
-              "minuto": 13,
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
               "jugador": "FRANCISCO SACRISTAN BENITO",
-              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "lado": "visitante",
+              "minuto": 13,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 50,
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
               "jugador": "LEO MORATO DEL HIERRO",
-              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "lado": "visitante",
+              "minuto": 50,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "jugador": "ANDRES GARCIA PATRON GORDILLO",
+              "lado": "visitante",
               "minuto": 66,
-              "jugador": "ANDRES GARCIA PATRON GORDILLO",
-              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             },
             {
-              "minuto": 72,
-              "jugador": "ANDRES GARCIA PATRON GORDILLO",
               "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
+              "jugador": "ANDRES GARCIA PATRON GORDILLO",
+              "lado": "visitante",
+              "minuto": 72,
               "penalti": false,
-              "propia": false,
-              "lado": "visitante"
+              "propia": false
             }
           ],
           "tarjetas": [
             {
-              "minuto": 13,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "MARIO MENCHERO VILLANUEVA",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 13,
+              "tipo": "amarilla"
             },
             {
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "HUGO CORDOBA DE DIEGO",
+              "lado": "local",
               "minuto": 25,
-              "jugador": "HUGO CORDOBA DE DIEGO",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "tipo": "amarilla"
             },
             {
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+              "jugador": "GUILLERMO GARCIA LOPEZ",
+              "lado": "local",
               "minuto": 41,
-              "jugador": "GUILLERMO GARCIA LOPEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "tipo": "amarilla"
             },
             {
-              "minuto": 50,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "ISAAC SAYAY LINO",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "amarilla",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 50,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 65,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "HUGO CORDOBA DE DIEGO",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "roja",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 65,
+              "tipo": "roja"
             },
             {
-              "minuto": 78,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "GUILLERMO GARCIA LOPEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "roja",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 78,
+              "tipo": "roja"
             },
             {
-              "minuto": 999,
+              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
               "jugador": "MARCOS MARTÍN JIMÉNEZ",
-              "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
-              "tipo": "roja",
-              "lado": "local"
+              "lado": "local",
+              "minuto": 999,
+              "tipo": "roja"
             },
             {
-              "minuto": 36,
+              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
               "jugador": "MARIO GONZALEZ CAUTO",
-              "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "lado": "visitante",
+              "minuto": 36,
+              "tipo": "amarilla"
             },
             {
-              "minuto": 63,
-              "jugador": "AITOR VOS BREA",
               "equipo": "ESC. MUN. FUT. VILLAREJO 'A'",
-              "tipo": "amarilla",
-              "lado": "visitante"
+              "jugador": "AITOR VOS BREA",
+              "lado": "visitante",
+              "minuto": 63,
+              "tipo": "amarilla"
             }
           ]
         }
@@ -1634,6 +1634,21 @@
         },
         {
           "pos": 3,
+          "id": "4920195",
+          "nombre": "Arganda A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
+          "pj": 8,
+          "g": 5,
+          "e": 1,
+          "p": 2,
+          "gf": 20,
+          "gc": 12,
+          "dg": 8,
+          "pts": 16
+        },
+        {
+          "pos": 4,
           "id": "2274952",
           "nombre": "E.D. Moratalaz C",
           "nuestro": false,
@@ -1648,7 +1663,7 @@
           "pts": 15
         },
         {
-          "pos": 4,
+          "pos": 5,
           "id": "1764",
           "nombre": "E.D.M. San Blas B",
           "nuestro": false,
@@ -1661,21 +1676,6 @@
           "gc": 13,
           "dg": 8,
           "pts": 15
-        },
-        {
-          "pos": 5,
-          "id": "4920195",
-          "nombre": "Arganda A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-          "pj": 7,
-          "g": 4,
-          "e": 1,
-          "p": 2,
-          "gf": 16,
-          "gc": 10,
-          "dg": 6,
-          "pts": 13
         },
         {
           "pos": 6,

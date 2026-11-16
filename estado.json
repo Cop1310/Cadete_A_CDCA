@@ -33,6 +33,21 @@
      "pts": 17
     },
     {
+     "dg": 8,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
+     "g": 5,
+     "gc": 12,
+     "gf": 20,
+     "id": "4920195",
+     "nombre": "Arganda A",
+     "nuestro": false,
+     "p": 2,
+     "pj": 8,
+     "pos": 3,
+     "pts": 16
+    },
+    {
      "dg": 12,
      "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
@@ -44,7 +59,7 @@
      "nuestro": false,
      "p": 1,
      "pj": 8,
-     "pos": 3,
+     "pos": 4,
      "pts": 15
     },
     {
@@ -59,23 +74,8 @@
      "nuestro": false,
      "p": 3,
      "pj": 8,
-     "pos": 4,
-     "pts": 15
-    },
-    {
-     "dg": 6,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-     "g": 4,
-     "gc": 10,
-     "gf": 16,
-     "id": "4920195",
-     "nombre": "Arganda A",
-     "nuestro": false,
-     "p": 2,
-     "pj": 7,
      "pos": 5,
-     "pts": 13
+     "pts": 15
     },
     {
      "dg": 5,
@@ -254,9 +254,9 @@
   "hechas": {},
   "proximas": {
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
-    "actual": 8,
+    "actual": 9,
     "cursor": null,
-    "fecha": "2026-11-15",
+    "fecha": "2026-11-16",
     "total": 30
    }
   },
@@ -1129,7 +1129,10 @@
     "1689",
     "ADEPO PALOMERAS 'A'"
    ],
-   "pos": null,
+   "pos": [
+    11,
+    10
+   ],
    "resultado": null,
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
