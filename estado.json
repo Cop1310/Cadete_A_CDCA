@@ -3,19 +3,19 @@
   "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
    "filas": [
     {
-     "dg": 16,
+     "dg": 17,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
-     "g": 6,
-     "gc": 7,
-     "gf": 23,
+     "g": 7,
+     "gc": 10,
+     "gf": 27,
      "id": "4928637",
      "nombre": "Rivas Futbol Club C",
      "nuestro": false,
      "p": 0,
-     "pj": 8,
+     "pj": 9,
      "pos": 1,
-     "pts": 20
+     "pts": 23
     },
     {
      "dg": 13,
@@ -34,18 +34,18 @@
     },
     {
      "dg": 8,
-     "e": 1,
+     "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
      "g": 5,
-     "gc": 12,
-     "gf": 20,
+     "gc": 13,
+     "gf": 21,
      "id": "4920195",
      "nombre": "Arganda A",
      "nuestro": false,
      "p": 2,
-     "pj": 8,
+     "pj": 9,
      "pos": 3,
-     "pts": 16
+     "pts": 17
     },
     {
      "dg": 12,
@@ -93,17 +93,17 @@
      "pts": 13
     },
     {
-     "dg": 5,
+     "dg": 4,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
      "g": 4,
-     "gc": 13,
-     "gf": 18,
+     "gc": 17,
+     "gf": 21,
      "id": "761461",
      "nombre": "Fundacion Rayo Vallecano C",
      "nuestro": false,
-     "p": 3,
-     "pj": 8,
+     "p": 4,
+     "pj": 9,
      "pos": 7,
      "pts": 13
     },
@@ -214,18 +214,18 @@
     },
     {
      "dg": -9,
-     "e": 1,
+     "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
      "g": 1,
-     "gc": 22,
-     "gf": 13,
+     "gc": 23,
+     "gf": 14,
      "id": "690",
      "nombre": "Coslada B",
      "nuestro": false,
      "p": 6,
-     "pj": 8,
+     "pj": 9,
      "pos": 15,
-     "pts": 4
+     "pts": 5
     },
     {
      "dg": -20,

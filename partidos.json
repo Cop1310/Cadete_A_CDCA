@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21 14:25",
+  "generado": "2026-11-21 17:37",
   "desde": "2026-11-21",
   "hasta": "2026-11-22",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ *(11º)* Adepo Palomeras A - *(10º)* *_Ciudad de los Ángeles A_*",
@@ -1624,14 +1624,14 @@
           "nombre": "Rivas Futbol Club C",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000098133_escudo-rivas-fc.png",
-          "pj": 8,
-          "g": 6,
+          "pj": 9,
+          "g": 7,
           "e": 2,
           "p": 0,
-          "gf": 23,
-          "gc": 7,
-          "dg": 16,
-          "pts": 20
+          "gf": 27,
+          "gc": 10,
+          "dg": 17,
+          "pts": 23
         },
         {
           "pos": 2,
@@ -1654,14 +1654,14 @@
           "nombre": "Arganda A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010849385_arganda66px.jpg",
-          "pj": 8,
+          "pj": 9,
           "g": 5,
-          "e": 1,
+          "e": 2,
           "p": 2,
-          "gf": 20,
-          "gc": 12,
+          "gf": 21,
+          "gc": 13,
           "dg": 8,
-          "pts": 16
+          "pts": 17
         },
         {
           "pos": 4,
@@ -1714,13 +1714,13 @@
           "nombre": "Fundacion Rayo Vallecano C",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
-          "pj": 8,
+          "pj": 9,
           "g": 4,
           "e": 1,
-          "p": 3,
-          "gf": 18,
-          "gc": 13,
-          "dg": 5,
+          "p": 4,
+          "gf": 21,
+          "gc": 17,
+          "dg": 4,
           "pts": 13
         },
         {
@@ -1834,14 +1834,14 @@
           "nombre": "Coslada B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011098262_Logo_Premium_C.D.Coslada___COLOR_2.0.jpg",
-          "pj": 8,
+          "pj": 9,
           "g": 1,
-          "e": 1,
+          "e": 2,
           "p": 6,
-          "gf": 13,
-          "gc": 22,
+          "gf": 14,
+          "gc": 23,
           "dg": -9,
-          "pts": 4
+          "pts": 5
         },
         {
           "pos": 16,
