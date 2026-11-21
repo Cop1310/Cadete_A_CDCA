@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21 17:37",
+  "generado": "2026-11-21 21:13",
   "desde": "2026-11-21",
   "hasta": "2026-11-22",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ *(11º)* Adepo Palomeras A - *(10º)* *_Ciudad de los Ángeles A_*",
@@ -1695,6 +1695,21 @@
         },
         {
           "pos": 6,
+          "id": "2806",
+          "nombre": "Parque Sureste A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+          "pj": 9,
+          "g": 4,
+          "e": 3,
+          "p": 2,
+          "gf": 19,
+          "gc": 16,
+          "dg": 3,
+          "pts": 15
+        },
+        {
+          "pos": 7,
           "id": "526134",
           "nombre": "Esc. Mun. Fut. Villarejo A",
           "nuestro": false,
@@ -1709,7 +1724,7 @@
           "pts": 13
         },
         {
-          "pos": 7,
+          "pos": 8,
           "id": "761461",
           "nombre": "Fundacion Rayo Vallecano C",
           "nuestro": false,
@@ -1722,21 +1737,6 @@
           "gc": 17,
           "dg": 4,
           "pts": 13
-        },
-        {
-          "pos": 8,
-          "id": "2806",
-          "nombre": "Parque Sureste A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
-          "pj": 8,
-          "g": 3,
-          "e": 3,
-          "p": 2,
-          "gf": 16,
-          "gc": 15,
-          "dg": 1,
-          "pts": 12
         },
         {
           "pos": 9,
@@ -1759,13 +1759,13 @@
           "nombre": "Sport Villa de Vallecas A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
-          "pj": 8,
+          "pj": 9,
           "g": 3,
           "e": 2,
-          "p": 3,
-          "gf": 25,
-          "gc": 18,
-          "dg": 7,
+          "p": 4,
+          "gf": 26,
+          "gc": 21,
+          "dg": 5,
           "pts": 11
         },
         {
@@ -1785,33 +1785,33 @@
         },
         {
           "pos": 12,
-          "id": "1964",
-          "nombre": "Nuevo Baztan A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
-          "pj": 8,
-          "g": 3,
-          "e": 0,
-          "p": 5,
-          "gf": 16,
-          "gc": 25,
-          "dg": -9,
-          "pts": 9
-        },
-        {
-          "pos": 13,
           "id": "24235806",
           "nombre": "Union Deportiva Arganzuela B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-          "pj": 8,
-          "g": 1,
+          "pj": 9,
+          "g": 2,
           "e": 3,
           "p": 4,
-          "gf": 11,
-          "gc": 19,
-          "dg": -8,
-          "pts": 6
+          "gf": 13,
+          "gc": 20,
+          "dg": -7,
+          "pts": 9
+        },
+        {
+          "pos": 13,
+          "id": "1964",
+          "nombre": "Nuevo Baztan A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
+          "pj": 9,
+          "g": 3,
+          "e": 0,
+          "p": 6,
+          "gf": 17,
+          "gc": 27,
+          "dg": -10,
+          "pts": 9
         },
         {
           "pos": 14,

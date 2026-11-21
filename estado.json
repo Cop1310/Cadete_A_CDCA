@@ -78,6 +78,21 @@
      "pts": 15
     },
     {
+     "dg": 3,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
+     "g": 4,
+     "gc": 16,
+     "gf": 19,
+     "id": "2806",
+     "nombre": "Parque Sureste A",
+     "nuestro": false,
+     "p": 2,
+     "pj": 9,
+     "pos": 6,
+     "pts": 15
+    },
+    {
      "dg": 0,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
@@ -89,7 +104,7 @@
      "nuestro": false,
      "p": 3,
      "pj": 8,
-     "pos": 6,
+     "pos": 7,
      "pts": 13
     },
     {
@@ -104,23 +119,8 @@
      "nuestro": false,
      "p": 4,
      "pj": 9,
-     "pos": 7,
-     "pts": 13
-    },
-    {
-     "dg": 1,
-     "e": 3,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000000659_4390_Parque_Sureste2.jpg",
-     "g": 3,
-     "gc": 15,
-     "gf": 16,
-     "id": "2806",
-     "nombre": "Parque Sureste A",
-     "nuestro": false,
-     "p": 2,
-     "pj": 8,
      "pos": 8,
-     "pts": 12
+     "pts": 13
     },
     {
      "dg": -3,
@@ -138,17 +138,17 @@
      "pts": 12
     },
     {
-     "dg": 7,
+     "dg": 5,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
      "g": 3,
-     "gc": 18,
-     "gf": 25,
+     "gc": 21,
+     "gf": 26,
      "id": "877423",
      "nombre": "Sport Villa de Vallecas A",
      "nuestro": false,
-     "p": 3,
-     "pj": 8,
+     "p": 4,
+     "pj": 9,
      "pos": 10,
      "pts": 11
     },
@@ -168,34 +168,34 @@
      "pts": 10
     },
     {
-     "dg": -9,
-     "e": 0,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
-     "g": 3,
-     "gc": 25,
-     "gf": 16,
-     "id": "1964",
-     "nombre": "Nuevo Baztan A",
-     "nuestro": false,
-     "p": 5,
-     "pj": 8,
-     "pos": 12,
-     "pts": 9
-    },
-    {
-     "dg": -8,
+     "dg": -7,
      "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014268810_arganzuela.png",
-     "g": 1,
-     "gc": 19,
-     "gf": 11,
+     "g": 2,
+     "gc": 20,
+     "gf": 13,
      "id": "24235806",
      "nombre": "Union Deportiva Arganzuela B",
      "nuestro": false,
      "p": 4,
-     "pj": 8,
+     "pj": 9,
+     "pos": 12,
+     "pts": 9
+    },
+    {
+     "dg": -10,
+     "e": 0,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000039452_Nuevo_Baztan.jpg",
+     "g": 3,
+     "gc": 27,
+     "gf": 17,
+     "id": "1964",
+     "nombre": "Nuevo Baztan A",
+     "nuestro": false,
+     "p": 6,
+     "pj": 9,
      "pos": 13,
-     "pts": 6
+     "pts": 9
     },
     {
      "dg": -14,
