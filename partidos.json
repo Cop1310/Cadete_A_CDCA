@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21 21:13",
+  "generado": "2026-11-21 22:52",
   "desde": "2026-11-21",
   "hasta": "2026-11-22",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ *(11º)* Adepo Palomeras A - *(10º)* *_Ciudad de los Ángeles A_*",
@@ -1635,6 +1635,21 @@
         },
         {
           "pos": 2,
+          "id": "2274952",
+          "nombre": "E.D. Moratalaz C",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
+          "pj": 9,
+          "g": 5,
+          "e": 3,
+          "p": 1,
+          "gf": 29,
+          "gc": 12,
+          "dg": 17,
+          "pts": 18
+        },
+        {
+          "pos": 3,
           "id": "2785",
           "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
           "nuestro": false,
@@ -1649,7 +1664,7 @@
           "pts": 17
         },
         {
-          "pos": 3,
+          "pos": 4,
           "id": "4920195",
           "nombre": "Arganda A",
           "nuestro": false,
@@ -1662,21 +1677,6 @@
           "gc": 13,
           "dg": 8,
           "pts": 17
-        },
-        {
-          "pos": 4,
-          "id": "2274952",
-          "nombre": "E.D. Moratalaz C",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
-          "pj": 8,
-          "g": 4,
-          "e": 3,
-          "p": 1,
-          "gf": 23,
-          "gc": 11,
-          "dg": 12,
-          "pts": 15
         },
         {
           "pos": 5,
@@ -1849,13 +1849,13 @@
           "nombre": "Union Deportiva la Poveda A",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
-          "pj": 8,
+          "pj": 9,
           "g": 1,
           "e": 1,
-          "p": 6,
-          "gf": 10,
-          "gc": 30,
-          "dg": -20,
+          "p": 7,
+          "gf": 11,
+          "gc": 36,
+          "dg": -25,
           "pts": 4
         }
       ],

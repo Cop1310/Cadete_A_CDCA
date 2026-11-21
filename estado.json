@@ -18,6 +18,21 @@
      "pts": 23
     },
     {
+     "dg": 17,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
+     "g": 5,
+     "gc": 12,
+     "gf": 29,
+     "id": "2274952",
+     "nombre": "E.D. Moratalaz C",
+     "nuestro": false,
+     "p": 1,
+     "pj": 9,
+     "pos": 2,
+     "pts": 18
+    },
+    {
      "dg": 13,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
@@ -29,7 +44,7 @@
      "nuestro": false,
      "p": 1,
      "pj": 8,
-     "pos": 2,
+     "pos": 3,
      "pts": 17
     },
     {
@@ -44,23 +59,8 @@
      "nuestro": false,
      "p": 2,
      "pj": 9,
-     "pos": 3,
-     "pts": 17
-    },
-    {
-     "dg": 12,
-     "e": 3,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
-     "g": 4,
-     "gc": 11,
-     "gf": 23,
-     "id": "2274952",
-     "nombre": "E.D. Moratalaz C",
-     "nuestro": false,
-     "p": 1,
-     "pj": 8,
      "pos": 4,
-     "pts": 15
+     "pts": 17
     },
     {
      "dg": 8,
@@ -228,17 +228,17 @@
      "pts": 5
     },
     {
-     "dg": -20,
+     "dg": -25,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010913564_logo_poveda.jpg",
      "g": 1,
-     "gc": 30,
-     "gf": 10,
+     "gc": 36,
+     "gf": 11,
      "id": "301080",
      "nombre": "Union Deportiva la Poveda A",
      "nuestro": false,
-     "p": 6,
-     "pj": 8,
+     "p": 7,
+     "pj": 9,
      "pos": 16,
      "pts": 4
     }
