@@ -78,21 +78,6 @@
      "pts": 15
     },
     {
-     "dg": 5,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
-     "g": 4,
-     "gc": 13,
-     "gf": 18,
-     "id": "761461",
-     "nombre": "Fundacion Rayo Vallecano C",
-     "nuestro": false,
-     "p": 3,
-     "pj": 8,
-     "pos": 6,
-     "pts": 13
-    },
-    {
      "dg": 0,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
@@ -101,6 +86,21 @@
      "gf": 15,
      "id": "526134",
      "nombre": "Esc. Mun. Fut. Villarejo A",
+     "nuestro": false,
+     "p": 3,
+     "pj": 8,
+     "pos": 6,
+     "pts": 13
+    },
+    {
+     "dg": 5,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
+     "g": 4,
+     "gc": 13,
+     "gf": 18,
+     "id": "761461",
+     "nombre": "Fundacion Rayo Vallecano C",
      "nuestro": false,
      "p": 3,
      "pj": 8,
@@ -123,6 +123,21 @@
      "pts": 12
     },
     {
+     "dg": -3,
+     "e": 3,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
+     "g": 3,
+     "gc": 23,
+     "gf": 20,
+     "id": "8961562",
+     "nombre": "Ciudad de los Ángeles A",
+     "nuestro": true,
+     "p": 3,
+     "pj": 9,
+     "pos": 9,
+     "pts": 12
+    },
+    {
      "dg": 7,
      "e": 2,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011746248_ESCUDO_FONDO_BLANCO_removebg_preview__1_.png",
@@ -134,38 +149,23 @@
      "nuestro": false,
      "p": 3,
      "pj": 8,
-     "pos": 9,
-     "pts": 11
-    },
-    {
-     "dg": -3,
-     "e": 2,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
-     "g": 3,
-     "gc": 20,
-     "gf": 17,
-     "id": "8961562",
-     "nombre": "Ciudad de los Ángeles A",
-     "nuestro": true,
-     "p": 3,
-     "pj": 8,
      "pos": 10,
      "pts": 11
     },
     {
      "dg": -7,
-     "e": 0,
+     "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258054_adepo.png",
      "g": 3,
-     "gc": 22,
-     "gf": 15,
+     "gc": 25,
+     "gf": 18,
      "id": "1689",
      "nombre": "Adepo Palomeras A",
      "nuestro": false,
      "p": 5,
-     "pj": 8,
+     "pj": 9,
      "pos": 11,
-     "pts": 9
+     "pts": 10
     },
     {
      "dg": -9,
@@ -243,7 +243,7 @@
      "pts": 4
     }
    ],
-   "jornada": 8,
+   "jornada": 9,
    "titulo": "Preferente Cadete Grupo 5"
   }
  },
@@ -1133,7 +1133,10 @@
     11,
     10
    ],
-   "resultado": null,
+   "resultado": [
+    3,
+    3
+   ],
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
     "8961562",
