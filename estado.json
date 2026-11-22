@@ -18,6 +18,21 @@
      "pts": 23
     },
     {
+     "dg": 16,
+     "e": 2,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+     "g": 6,
+     "gc": 9,
+     "gf": 25,
+     "id": "2785",
+     "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
+     "nuestro": false,
+     "p": 1,
+     "pj": 9,
+     "pos": 2,
+     "pts": 20
+    },
+    {
      "dg": 17,
      "e": 3,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0014258142_Escudo_Escuela_Deportiva_Moratalaz_b_300x300.png",
@@ -29,23 +44,8 @@
      "nuestro": false,
      "p": 1,
      "pj": 9,
-     "pos": 2,
-     "pts": 18
-    },
-    {
-     "dg": 13,
-     "e": 2,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-     "g": 5,
-     "gc": 9,
-     "gf": 22,
-     "id": "2785",
-     "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
-     "nuestro": false,
-     "p": 1,
-     "pj": 8,
      "pos": 3,
-     "pts": 17
+     "pts": 18
     },
     {
      "dg": 8,
@@ -64,18 +64,18 @@
     },
     {
      "dg": 8,
-     "e": 0,
+     "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
      "g": 5,
-     "gc": 13,
-     "gf": 21,
+     "gc": 15,
+     "gf": 23,
      "id": "1764",
      "nombre": "E.D.M. San Blas B",
      "nuestro": false,
      "p": 3,
-     "pj": 8,
+     "pj": 9,
      "pos": 5,
-     "pts": 15
+     "pts": 16
     },
     {
      "dg": 3,
@@ -93,21 +93,6 @@
      "pts": 15
     },
     {
-     "dg": 0,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
-     "g": 4,
-     "gc": 15,
-     "gf": 15,
-     "id": "526134",
-     "nombre": "Esc. Mun. Fut. Villarejo A",
-     "nuestro": false,
-     "p": 3,
-     "pj": 8,
-     "pos": 7,
-     "pts": 13
-    },
-    {
      "dg": 4,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
@@ -116,6 +101,21 @@
      "gf": 21,
      "id": "761461",
      "nombre": "Fundacion Rayo Vallecano C",
+     "nuestro": false,
+     "p": 4,
+     "pj": 9,
+     "pos": 7,
+     "pts": 13
+    },
+    {
+     "dg": -3,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+     "g": 4,
+     "gc": 18,
+     "gf": 15,
+     "id": "526134",
+     "nombre": "Esc. Mun. Fut. Villarejo A",
      "nuestro": false,
      "p": 4,
      "pj": 9,
@@ -199,18 +199,18 @@
     },
     {
      "dg": -14,
-     "e": 0,
+     "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
      "g": 2,
-     "gc": 23,
-     "gf": 9,
+     "gc": 25,
+     "gf": 11,
      "id": "10652335",
      "nombre": "Racing de Villaverde B",
      "nuestro": false,
      "p": 6,
-     "pj": 8,
+     "pj": 9,
      "pos": 14,
-     "pts": 6
+     "pts": 7
     },
     {
      "dg": -9,

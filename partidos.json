@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22 17:55",
+  "generado": "2026-11-22 21:25",
   "desde": "2026-11-21",
   "hasta": "2026-11-22",
   "texto": "Información sacada de la web El Balón de Madrid\n\n━━━━━━━━━━━━━━━━\n📅 *SÁBADO 21/11/2026*\n━━━━━━━━━━━━━━━━\n\n⏰ *09:30h* - Preferente Cadete Grupo 5\n📌 _Jornada 9_\n📍 Campo: PVO. Palomeras\n⚽ *(11º)* Adepo Palomeras A - *(10º)* *_Ciudad de los Ángeles A_*",
@@ -1699,6 +1699,21 @@
         },
         {
           "pos": 2,
+          "id": "2785",
+          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
+          "pj": 9,
+          "g": 6,
+          "e": 2,
+          "p": 1,
+          "gf": 25,
+          "gc": 9,
+          "dg": 16,
+          "pts": 20
+        },
+        {
+          "pos": 3,
           "id": "2274952",
           "nombre": "E.D. Moratalaz C",
           "nuestro": false,
@@ -1711,21 +1726,6 @@
           "gc": 12,
           "dg": 17,
           "pts": 18
-        },
-        {
-          "pos": 3,
-          "id": "2785",
-          "nombre": "Udmelidaolimpia - Madrid City Vallecas A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0012219483_navbarApp.png",
-          "pj": 8,
-          "g": 5,
-          "e": 2,
-          "p": 1,
-          "gf": 22,
-          "gc": 9,
-          "dg": 13,
-          "pts": 17
         },
         {
           "pos": 4,
@@ -1748,14 +1748,14 @@
           "nombre": "E.D.M. San Blas B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0010898623_EDM-escudo_57x66_(1).jpg",
-          "pj": 8,
+          "pj": 9,
           "g": 5,
-          "e": 0,
+          "e": 1,
           "p": 3,
-          "gf": 21,
-          "gc": 13,
+          "gf": 23,
+          "gc": 15,
           "dg": 8,
-          "pts": 15
+          "pts": 16
         },
         {
           "pos": 6,
@@ -1774,21 +1774,6 @@
         },
         {
           "pos": 7,
-          "id": "526134",
-          "nombre": "Esc. Mun. Fut. Villarejo A",
-          "nuestro": false,
-          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
-          "pj": 8,
-          "g": 4,
-          "e": 1,
-          "p": 3,
-          "gf": 15,
-          "gc": 15,
-          "dg": 0,
-          "pts": 13
-        },
-        {
-          "pos": 8,
           "id": "761461",
           "nombre": "Fundacion Rayo Vallecano C",
           "nuestro": false,
@@ -1800,6 +1785,21 @@
           "gf": 21,
           "gc": 17,
           "dg": 4,
+          "pts": 13
+        },
+        {
+          "pos": 8,
+          "id": "526134",
+          "nombre": "Esc. Mun. Fut. Villarejo A",
+          "nuestro": false,
+          "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
+          "pj": 9,
+          "g": 4,
+          "e": 1,
+          "p": 4,
+          "gf": 15,
+          "gc": 18,
+          "dg": -3,
           "pts": 13
         },
         {
@@ -1883,14 +1883,14 @@
           "nombre": "Racing de Villaverde B",
           "nuestro": false,
           "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000054928_Racing_Villaverde.jpg",
-          "pj": 8,
+          "pj": 9,
           "g": 2,
-          "e": 0,
+          "e": 1,
           "p": 6,
-          "gf": 9,
-          "gc": 23,
+          "gf": 11,
+          "gc": 25,
           "dg": -14,
-          "pts": 6
+          "pts": 7
         },
         {
           "pos": 15,
