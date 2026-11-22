@@ -256,7 +256,7 @@
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
     "actual": 9,
     "cursor": null,
-    "fecha": "2026-11-16",
+    "fecha": "2026-11-22",
     "total": 30
    }
   },
@@ -1148,9 +1148,9 @@
    "campo": "PVO. OROQUIETA - FELIX RUBIO (HA)",
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0010849385_arganda66px.jpg",
-   "fecha": "2026-11-28",
+   "fecha": "2026-11-29",
    "grupo": "Preferente Cadete Grupo 5",
-   "hora": null,
+   "hora": "16:00",
    "jornada": 10,
    "local": [
     "8961562",
