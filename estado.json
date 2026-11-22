@@ -1122,6 +1122,56 @@
    "escudo_local": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258054_adepo.png",
    "escudo_visitante": "https://appweb.rffm.es/pnfg/pimg/Clubes/00100_0014258269_ESC_C.D._CIUDAD_DE_LOS__NGELES.png",
    "fecha": "2026-11-21",
+   "goles": [
+    {
+     "equipo": "ADEPO PALOMERAS 'A'",
+     "jugador": "SHAFWAN MORSHED ABDUL",
+     "lado": "local",
+     "minuto": 18,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "ADEPO PALOMERAS 'A'",
+     "jugador": "DANIEL LOPEZ LAMPARERO",
+     "lado": "local",
+     "minuto": 45,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "ADEPO PALOMERAS 'A'",
+     "jugador": "SHAFWAN MORSHED ABDUL",
+     "lado": "local",
+     "minuto": 78,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "ALONSO GONZALEZ LEDESMA",
+     "lado": "visitante",
+     "minuto": 9,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "TOMAS TALAVERA VICHERAT",
+     "lado": "visitante",
+     "minuto": 42,
+     "penalti": false,
+     "propia": false
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+     "lado": "visitante",
+     "minuto": 67,
+     "penalti": false,
+     "propia": false
+    }
+   ],
    "grupo": "Preferente Cadete Grupo 5",
    "hora": "09:30",
    "jornada": 9,
@@ -1136,6 +1186,22 @@
    "resultado": [
     3,
     3
+   ],
+   "tarjetas": [
+    {
+     "equipo": "ADEPO PALOMERAS 'A'",
+     "jugador": "GUILLERMO AQUINO MONTERO",
+     "lado": "local",
+     "minuto": 70,
+     "tipo": "amarilla"
+    },
+    {
+     "equipo": "C.D. CIUDAD LOS ANGELES 'A'",
+     "jugador": "NICOLAS SANCHEZ DOMINGUEZ",
+     "lado": "visitante",
+     "minuto": 43,
+     "tipo": "amarilla"
+    }
    ],
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
