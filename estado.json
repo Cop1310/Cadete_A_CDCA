@@ -93,21 +93,6 @@
      "pts": 15
     },
     {
-     "dg": 4,
-     "e": 1,
-     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
-     "g": 4,
-     "gc": 17,
-     "gf": 21,
-     "id": "761461",
-     "nombre": "Fundacion Rayo Vallecano C",
-     "nuestro": false,
-     "p": 4,
-     "pj": 9,
-     "pos": 7,
-     "pts": 13
-    },
-    {
      "dg": -3,
      "e": 1,
      "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0000038321_GetAttachment.jpg",
@@ -116,6 +101,21 @@
      "gf": 15,
      "id": "526134",
      "nombre": "Esc. Mun. Fut. Villarejo A",
+     "nuestro": false,
+     "p": 4,
+     "pj": 9,
+     "pos": 7,
+     "pts": 13
+    },
+    {
+     "dg": 4,
+     "e": 1,
+     "escudo": "https://www.elbalondemadrid.es/escudo/Clubes/00100_0011206462_fundacion_esc.jpg",
+     "g": 4,
+     "gc": 17,
+     "gf": 21,
+     "id": "761461",
+     "nombre": "Fundacion Rayo Vallecano C",
      "nuestro": false,
      "p": 4,
      "pj": 9,
