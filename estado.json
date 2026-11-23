@@ -254,9 +254,9 @@
   "hechas": {},
   "proximas": {
    "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas": {
-    "actual": 9,
+    "actual": 10,
     "cursor": null,
-    "fecha": "2026-11-22",
+    "fecha": "2026-11-23",
     "total": 30
    }
   },
@@ -1222,7 +1222,10 @@
     "8961562",
     "C.D. CIUDAD LOS ANGELES 'A'"
    ],
-   "pos": null,
+   "pos": [
+    9,
+    4
+   ],
    "resultado": null,
    "url_grupo": "https://www.elbalondemadrid.es/competicion/26737742/grupo/26737747/jornadas",
    "visitante": [
